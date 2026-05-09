@@ -3,4 +3,5 @@ node_modules/
 out/
 .DS_Store
 *.log
-src/* 2.*
+*[[:space:]]2.*
+src/**/* 2.*
