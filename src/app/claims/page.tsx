@@ -7,6 +7,31 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://cropinsurance.co.nz/claims/' },
 };
 
+const howToSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'How to Make a Crop Insurance Claim in New Zealand',
+  description: 'Step-by-step guide to making a crop insurance claim in NZ, from initial notification through to settlement.',
+  totalTime: 'P8W',
+  step: [
+    { '@type': 'HowToStep', position: 1, name: 'Contact Your Broker or Insurer Immediately', text: 'Notify your broker or insurer as soon as you identify crop damage. Most policies require notification within 24–48 hours of the event. Do not delay — late notification can affect your claim.' },
+    { '@type': 'HowToStep', position: 2, name: 'Document All Damage', text: 'Before touching or harvesting damaged crops, photograph everything thoroughly (close-up and wide-angle). Record the date, time, estimated area affected, and any weather bureau reports or news coverage of the event.' },
+    { '@type': 'HowToStep', position: 3, name: 'Do Not Harvest Without Permission', text: 'Insurers must have the opportunity to inspect damage before you harvest or remediate. Harvesting damaged crops without insurer approval can jeopardise your claim.' },
+    { '@type': 'HowToStep', position: 4, name: 'Loss Adjuster Assessment', text: 'An independent loss adjuster will be appointed to assess your claim. They will physically inspect the affected crop, review your production records, and assess the loss against your policy terms.' },
+    { '@type': 'HowToStep', position: 5, name: 'Settlement Offer', text: 'Once assessment is complete, the insurer will provide a settlement offer. Review it carefully — if you believe it is inaccurate, you have the right to dispute it and request an independent review.' },
+    { '@type': 'HowToStep', position: 6, name: 'Appeal if Needed', text: 'If you disagree with the settlement, refer first to the insurer\'s formal complaints process. If unresolved, escalate to FSCL or IFSO. Your broker should support you throughout.' },
+  ],
+};
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cropinsurance.co.nz/' },
+    { '@type': 'ListItem', position: 2, name: 'Claims Guide', item: 'https://cropinsurance.co.nz/claims/' },
+  ],
+};
+
 export default function ClaimsPage() {
   const steps = [
     { step: 1, title: 'Contact Your Broker or Insurer Immediately', desc: 'Notify your broker or insurer as soon as you identify crop damage. Most policies require notification within 24–48 hours of the event. Do not delay — late notification can affect your claim.' },
@@ -27,6 +52,8 @@ export default function ClaimsPage() {
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <section className="bg-green-900 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <nav className="flex items-center gap-2 text-xs text-green-300 mb-4">

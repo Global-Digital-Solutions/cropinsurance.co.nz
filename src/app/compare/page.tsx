@@ -35,13 +35,43 @@ const tableRows = [
   { label: 'Best For', values: ['All NZ farms', 'Large orchards', 'Vineyards', 'Small farms', 'Large operations'] },
 ];
 
+const compareSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'Compare Crop Insurance Providers NZ',
+  description: 'Compare NZ crop insurance providers side by side — FMG, Gallagher, Aon, Farmcover and Howden. Coverage, ratings, and what each insurer does best.',
+  url: 'https://cropinsurance.co.nz/compare/',
+  breadcrumb: {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cropinsurance.co.nz/' },
+      { '@type': 'ListItem', position: 2, name: 'Compare Providers', item: 'https://cropinsurance.co.nz/compare/' },
+    ],
+  },
+};
+
+const itemListSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'NZ Crop Insurance Providers',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'FMG – Farmers Mutual Group', url: 'https://www.fmg.co.nz' },
+    { '@type': 'ListItem', position: 2, name: 'Gallagher NZ', url: 'https://www.gallagher.co.nz' },
+    { '@type': 'ListItem', position: 3, name: 'Aon New Zealand', url: 'https://www.aon.co.nz' },
+    { '@type': 'ListItem', position: 4, name: 'Farmcover NZ', url: 'https://www.farmcover.co.nz' },
+    { '@type': 'ListItem', position: 5, name: 'Howden Group NZ', url: 'https://www.howdengroup.com/nz' },
+  ],
+};
+
 export default function ComparePage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(compareSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
       {/* Hero */}
       <section
         className="relative min-h-[480px] flex items-end"
-        style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1920&q=80)', backgroundSize: 'cover', backgroundPosition: 'center' }}
+        style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1501610071220-94a1f7d1ea68?w=1920&q=80)', backgroundSize: 'cover', backgroundPosition: 'center' }}
       >
         <div className="absolute inset-0 bg-gradient-to-t from-green-950/95 via-green-950/75 to-green-950/30" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-14 pt-32 w-full">

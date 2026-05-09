@@ -25,8 +25,40 @@ export default async function GrowerPage({ params }: { params: Promise<{ slug: s
   if (!grower) notFound();
   const others = growerTypes.filter(g => g.slug !== slug);
 
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cropinsurance.co.nz/' },
+      { '@type': 'ListItem', position: 2, name: 'Grower Types', item: 'https://cropinsurance.co.nz/growers/' },
+      { '@type': 'ListItem', position: 3, name: grower.name, item: `https://cropinsurance.co.nz/growers/${grower.slug}/` },
+    ],
+  };
+
+  const serviceSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: `${grower.name} Crop Insurance`,
+    description: grower.longDescription,
+    provider: {
+      '@type': 'Organization',
+      name: 'CropInsurance.co.nz',
+      url: 'https://cropinsurance.co.nz',
+    },
+    areaServed: { '@type': 'Country', name: 'New Zealand' },
+    serviceType: 'Crop Insurance Broker Referral',
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'NZD',
+      description: 'Free broker referral — no obligation quote',
+    },
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <section className="relative min-h-[360px] flex items-end pb-12" style={{ backgroundImage: `url(${grower.heroImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/50 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
