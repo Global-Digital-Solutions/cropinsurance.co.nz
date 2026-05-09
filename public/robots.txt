@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cropinsurance.co.nz/sitemap.xml

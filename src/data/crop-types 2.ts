@@ -1,0 +1,213 @@
+export interface CropType {
+  slug: string;
+  name: string;
+  shortName: string;
+  description: string;
+  longDescription: string;
+  heroImage: string;
+  icon: string;
+  keyRisks: string[];
+  coverageHighlights: string[];
+  typicalPremiumRange: string;
+  mainRegions: string[];
+  faqs: { q: string; a: string }[];
+}
+
+export const cropTypes: CropType[] = [
+  {
+    slug: 'kiwifruit-insurance',
+    name: 'Kiwifruit Insurance',
+    shortName: 'Kiwifruit',
+    description: 'Protect your kiwifruit orchard from PSA, adverse weather, hail, frost, and post-harvest losses.',
+    longDescription: `New Zealand is the world's third-largest kiwifruit producer, with the Bay of Plenty region generating over $3 billion in export revenue annually. Kiwifruit growers face unique risks including Pseudomonas syringae pv. actinidiae (PSA) disease, late frost damage, hailstorms during flowering and harvest, windstorms, and post-harvest quality issues. A comprehensive kiwifruit insurance policy protects your orchard investment, crop revenue, and business continuity against these threats.`,
+    heroImage: 'https://images.unsplash.com/photo-1618897996318-5a901fa6ca71?w=1200&q=80',
+    icon: '🥝',
+    keyRisks: ['PSA & disease outbreaks', 'Hailstorm during flowering', 'Late frost damage', 'Windstorm', 'Post-harvest quality loss', 'Drought & water stress', 'Cyclone damage'],
+    coverageHighlights: ['Named perils crop cover', 'Multi-peril yield guarantee', 'Revenue protection', 'Post-harvest cover', 'Business interruption', 'Orchard infrastructure'],
+    typicalPremiumRange: '$2,500 – $18,000/year',
+    mainRegions: ['Bay of Plenty', 'Northland', 'Waikato', 'Gisborne'],
+    faqs: [
+      { q: 'Does kiwifruit insurance cover PSA disease?', a: 'PSA (Pseudomonas syringae pv. actinidiae) cover depends on policy wording. Some insurers offer disease cover as an add-on, while others exclude it. A specialist crop broker can source policies that include PSA protection or business interruption cover following a PSA outbreak.' },
+      { q: 'What is the typical kiwifruit insurance premium in NZ?', a: 'Premiums vary based on orchard size, variety (Gold vs. Green), region, and coverage level. Typical annual premiums range from $2,500 for smaller operations to $18,000+ for large commercial orchards. A personalised quote from our broker network will give you an accurate figure.' },
+      { q: 'When should I insure my kiwifruit crop?', a: 'Most insurers require cover to be in place before flowering commences, typically July–August. Trying to insure after a known risk event (e.g., announced frost) will likely be declined. We recommend reviewing your policy annually in June.' },
+    ],
+  },
+  {
+    slug: 'apple-pear-insurance',
+    name: 'Apple & Pear Insurance',
+    shortName: 'Apples & Pears',
+    description: 'Specialist hail, frost and weather cover for apple and pear orchards across Hawke\'s Bay, Nelson and Central Otago.',
+    longDescription: `New Zealand's apple and pear industry is centred in Hawke's Bay, Nelson/Tasman, and Central Otago, generating over $800 million in exports annually. Hail is the single biggest insured risk for pip fruit growers — a single storm can write off an entire season's crop. Insurance can cover hail damage, frost at blossom or fruitlet stage, wind damage, and fire. Revenue protection policies can guarantee a minimum income even in a catastrophic year.`,
+    heroImage: 'https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?w=1200&q=80',
+    icon: '🍎',
+    keyRisks: ['Hailstorm damage', 'Spring frost at blossom', 'Windstorm & hail nets damage', 'Fire', 'Drought & water shortage', 'Post-harvest price collapse', 'Biosecurity incursion'],
+    coverageHighlights: ['Hail-only cover (most popular)', 'Named perils crop cover', 'Multi-peril revenue protection', 'Infrastructure cover (hail nets, bins)', 'Post-harvest storage cover', 'Business interruption'],
+    typicalPremiumRange: '$1,800 – $14,000/year',
+    mainRegions: ["Hawke's Bay", 'Nelson/Tasman', 'Central Otago', 'Canterbury', 'Marlborough'],
+    faqs: [
+      { q: 'Is hail the main risk for apple growers?', a: 'Yes — hail is the most common and costly insured risk for pip fruit growers in NZ. A single hailstorm can cause surface marking on fruit that renders it unmarketable. Many growers now invest in hail nets alongside insurance.' },
+      { q: 'Can I insure my apple crop against frost?', a: 'Yes. Frost cover at blossom and fruitlet stage is available from specialist rural insurers. The timing of frost events in spring (October–November in NZ) is critical, and some policies have waiting periods, so early placement is essential.' },
+    ],
+  },
+  {
+    slug: 'grape-vineyard-insurance',
+    name: 'Grape & Vineyard Insurance',
+    shortName: 'Grapes & Vineyards',
+    description: 'Frost, hail, and revenue protection for NZ\'s world-class wine grape growers in Marlborough, Hawke\'s Bay and beyond.',
+    longDescription: `New Zealand wine exports exceed $2 billion annually, with Marlborough Sauvignon Blanc commanding a global premium. Vineyard growers face devastating frost risk during budburst and flowering, hail during berry development, disease pressure (botrytis, powdery mildew), and wind damage. Crop insurance for vineyards typically covers named weather perils, with options for multi-peril revenue guarantee for larger operations.`,
+    heroImage: 'https://images.unsplash.com/photo-1504279577054-acfeccf8fc52?w=1200&q=80',
+    icon: '🍇',
+    keyRisks: ['Frost at budburst', 'Hailstorm at harvest', 'Botrytis & disease', 'Windstorm', 'Drought & water stress', 'Smoke taint from wildfires', 'Flooding'],
+    coverageHighlights: ['Frost cover (budburst to harvest)', 'Hail damage cover', 'Named weather perils', 'Revenue protection', 'Vine replacement cover', 'Business interruption'],
+    typicalPremiumRange: '$2,000 – $20,000/year',
+    mainRegions: ['Marlborough', "Hawke's Bay", 'Martinborough/Wairarapa', 'Central Otago', 'Gisborne', 'Nelson'],
+    faqs: [
+      { q: 'Is frost cover available for vineyards in Marlborough?', a: 'Yes. Frost is the most significant insured peril for Marlborough growers. Specialist policies cover crop loss from frost events between budburst and harvest. Early placement (before August) is essential as insurers may close off cover once frost warnings are issued.' },
+      { q: 'Can I get smoke taint cover for my vineyard?', a: 'Smoke taint coverage has become increasingly important given Australia\'s wildfire seasons. Cover is available from select specialist insurers, though it may carry a sub-limit. Discuss this with our broker network to find the best policy.' },
+    ],
+  },
+  {
+    slug: 'wheat-grain-insurance',
+    name: 'Wheat & Grain Insurance',
+    shortName: 'Wheat & Grain',
+    description: 'Multi-peril and named perils crop cover for NZ wheat, barley, oats and grain growers.',
+    longDescription: `Canterbury and Southland are the heartland of New Zealand's arable grain industry, growing wheat, barley, oats, and other cereals for milling, malting, and stockfeed. Arable growers face weather risks including waterlogging at sowing, late frosts, hailstorms at grain fill, and wet harvests. Crop insurance can protect yield and revenue, providing financial certainty for growers managing significant seasonal input costs.`,
+    heroImage: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80',
+    icon: '🌾',
+    keyRisks: ['Hailstorm at grain fill', 'Waterlogging & flooding', 'Late frost', 'Drought', 'Wet harvest', 'Wind lodging', 'Pest & disease'],
+    coverageHighlights: ['Named perils cover', 'Multi-peril yield guarantee', 'Revenue protection', 'Standing crop cover', 'Input cost protection', 'Fire cover'],
+    typicalPremiumRange: '$800 – $8,000/year',
+    mainRegions: ['Canterbury', 'Southland', 'Marlborough', 'Manawatu', 'Hawkes Bay'],
+    faqs: [
+      { q: 'Is multi-peril crop insurance available for NZ grain growers?', a: 'Yes, though it is less widely available than named perils cover. FMG and specialist brokers like AJG can structure multi-peril policies that guarantee a minimum yield or revenue. These are particularly valuable for large arable operations with significant input costs.' },
+    ],
+  },
+  {
+    slug: 'maize-insurance',
+    name: 'Maize & Corn Insurance',
+    shortName: 'Maize',
+    description: 'Protect your maize crop from drought, hail, wind and flooding in New Zealand\'s key maize growing regions.',
+    longDescription: `New Zealand grows approximately 40,000 hectares of maize annually, primarily for silage and grain in the Waikato, Northland, and Hawke's Bay regions. Maize faces significant risks from summer drought, which can severely limit yields in northern regions, as well as hailstorms during tasselling, wind damage, and late spring frosts. Silage maize growers often contract supply to dairy farmers, making crop insurance an important part of meeting those obligations.`,
+    heroImage: 'https://images.unsplash.com/photo-1551754655-cd27e38d2076?w=1200&q=80',
+    icon: '🌽',
+    keyRisks: ['Summer drought', 'Hailstorm at tasselling', 'Wind lodging', 'Late spring frost', 'Flooding & waterlogging', 'Armyworm infestation', 'Silage quality loss'],
+    coverageHighlights: ['Drought protection', 'Named perils cover', 'Yield guarantee', 'Contract fulfillment protection', 'Input cost protection', 'Fire cover'],
+    typicalPremiumRange: '$600 – $6,000/year',
+    mainRegions: ['Waikato', 'Northland', "Hawke's Bay", 'Bay of Plenty', 'Manawatu'],
+    faqs: [
+      { q: 'Does maize insurance cover drought losses?', a: 'Drought cover for maize is available but varies by insurer. FMG and specialist rural brokers can structure policies that include drought as a named peril, though there is typically a waiting period and the drought must meet defined severity thresholds.' },
+    ],
+  },
+  {
+    slug: 'hops-insurance',
+    name: 'Hops Insurance',
+    shortName: 'Hops',
+    description: 'Specialist crop cover for NZ hop growers in Nelson and Tasman — protecting against hail, wind, frost and disease.',
+    longDescription: `New Zealand hops are renowned globally for their distinctive tropical and citrus flavours. The Nelson and Tasman regions grow the majority of NZ's hop crop, supplying domestic craft breweries and international markets. Hops are a high-value perennial crop with significant capital invested in trellis infrastructure. Insurance can cover the standing crop from weather perils and protect the infrastructure investment.`,
+    heroImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80',
+    icon: '🌿',
+    keyRisks: ['Hailstorm during growing season', 'Late frost at emergence', 'Windstorm & trellis damage', 'Downy mildew disease', 'Drought', 'Flood & waterlogging', 'Harvest weather'],
+    coverageHighlights: ['Standing crop cover', 'Trellis & infrastructure cover', 'Named perils cover', 'Hail-specific cover', 'Business interruption', 'Perennial crop reinstatement'],
+    typicalPremiumRange: '$1,500 – $12,000/year',
+    mainRegions: ['Nelson', 'Tasman', 'Marlborough'],
+    faqs: [
+      { q: 'Can I insure my hop trellis infrastructure?', a: 'Yes. Trellis infrastructure is a significant capital investment and can be included in a rural property insurance policy alongside the standing crop. Our broker network can combine crop and infrastructure cover into a single package.' },
+    ],
+  },
+  {
+    slug: 'stone-fruit-insurance',
+    name: 'Stone Fruit Insurance',
+    shortName: 'Stone Fruit',
+    description: 'Cover for cherries, peaches, nectarines, apricots and plums against frost, hail and adverse weather events.',
+    longDescription: `Stone fruit — cherries, peaches, nectarines, apricots, and plums — are grown predominantly in Central Otago, Hawke's Bay, and Nelson. These crops are among the most weather-sensitive in New Zealand horticulture. Cherries are devastated by rain at harvest (cracking), frost at flowering causes almost total crop loss, and hail can render fruit unmarketable. Specialist stone fruit insurance is essential for commercial growers.`,
+    heroImage: 'https://images.unsplash.com/photo-1528825871115-3581a5387919?w=1200&q=80',
+    icon: '🍑',
+    keyRisks: ['Rain at cherry harvest (cracking)', 'Frost at flowering', 'Hailstorm', 'Sunburn & heat stress', 'Late season frost', 'Wind damage', 'Biosecurity pest incursion'],
+    coverageHighlights: ['Named perils cover', 'Hail cover', 'Frost at flowering', 'Cherry rain-cracking cover', 'Revenue protection', 'Business interruption'],
+    typicalPremiumRange: '$1,500 – $12,000/year',
+    mainRegions: ['Central Otago', "Hawke's Bay", 'Nelson', 'Marlborough'],
+    faqs: [
+      { q: 'Does cherry insurance cover rain cracking at harvest?', a: 'Rain cracking is a specialist cover available from select NZ insurers. It is one of the most significant risks for cherry growers as rainfall in the days before harvest can crack the skin of ripe cherries, rendering them unmarketable. Ask our brokers specifically about rain cracking cover.' },
+    ],
+  },
+  {
+    slug: 'avocado-insurance',
+    name: 'Avocado Insurance',
+    shortName: 'Avocados',
+    description: 'Protect your avocado orchard from wind, hail, frost and biosecurity risks in Northland and the Bay of Plenty.',
+    longDescription: `New Zealand's avocado industry has grown rapidly, centred in Northland and the Bay of Plenty. Avocados are highly susceptible to wind damage — strong winds can strip fruit from trees, cause physical damage, and lead to significant crop losses. Frost at critical growth stages can also cause significant damage in cooler growing areas. Biosecurity risks such as exotic fruit fly incursion represent a growing systemic threat to the industry.`,
+    heroImage: 'https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?w=1200&q=80',
+    icon: '🥑',
+    keyRisks: ['Wind damage & fruit drop', 'Hailstorm', 'Frost in cooler areas', 'Drought & water stress', 'Root rot (Phytophthora)', 'Biosecurity incursion', 'Post-harvest quality loss'],
+    coverageHighlights: ['Wind & hail cover', 'Named perils crop cover', 'Orchard infrastructure cover', 'Business interruption', 'Revenue protection', 'Post-harvest cover'],
+    typicalPremiumRange: '$1,200 – $10,000/year',
+    mainRegions: ['Northland', 'Bay of Plenty', 'Waikato', 'Coromandel'],
+    faqs: [
+      { q: 'Is wind damage the main risk for avocado growers?', a: 'Yes. Avocado trees have relatively shallow roots and large canopies, making them vulnerable to wind damage. Strong winds can cause significant fruit drop, tree damage, and crop loss. Wind cover is typically the most important peril for avocado growers to insure.' },
+    ],
+  },
+  {
+    slug: 'berry-insurance',
+    name: 'Berry Crop Insurance',
+    shortName: 'Berries',
+    description: 'Insurance for strawberries, blueberries, raspberries and boysenberries against weather and production risks.',
+    longDescription: `Berry production is a significant and growing sector in New Zealand horticulture, with strawberries, blueberries, raspberries, and boysenberries grown across the country for fresh market, export, and processing. Berry crops are high-value, weather-sensitive crops that benefit significantly from crop insurance. Risks include hail damage to fruit, excess rain causing botrytis (grey mould), frost at flowering, and drought stress affecting yield.`,
+    heroImage: 'https://images.unsplash.com/photo-1464965911861-746a04b4bca6?w=1200&q=80',
+    icon: '🍓',
+    keyRisks: ['Hailstorm', 'Rain & botrytis at harvest', 'Frost at flowering', 'Drought', 'Bird damage', 'Excessive heat', 'Post-harvest quality loss'],
+    coverageHighlights: ['Named perils cover', 'Hail cover', 'Frost cover', 'Revenue protection', 'Infrastructure cover (tunnels)', 'Business interruption'],
+    typicalPremiumRange: '$800 – $8,000/year',
+    mainRegions: ['Hawkes Bay', 'Nelson', 'Canterbury', 'Waikato', 'Northland'],
+    faqs: [
+      { q: 'Do polytunnel berries need crop insurance?', a: 'Yes — while polytunnels reduce weather risk significantly, they introduce infrastructure risk (tunnel damage from hail, wind, or snow) and there is still crop exposure during planting and harvest operations. Infrastructure cover can be combined with crop cover for a comprehensive policy.' },
+    ],
+  },
+  {
+    slug: 'flower-ornamental-insurance',
+    name: 'Flower & Ornamental Crop Insurance',
+    shortName: 'Flowers & Ornamentals',
+    description: 'Insurance for cut flowers, bulbs, nursery stock and ornamental crops across New Zealand.',
+    longDescription: `New Zealand's flower, bulb, and ornamental plant industry produces significant export revenue, particularly from daffodil and tulip bulbs, cut flowers, and nursery stock. These crops are highly weather-sensitive and can suffer catastrophic losses from hailstorms, frosts, and flooding. The high value per hectare of floriculture crops makes insurance particularly cost-effective. Specialist horticultural insurance brokers can structure policies for growers at all scales.`,
+    heroImage: 'https://images.unsplash.com/photo-1490750967868-88df5691cc78?w=1200&q=80',
+    icon: '🌸',
+    keyRisks: ['Hailstorm', 'Late frost', 'Flooding', 'Wind damage', 'Disease outbreak', 'Market disruption', 'Cold storage failure'],
+    coverageHighlights: ['Named perils cover', 'Hail cover', 'Frost cover', 'Flood cover', 'Storage & transit cover', 'Business interruption'],
+    typicalPremiumRange: '$600 – $6,000/year',
+    mainRegions: ['Canterbury', 'Southland', 'Waikato', 'Bay of Plenty', 'Auckland'],
+    faqs: [
+      { q: 'Can I insure bulb crops like daffodils and tulips?', a: 'Yes. Bulb crops can be insured against named weather perils. Given the multi-year nature of bulb production, insurers may require detailed crop records and growing plans. Speak with our specialist brokers to arrange appropriate cover.' },
+    ],
+  },
+  {
+    slug: 'vegetable-crop-insurance',
+    name: 'Vegetable Crop Insurance',
+    shortName: 'Vegetables',
+    description: 'Cover for outdoor and greenhouse vegetable growers including potatoes, onions, brassicas and salad crops.',
+    longDescription: `New Zealand's vegetable industry includes a diverse range of outdoor and protected crops: potatoes, onions, brassicas (broccoli, cauliflower, cabbage), leeks, carrots, squash, and salad greens. Major growing regions include Pukekohe (Auckland), Canterbury, and Hawke's Bay. Contract vegetable growers supplying supermarkets and processors face particular exposure to crop failure — insurance can protect against the financial consequences of not meeting supply contracts due to weather events.`,
+    heroImage: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1200&q=80',
+    icon: '🥦',
+    keyRisks: ['Flooding & waterlogging', 'Drought', 'Hailstorm', 'Frost', 'Pest & disease', 'Contract default due to crop failure', 'Storage loss'],
+    coverageHighlights: ['Named perils cover', 'Flood & excess moisture cover', 'Frost cover', 'Contract fulfillment protection', 'Revenue protection', 'Business interruption'],
+    typicalPremiumRange: '$700 – $9,000/year',
+    mainRegions: ['Pukekohe / South Auckland', 'Canterbury', "Hawke's Bay", 'Manawatu', 'Horowhenua'],
+    faqs: [
+      { q: 'Does vegetable crop insurance cover flooding?', a: 'Yes. Flooding and excess moisture is one of the most common claims for vegetable growers, particularly in lower-lying areas. Named perils policies that include flood cover are available from specialist rural insurers. The Pukekohe and Canterbury regions have seen significant flood events in recent years.' },
+    ],
+  },
+  {
+    slug: 'barley-insurance',
+    name: 'Barley Insurance',
+    shortName: 'Barley',
+    description: 'Named perils and revenue protection for NZ malting and feed barley growers in Canterbury and Southland.',
+    longDescription: `Barley is New Zealand's second most important cereal crop, grown primarily in Canterbury and Southland for malting (used by Lion and DB breweries) and feed grain. Malting barley in particular carries significant value and quality requirements — rejected malting barley that fails quality tests must be sold as feed grain at a significant price discount. Insurance can protect both yield and quality outcomes for barley growers.`,
+    heroImage: 'https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=1200&q=80',
+    icon: '🌾',
+    keyRisks: ['Hailstorm at grain fill', 'Waterlogging', 'Drought', 'Wet harvest / pre-germination', 'Late frost', 'Quality downgrade (malting to feed)', 'Wind lodging'],
+    coverageHighlights: ['Named perils cover', 'Malting quality protection', 'Yield guarantee', 'Revenue protection', 'Input cost protection', 'Fire cover'],
+    typicalPremiumRange: '$700 – $7,000/year',
+    mainRegions: ['Canterbury', 'Southland', 'Marlborough', "Hawke's Bay"],
+    faqs: [
+      { q: 'Can I insure malting barley quality downgrade?', a: 'Quality protection for malting barley is available from specialist brokers. If pre-harvest germination or quality issues cause your crop to be graded as feed barley rather than malting barley, a quality protection policy can compensate for the price difference.' },
+    ],
+  },
+];

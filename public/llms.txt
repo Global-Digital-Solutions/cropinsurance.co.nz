@@ -1,0 +1,76 @@
+# CropInsurance.co.nz
+
+> NZ crop insurance broker referral service. We help New Zealand growers — orchardists, viticulturists, arable and vegetable farmers — compare and find the right crop insurance through specialist brokers.
+
+## About
+
+CropInsurance.co.nz is a free broker referral service operated by Cover4You (trading style). We are not an insurer. We connect NZ growers with specialist licensed insurance advisers and brokers who compare products from FMG, Gallagher, Aon, Farmcover, and Howden.
+
+Contact: hello@cover4you.co.nz
+
+## Key Pages
+
+- [Homepage](https://cropinsurance.co.nz/) — Crop insurance overview and quote form
+- [Compare Providers](https://cropinsurance.co.nz/compare/) — FMG vs Gallagher vs Aon vs Farmcover vs Howden comparison
+- [Get a Quote](https://cropinsurance.co.nz/contact/) — Free no-obligation broker referral form
+- [FAQs](https://cropinsurance.co.nz/faqs/) — Common questions on crop insurance in NZ
+- [Claims Guide](https://cropinsurance.co.nz/claims/) — How to make a crop insurance claim
+- [About Us](https://cropinsurance.co.nz/about/) — Who we are and how we work
+- [Blog](https://cropinsurance.co.nz/blog/) — Crop insurance guides and insights
+
+## Crop Types Covered
+
+- [Kiwifruit Insurance](https://cropinsurance.co.nz/crops/kiwifruit/)
+- [Apple & Pear Insurance](https://cropinsurance.co.nz/crops/apple-pear/)
+- [Grape & Vineyard Insurance](https://cropinsurance.co.nz/crops/grape-vineyard/)
+- [Wheat & Grain Insurance](https://cropinsurance.co.nz/crops/wheat-grain/)
+- [Maize Insurance](https://cropinsurance.co.nz/crops/maize/)
+- [Hops Insurance](https://cropinsurance.co.nz/crops/hops/)
+- [Stone Fruit Insurance](https://cropinsurance.co.nz/crops/stone-fruit/)
+- [Avocado Insurance](https://cropinsurance.co.nz/crops/avocado/)
+- [Berry Insurance](https://cropinsurance.co.nz/crops/berry/)
+- [Flower & Ornamental Insurance](https://cropinsurance.co.nz/crops/flower-ornamental/)
+- [Vegetable Crop Insurance](https://cropinsurance.co.nz/crops/vegetable-crop/)
+- [Barley Insurance](https://cropinsurance.co.nz/crops/barley/)
+
+## Grower Types
+
+- [Orchardist Insurance](https://cropinsurance.co.nz/growers/orchardists/)
+- [Viticulture Grower Insurance](https://cropinsurance.co.nz/growers/viticulture-growers/)
+- [Arable Farmer Insurance](https://cropinsurance.co.nz/growers/arable-farmers/)
+- [Hop Grower Insurance](https://cropinsurance.co.nz/growers/hop-growers/)
+- [Vegetable Grower Insurance](https://cropinsurance.co.nz/growers/vegetable-growers/)
+- [Contract Grower Insurance](https://cropinsurance.co.nz/growers/contract-growers/)
+
+## Insurance Providers
+
+- **FMG** — NZ's largest rural insurer, farmer-owned, broad national adviser network. Strong named-perils and multi-peril crop programmes.
+- **Gallagher NZ** — Global broker with specialist agribusiness division. Access to London and international crop insurance markets. Strong for large orchards and parametric weather solutions.
+- **Aon NZ** — Global broker with NZ agribusiness team. Strong vineyard and viticulture expertise, global risk analytics, revenue protection products.
+- **Farmcover NZ** — Specialist NZ farm insurer with competitive premiums and simple policies. Good for smaller operations.
+- **Howden Group NZ** — International insurer network access, specialist reinsurance backing. Suited to large-scale operations.
+
+## Blog
+
+- [NZ Crop Insurance Guide 2026](https://cropinsurance.co.nz/blog/nz-crop-insurance-guide-2026/)
+- [Kiwifruit Insurance: PSA & Weather Risks](https://cropinsurance.co.nz/blog/kiwifruit-insurance-psa-weather/)
+- [Vineyard Frost Insurance NZ](https://cropinsurance.co.nz/blog/vineyard-frost-insurance-nz/)
+- [Named Perils vs Multi-Peril Crop Insurance](https://cropinsurance.co.nz/blog/named-perils-vs-multi-peril-crop-insurance/)
+- [Hailstorm Insurance for NZ Orchards](https://cropinsurance.co.nz/blog/hailstorm-insurance-nz-orchards/)
+- [Climate Change and NZ Crop Insurance Premiums](https://cropinsurance.co.nz/blog/climate-change-nz-crop-insurance-premiums/)
+- [Crop Insurance for Small-Scale NZ Growers](https://cropinsurance.co.nz/blog/crop-insurance-small-scale-growers-nz/)
+- [How to Make a Crop Insurance Claim in NZ](https://cropinsurance.co.nz/blog/how-to-make-crop-insurance-claim-nz/)
+- [Comparing NZ Crop Insurance Providers](https://cropinsurance.co.nz/blog/comparing-nz-crop-insurance-providers/)
+- [Extreme Weather and NZ Crop Insurance](https://cropinsurance.co.nz/blog/extreme-weather-nz-crop-insurance/)
+- [Crop Insurance Costs NZ 2026](https://cropinsurance.co.nz/blog/crop-insurance-costs-nz-2026/)
+- [Export Crop Logistics Insurance NZ](https://cropinsurance.co.nz/blog/export-crop-logistics-insurance-nz/)
+- [NZ Crop Insurance Premium Trends 2026](https://cropinsurance.co.nz/blog/nz-crop-insurance-premium-trends-2026/)
+
+## Key Topics
+
+- Named Perils vs Multi-Peril Crop Insurance (MPCI)
+- Revenue protection and yield shortfall cover
+- Frost, hail, wind, PSA (kiwifruit), drought
+- Cyclone Gabrielle and climate change impacts on NZ agriculture
+- ICNZ Fair Insurance Code compliance
+- FSCL and IFSO dispute resolution (0800 347 257 / 0800 888 202)

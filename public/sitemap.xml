@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Static pages -->
+  <url><loc>https://cropinsurance.co.nz/</loc><lastmod>2026-05-09</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://cropinsurance.co.nz/compare/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://cropinsurance.co.nz/contact/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://cropinsurance.co.nz/faqs/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cropinsurance.co.nz/about/</loc><lastmod>2026-05-09</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://cropinsurance.co.nz/claims/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://cropinsurance.co.nz/blog/</loc><lastmod>2026-05-09</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cropinsurance.co.nz/crops/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cropinsurance.co.nz/growers/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://cropinsurance.co.nz/privacy/</loc><lastmod>2026-05-09</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://cropinsurance.co.nz/terms/</loc><lastmod>2026-05-09</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://cropinsurance.co.nz/disclaimer/</loc><lastmod>2026-05-09</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <!-- Crop type pages -->
+  <url><loc>https://cropinsurance.co.nz/crops/kiwifruit/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://cropinsurance.co.nz/crops/apple-pear/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://cropinsurance.co.nz/crops/grape-vineyard/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://cropinsurance.co.nz/crops/wheat-grain/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://cropinsurance.co.nz/crops/maize/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://cropinsurance.co.nz/crops/hops/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://cropinsurance.co.nz/crops/stone-fruit/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://cropinsurance.co.nz/crops/avocado/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://cropinsurance.co.nz/crops/berry/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://cropinsurance.co.nz/crops/flower-ornamental/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://cropinsurance.co.nz/crops/vegetable-crop/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://cropinsurance.co.nz/crops/barley/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <!-- Grower type pages -->
+  <url><loc>https://cropinsurance.co.nz/growers/orchardists/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://cropinsurance.co.nz/growers/viticulture-growers/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://cropinsurance.co.nz/growers/arable-farmers/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://cropinsurance.co.nz/growers/hop-growers/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://cropinsurance.co.nz/growers/vegetable-growers/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://cropinsurance.co.nz/growers/contract-growers/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <!-- Blog posts -->
+  <url><loc>https://cropinsurance.co.nz/blog/nz-crop-insurance-guide-2026/</loc><lastmod>2026-05-09</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://cropinsurance.co.nz/blog/kiwifruit-insurance-psa-weather/</loc><lastmod>2026-05-09</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://cropinsurance.co.nz/blog/vineyard-frost-insurance-nz/</loc><lastmod>2026-05-09</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://cropinsurance.co.nz/blog/named-perils-vs-multi-peril-crop-insurance/</loc><lastmod>2026-05-09</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://cropinsurance.co.nz/blog/hailstorm-insurance-nz-orchards/</loc><lastmod>2026-05-09</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://cropinsurance.co.nz/blog/climate-change-nz-crop-insurance-premiums/</loc><lastmod>2026-05-09</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://cropinsurance.co.nz/blog/crop-insurance-small-scale-growers-nz/</loc><lastmod>2026-05-09</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://cropinsurance.co.nz/blog/how-to-make-crop-insurance-claim-nz/</loc><lastmod>2026-05-09</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://cropinsurance.co.nz/blog/comparing-nz-crop-insurance-providers/</loc><lastmod>2026-05-09</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://cropinsurance.co.nz/blog/extreme-weather-nz-crop-insurance/</loc><lastmod>2026-05-09</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://cropinsurance.co.nz/blog/crop-insurance-costs-nz-2026/</loc><lastmod>2026-05-09</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://cropinsurance.co.nz/blog/export-crop-logistics-insurance-nz/</loc><lastmod>2026-05-09</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://cropinsurance.co.nz/blog/nz-crop-insurance-premium-trends-2026/</loc><lastmod>2026-05-09</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <!-- SEO landing pages -->
+  <url><loc>https://cropinsurance.co.nz/crop-insurance/cheap/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cropinsurance.co.nz/crop-insurance/compare/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cropinsurance.co.nz/crop-insurance/best/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cropinsurance.co.nz/crop-insurance/hawkes-bay/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cropinsurance.co.nz/crop-insurance/bay-of-plenty/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cropinsurance.co.nz/crop-insurance/marlborough/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cropinsurance.co.nz/crop-insurance/canterbury/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cropinsurance.co.nz/crop-insurance/northland/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cropinsurance.co.nz/crop-insurance/waikato/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cropinsurance.co.nz/crop-insurance/central-otago/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cropinsurance.co.nz/crop-insurance/cost/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://cropinsurance.co.nz/crop-insurance/quote/</loc><lastmod>2026-05-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+</urlset>
