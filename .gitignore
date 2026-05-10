@@ -5,3 +5,4 @@ out/
 *.log
 *[[:space:]]2.*
 src/**/* 2.*
+.env.local

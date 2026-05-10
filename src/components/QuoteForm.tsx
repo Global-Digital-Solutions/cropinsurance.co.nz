@@ -6,7 +6,7 @@ interface QuoteFormProps {
   cropType?: string;
 }
 
-const WORKER_URL = 'https://shiny-bush-41cd.darinbutler.workers.dev';
+const WORKER_URL = '/api/submit-form';
 
 export default function QuoteForm({ variant = 'hero', cropType = '' }: QuoteFormProps) {
   const [state, setState] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
@@ -33,7 +33,7 @@ export default function QuoteForm({ variant = 'hero', cropType = '' }: QuoteForm
 
     try {
       const payload = {
-        subject: 'Crop Insurance Quote Request — CropInsurance.co.nz',
+        _subject: 'Crop Insurance Quote Request — CropInsurance.co.nz',
         name: `${formData.firstName} ${formData.lastName}`.trim(),
         email: formData.email,
         cropType: formData.cropTypeSelect || cropType || 'Not specified',
@@ -90,6 +90,7 @@ export default function QuoteForm({ variant = 'hero', cropType = '' }: QuoteForm
       )}
 
       <form onSubmit={handleSubmit} className="space-y-3">
+        <input type="text" name="_honey" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
         <div className="grid grid-cols-2 gap-3">
           <div>
             <label className="block text-xs font-medium text-gray-700 mb-1">First Name *</label>
