@@ -1,6 +1,6 @@
 'use client';
-import { useState } from 'react';
-import Script from 'next/script';
+import { useRef, useState } from 'react';
+import TurnstileWidget, { type TurnstileHandle } from './TurnstileWidget';
 
 interface QuoteFormProps {
   variant?: 'hero' | 'sidebar' | 'full';
@@ -10,6 +10,7 @@ interface QuoteFormProps {
 const WORKER_URL = '/api/submit-form';
 
 export default function QuoteForm({ variant = 'hero', cropType = '' }: QuoteFormProps) {
+  const turnstileRef = useRef<TurnstileHandle>(null);
   const [state, setState] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
   const [error, setError] = useState('');
   const [formData, setFormData] = useState({
@@ -31,16 +32,14 @@ export default function QuoteForm({ variant = 'hero', cropType = '' }: QuoteForm
     e.preventDefault();
     setError('');
 
-    const formEl = e.currentTarget;
-    const fd = new FormData(formEl);
-    const cfToken = fd.get('cf-turnstile-response');
+    setState('submitting');
+
+    const cfToken = await turnstileRef.current?.execute();
     if (!cfToken) {
       setState('error');
-      setError('Please complete the security check.');
+      setError('Security check could not complete. Please try again.');
       return;
     }
-
-    setState('submitting');
 
     try {
       const payload = {
@@ -176,10 +175,7 @@ export default function QuoteForm({ variant = 'hero', cropType = '' }: QuoteForm
 
         {error && <p className="text-sm text-red-600 text-center">{error}</p>}
 
-        <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
-        <div className="flex justify-center">
-          <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-size="invisible" />
-        </div>
+        <TurnstileWidget ref={turnstileRef} />
 
         <button
           type="submit"
