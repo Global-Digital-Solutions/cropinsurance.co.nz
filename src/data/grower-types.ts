@@ -42,7 +42,7 @@ export const growerTypes: GrowerType[] = [
 <h2>Types of Orchard Insurance Available in NZ</h2>
 <p>Orchardists in New Zealand can access several policy structures through specialist rural brokers:</p>
 <h3>Named Perils Crop Cover</h3>
-<p>The most common and affordable structure. Covers specific, listed perils such as hail, frost, wind, fire, and flooding. The policy clearly defines the trigger event, the assessment methodology, and the basis of settlement. Named perils cover is available from Gallagher Agriculture, Aon NZ, and a number of specialist markets. Premiums typically range from 0.8% to 3.5% of the sum insured, depending on region, crop type, cover level, and claims history.</p>
+<p>The most common and affordable structure. Covers specific, listed perils such as hail, frost, wind, fire, and flooding. The policy clearly defines the trigger event, the assessment methodology, and the basis of settlement. Named perils cover is available from specialist crop insurance brokers with access to domestic and international markets. Premiums typically range from 0.8% to 3.5% of the sum insured, depending on region, crop type, cover level, and claims history.</p>
 <h3>Multi-Peril Crop Insurance (MPCI)</h3>
 <p>Provides broader protection, guaranteeing a minimum yield or revenue regardless of the cause of loss. MPCI is particularly well-suited to large commercial orchardists with diverse risk profiles. It is accessed through specialist brokers who can place cover in international markets including Lloyd's of London. MPCI premiums are higher than named perils cover but provide more comprehensive protection against systemic risk years.</p>
 <h3>Business Interruption Cover</h3>

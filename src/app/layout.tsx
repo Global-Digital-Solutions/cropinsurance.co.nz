@@ -5,8 +5,8 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.cropinsurance.co.nz'),
-  title: { default: 'Crop Insurance NZ | Free Quotes | CropInsurance.co.nz', template: '%s | CropInsurance.co.nz' },
-  description: 'Compare crop insurance for kiwifruit, grapes, apples, wheat, hops and all NZ crops. Quotes from Gallagher, Aon, Farmcover and more. Specialist rural broker advice.',
+  title: { default: 'Crop Insurance NZ | Get a Quote | CropInsurance.co.nz', template: '%s | CropInsurance.co.nz' },
+  description: 'Compare crop insurance for kiwifruit, grapes, apples, wheat, hops and all NZ crops. Specialist rural broker advice — access to NZ and international underwriters.',
   keywords: ['crop insurance NZ', 'kiwifruit insurance', 'vineyard insurance', 'orchard insurance', 'horticulture insurance', 'farm insurance New Zealand'],
   openGraph: {
     type: 'website',

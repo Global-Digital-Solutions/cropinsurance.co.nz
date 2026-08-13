@@ -13,7 +13,7 @@ export const cropSeoPages: CropSeoPage[] = [
     slug: 'cheap',
     title: 'Cheap Crop Insurance NZ',
     metaTitle: 'Cheap Crop Insurance NZ | Affordable Quotes | CropInsurance.co.nz',
-    metaDescription: 'Find affordable crop insurance in New Zealand. Compare quotes from Gallagher, Aon, Farmcover and more. No obligation, free advice from specialist rural brokers.',
+    metaDescription: 'Find affordable crop insurance in New Zealand. Find the right cover from specialist crop insurance brokers and underwriters. No obligation, free advice from specialist rural brokers.',
     heroHeading: 'Affordable Crop Insurance for NZ Growers',
     heroSubtitle: 'Getting the best price doesn\'t mean compromising on cover. Our broker network compares multiple insurers to find you competitive, comprehensive crop insurance.',
     content: `## Finding Affordable Crop Insurance in NZ
@@ -34,13 +34,13 @@ Several factors can reduce your premium without sacrificing essential coverage:
 
 ### Using a Broker to Find the Best Price
 
-Our broker network approaches multiple insurers simultaneously — Gallagher, Aon, Farmcover, and specialist markets — giving you competitive quotes without the time cost of approaching each insurer yourself. The service is free to you as a grower; brokers are remunerated by insurers.`,
+Our broker network approaches multiple insurers simultaneously — the specialist crop insurance market — giving you competitive quotes without the time cost of approaching each insurer yourself. The service is free to you as a grower; brokers are remunerated by insurers.`,
   },
   {
     slug: 'compare',
     title: 'Compare Crop Insurance NZ',
     metaTitle: 'Compare Crop Insurance NZ | Side-by-Side Quotes | CropInsurance.co.nz',
-    metaDescription: 'Compare crop insurance providers in New Zealand side by side. Gallagher, Aon, Farmcover and more. Free comparison from specialist rural brokers.',
+    metaDescription: 'Compare crop insurance providers in New Zealand side by side. Side-by-side comparison of NZ crop insurance options. Free guidance from specialist rural brokers.',
     heroHeading: 'Compare NZ Crop Insurance Providers',
     heroSubtitle: 'See how the main crop insurance providers stack up on coverage, service, and value. Our brokers provide transparent, side-by-side comparisons.',
     content: `## Comparing Crop Insurance in New Zealand
@@ -60,13 +60,13 @@ When comparing crop insurance providers, look at:
 
 ### The Providers
 
-**Gallagher** brings global insurance market access and is best suited to larger commercial operations needing international market capacity.
+**Specialist agribusiness brokers** with access to international markets are best suited to larger commercial operations needing higher limits or specialist cover.
 
-**Aon** combines risk analytics capability with agribusiness expertise, particularly strong in vineyard and viticulture insurance.
+**Global insurance brokers** with dedicated agribusiness practices bring risk analytics capability, particularly for viticulture and large horticultural operations.
 
-**Farmcover** focuses on competitive premiums for smaller NZ farming operations.
+**Domestic rural specialists** focus on competitive premiums for smaller NZ farming operations and straightforward named perils policies.
 
-**Howden Group** offers rural packages through international market connections.
+**Specialist international underwriters** provide capacity for non-standard risks and larger operations through broker access.
 
 ### Our Comparison Service
 
@@ -76,7 +76,7 @@ Our broker network provides genuine, independent comparisons. We approach all re
     slug: 'best',
     title: 'Best Crop Insurance NZ',
     metaTitle: 'Best Crop Insurance NZ 2026 | Top Providers Reviewed | CropInsurance.co.nz',
-    metaDescription: 'What\'s the best crop insurance in New Zealand? Independent reviews of Gallagher, Aon, Farmcover and more. Find the best policy for your farm.',
+    metaDescription: 'What\'s the best crop insurance in New Zealand? Independent guidance on crop insurance options from specialist NZ brokers. Find the best policy for your farm.',
     heroHeading: 'Best Crop Insurance in New Zealand',
     heroSubtitle: 'Reviewed and compared by specialist rural insurance brokers who work with NZ growers every day.',
     content: `## What Makes a "Best" Crop Insurance Policy?
@@ -85,15 +85,15 @@ The best crop insurance policy is the one that most closely matches your specifi
 
 ### Best for Different Grower Types
 
-**Best for kiwifruit orchardists:** Gallagher can access international capacity for larger orchards needing higher limits. Aon brings strong horticulture analytics to Bay of Plenty operations.
+**Best for kiwifruit orchardists:** Brokers with access to international capacity are best positioned for larger orchards needing higher limits and horticulture analytics expertise.
 
-**Best for vineyards and viticulture:** Aon has developed a particularly strong viticulture practice and brings sophisticated risk analytics to vineyard insurance. Gallagher is also strong with access to specialist wine industry markets globally.
+**Best for vineyards and viticulture:** Specialist agribusiness brokers with viticulture expertise bring sophisticated risk analytics. Access to specialist wine industry markets globally is available through brokers with international connections.
 
-**Best for arable farmers:** Our broker network can source competitive named perils and multi-peril cover from Gallagher, Aon, Farmcover, and specialist markets for Canterbury and Southland grain growers.
+**Best for arable farmers:** Our broker network can source competitive named perils and multi-peril cover from the specialist crop insurance market for Canterbury and Southland grain growers.
 
-**Best for smaller operations:** Farmcover provides competitive premiums and straightforward policies well-suited to smaller horticultural and mixed farming operations.
+**Best for smaller operations:** Domestic rural insurance specialists provide competitive premiums and straightforward policies well-suited to smaller horticultural and mixed farming operations.
 
-**Best for complex risks:** Gallagher and Aon, with their access to international insurance markets, are best positioned for large, complex agricultural operations requiring high limits or specialist covers.
+**Best for complex risks:** Brokers with access to international insurance markets, including Lloyd's of London, are best positioned for large, complex agricultural operations requiring high limits or specialist covers.
 
 ### Our Verdict
 
@@ -132,7 +132,7 @@ Our broker network includes advisers who work specifically in the Hawke's Bay re
     slug: 'bay-of-plenty',
     title: 'Bay of Plenty Crop Insurance',
     metaTitle: 'Bay of Plenty Crop Insurance | Kiwifruit Orchard Cover | CropInsurance.co.nz',
-    metaDescription: 'Specialist kiwifruit and horticulture insurance for Bay of Plenty growers. Gallagher, Aon and specialist markets. Get expert advice today.',
+    metaDescription: 'Specialist kiwifruit and horticulture insurance for Bay of Plenty growers. specialist crop insurance markets. Get expert advice today.',
     heroHeading: 'Bay of Plenty Crop Insurance',
     heroSubtitle: 'Protecting the heart of NZ\'s kiwifruit industry with specialist orchard and horticulture cover.',
     content: `## Crop Insurance in the Bay of Plenty
@@ -183,13 +183,13 @@ Convective hailstorms occur across Marlborough during the growing season and can
 
 ### Marlborough Insurance Market
 
-Marlborough has a well-developed viticulture insurance market, with Aon and Gallagher active in the region. Frost cover is standard; hail cover for vineyards is also widely available. Following recent significant frost events, premiums for frost-exposed sites have increased but remain available.`,
+Marlborough has a well-developed viticulture insurance market, with specialist agribusiness brokers active in the region. Frost cover is standard; hail cover for vineyards is also widely available. Following recent significant frost events, premiums for frost-exposed sites have increased but remain available.`,
   },
   {
     slug: 'canterbury',
     title: 'Canterbury Crop Insurance',
     metaTitle: 'Canterbury Crop Insurance | Arable, Grain & Horticulture | CropInsurance.co.nz',
-    metaDescription: 'Crop insurance for Canterbury arable farmers, grain growers, and horticulture producers. Compare quotes from Gallagher, Aon and more.',
+    metaDescription: 'Crop insurance for Canterbury arable farmers, grain growers, and horticulture producers. Compare options from specialist crop insurance brokers.',
     heroHeading: 'Canterbury Crop Insurance',
     heroSubtitle: 'From arable grain crops on the Canterbury Plains to specialist horticulture — comprehensive crop cover for NZ\'s most productive agricultural region.',
     content: `## Crop Insurance in Canterbury
@@ -208,7 +208,7 @@ Canterbury is New Zealand's agricultural heartland — the most productive arabl
 
 ### Canterbury Insurance Market
 
-Our broker network includes advisers with strong Canterbury market experience. Gallagher and Aon serve larger Canterbury farming operations. Farmcover provides competitive options for smaller farms.`,
+Our broker network includes advisers with strong Canterbury market experience. Specialist agribusiness brokers serve larger Canterbury farming operations, while domestic rural specialists provide competitive options for smaller farms.`,
   },
   {
     slug: 'northland',
@@ -235,7 +235,7 @@ Northland is New Zealand's most northerly agricultural region and home to a grow
     slug: 'waikato',
     title: 'Waikato Crop Insurance',
     metaTitle: 'Waikato Crop Insurance | Maize, Vegetables & Horticulture | CropInsurance.co.nz',
-    metaDescription: 'Crop insurance for Waikato maize growers, vegetable producers and orchardists. Compare Gallagher, Aon and specialist providers.',
+    metaDescription: 'Crop insurance for Waikato maize growers, vegetable producers and orchardists. Expert guidance from specialist crop insurance brokers.',
     heroHeading: 'Waikato Crop Insurance',
     heroSubtitle: 'Protecting Waikato\'s diverse cropping and horticulture sector with specialist broker advice.',
     content: `## Crop Insurance in Waikato
@@ -317,7 +317,7 @@ The figures above are indicative only. The best way to get an accurate premium f
     slug: 'quote',
     title: 'Crop Insurance Quote NZ',
     metaTitle: 'Get a Crop Insurance Quote NZ | Free, No Obligation | CropInsurance.co.nz',
-    metaDescription: 'Get a free crop insurance quote in New Zealand. Our specialist rural brokers compare Gallagher, Aon and more. No obligation, expert advice.',
+    metaDescription: 'Get a free crop insurance quote in New Zealand. Our specialist rural brokers compare specialist crop insurance brokers and underwriters. No obligation, expert advice.',
     heroHeading: 'Get Your Crop Insurance Quote',
     heroSubtitle: 'Free, expert advice from specialist NZ rural insurance brokers. We compare multiple providers so you don\'t have to.',
     content: `## Getting a Crop Insurance Quote in NZ
@@ -341,7 +341,7 @@ To get an accurate crop insurance quote, have the following information ready:
 
 1. **Submit your enquiry** using our quote form below
 2. **Our broker contacts you** within one business day to discuss your requirements
-3. **Quotes obtained** from relevant insurers (Gallagher, Aon, Farmcover, and others)
+3. **Quotes obtained** from relevant insurers and specialist crop insurance markets
 4. **Comparison presented** — coverage, exclusions, and premium side by side
 5. **Policy arranged** with your chosen insurer
 6. **Ongoing support** — your broker remains your point of contact for renewals and claims

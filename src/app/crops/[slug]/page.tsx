@@ -226,7 +226,7 @@ export default async function CropPage({ params }: { params: Promise<{ slug: str
               <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8">
                 <h2 className="text-2xl font-bold text-gray-900 mb-5">How {crop.shortName} Insurance Works</h2>
                 <div className="space-y-4 text-sm text-gray-600 leading-relaxed">
-                  <p>Crop insurance in New Zealand operates through specialist rural brokers who place cover with admitted insurers including Gallagher, Aon, Farmcover, and Howden. Unlike some markets, NZ does not have a government-backed crop insurance scheme — all cover is placed privately, which means the quality and breadth of policy can vary significantly between insurers.</p>
+                  <p>Crop insurance in New Zealand operates through specialist rural brokers who place cover with admitted domestic insurers and international underwriters — including specialist markets with Lloyd's of London access. Unlike some markets, NZ does not have a government-backed crop insurance scheme — all cover is placed privately, which means the quality and breadth of policy can vary significantly between insurers.</p>
                   <p>For {crop.shortName.toLowerCase()} growers, cover is typically structured as either <strong className="text-gray-800">named perils</strong> (covering specific events like hail, frost, or fire) or <strong className="text-gray-800">multi-peril crop insurance (MPCI)</strong>, which provides broader protection including yield shortfalls from a wide range of causes. Named perils cover is more affordable and suits growers whose primary risk is a defined weather event. MPCI is better suited to larger operations or those with complex, varied risk profiles.</p>
                   <p>Policies are generally annual and must be placed before key risk windows open — frost cover for orchards typically needs to be in place before budburst, for example. Claims are assessed by specialist loss adjusters, and pay-outs are based on either agreed value or actual yield versus a historical benchmark.</p>
                   <p>Using an independent broker gives you access to multiple markets simultaneously — meaning you receive competitive pricing and the policy most closely matched to your specific operation, rather than a generic product from a single insurer.</p>
@@ -246,16 +246,16 @@ export default async function CropPage({ params }: { params: Promise<{ slug: str
                 </div>
               </div>
 
-              {/* Insurer Comparison Strip */}
+              {/* Market Access Strip */}
               <div className="bg-gray-900 rounded-2xl p-6">
-                <h2 className="text-lg font-bold text-white mb-2">Which Insurer is Right for Your {crop.shortName} Operation?</h2>
-                <p className="text-gray-400 text-sm mb-5">Each insurer has different strengths. Our brokers approach all relevant markets simultaneously — one enquiry, multiple quotes.</p>
+                <h2 className="text-lg font-bold text-white mb-2">The Crop Insurance Market — One Enquiry, Multiple Quotes</h2>
+                <p className="text-gray-400 text-sm mb-5">Our brokers approach all relevant NZ and international markets simultaneously — giving you genuine choice and competitive pricing.</p>
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-5">
                   {[
-                    { name: 'Gallagher', note: 'Large horticulture' },
-                    { name: 'Aon', note: 'Vineyards & vines' },
-                    { name: 'Farmcover', note: 'Smaller operations' },
-                    { name: 'Howden', note: 'Export-focused' },
+                    { name: 'NZ rural insurers', note: 'Domestic cover' },
+                    { name: 'Agribusiness brokers', note: 'Local expertise' },
+                    { name: "Lloyd's markets", note: 'International access' },
+                    { name: 'Specialty underwriters', note: 'Complex risks' },
                   ].map(p => (
                     <div key={p.name} className="bg-gray-800 rounded-xl p-3 text-center border border-gray-700">
                       <div className="font-bold text-white text-sm">{p.name}</div>
@@ -342,7 +342,7 @@ export default async function CropPage({ params }: { params: Promise<{ slug: str
                   <div className="space-y-2.5">
                     {[
                       { icon: '✅', text: 'ICNZ Fair Insurance Code' },
-                      { icon: '🔍', text: 'Compare Gallagher, Aon & more' },
+                      { icon: '🔍', text: 'Access the specialist crop market' },
                       { icon: '💰', text: 'Free to growers — no fees' },
                       { icon: '⚡', text: 'Quotes within 1 business day' },
                       { icon: '🌿', text: 'Crop specialist brokers' },
@@ -384,7 +384,7 @@ export default async function CropPage({ params }: { params: Promise<{ slug: str
       <section className="py-14 bg-green-900">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-3">Ready to Protect Your {crop.shortName} Crop?</h2>
-          <p className="text-green-200 mb-6">Our specialist brokers compare Gallagher, Aon, Farmcover and Howden — one enquiry, multiple quotes, expert advice within one business day.</p>
+          <p className="text-green-200 mb-6">Our specialist brokers access the full NZ crop insurance market and international underwriters — one enquiry, multiple quotes, expert advice within one business day.</p>
           <Link href="/contact/" className="inline-block px-8 py-3 bg-green-400 hover:bg-green-300 text-green-900 font-bold rounded-xl transition-colors text-sm shadow-lg">
             Get My Free Quote →
           </Link>

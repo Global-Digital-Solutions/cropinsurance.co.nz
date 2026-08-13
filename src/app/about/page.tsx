@@ -81,7 +81,7 @@ export default function AboutPage() {
                   CropInsurance.co.nz was built to level the playing field for New Zealand growers. Crop insurance is complex — policy wordings differ, insurers specialise in different crops, and premiums can vary significantly between providers. Most growers simply don't have the time to navigate it all.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  We take on that work for you. Our specialist broker network approaches Gallagher, Aon, Farmcover, Howden and other underwriters simultaneously — comparing coverage, pricing and terms so you receive the best fit for your operation, not just the easiest option to sell.
+                  We take on that work for you. Our specialist broker network approaches the full NZ crop insurance market and international underwriters simultaneously — comparing coverage, pricing and terms so you receive the best fit for your operation, not just the easiest option to sell.
                 </p>
               </div>
 
@@ -128,14 +128,20 @@ export default function AboutPage() {
                 </div>
               </div>
 
-              {/* Insurers We Work With */}
+              {/* The Market We Access */}
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Insurers We Work With</h2>
-                <p className="text-gray-600 leading-relaxed mb-5">Our broker network has relationships with all major NZ crop insurers and specialist international underwriters.</p>
-                <div className="grid grid-cols-2 sm:grid-cols-5 gap-4">
-                  {['Gallagher', 'Aon', 'Farmcover', 'Howden'].map(name => (
-                    <div key={name} className="bg-gray-50 rounded-xl p-4 text-center border border-gray-200">
-                      <p className="text-sm font-bold text-gray-800">{name}</p>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">The Market We Access</h2>
+                <p className="text-gray-600 leading-relaxed mb-5">Our broker network has access to the full NZ crop insurance market and specialist international underwriters.</p>
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                  {[
+                    { name: 'NZ rural insurers', tag: 'Domestic cover' },
+                    { name: 'Agribusiness brokers', tag: 'Local expertise' },
+                    { name: 'International markets', tag: "Lloyd's access" },
+                    { name: 'Specialty underwriters', tag: 'Complex risks' },
+                  ].map(item => (
+                    <div key={item.name} className="bg-gray-50 rounded-xl p-4 text-center border border-gray-200">
+                      <p className="text-sm font-bold text-gray-800">{item.name}</p>
+                      <p className="text-xs text-gray-500 mt-1">{item.tag}</p>
                     </div>
                   ))}
                 </div>

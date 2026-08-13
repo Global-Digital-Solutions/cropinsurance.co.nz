@@ -42,12 +42,7 @@ export default function ClaimsPage() {
     { step: 6, title: 'Appeal if Needed', desc: 'If you disagree with the settlement, refer first to the insurer\'s formal complaints process. If unresolved, escalate to FSCL or IFSO (details below). Your broker should support you throughout.' },
   ];
 
-  const insurers = [
-    { name: 'Gallagher NZ', claims: '0800 425 524', website: 'gallagher.co.nz' },
-    { name: 'Aon New Zealand', claims: '0800 266 276', website: 'aon.co.nz' },
-    { name: 'Farmcover NZ', claims: 'Via broker', website: 'farmcover.co.nz' },
-    { name: 'Howden Group NZ', claims: 'Via broker', website: 'howdengroup.com/nz' },
-  ];
+  // Claims contacts removed — use your broker or insurer's policy documents for direct claims numbers
 
   return (
     <>
@@ -83,22 +78,20 @@ export default function ClaimsPage() {
             </div>
           </div>
 
-          {/* Insurer contacts */}
-          <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">Insurer Claims Contacts</h2>
-            <div className="overflow-x-auto rounded-xl border border-gray-200">
-              <table className="w-full text-sm">
-                <thead><tr className="bg-green-800 text-white"><th className="px-4 py-3 text-left">Insurer</th><th className="px-4 py-3 text-left">Claims Contact</th><th className="px-4 py-3 text-left">Website</th></tr></thead>
-                <tbody>
-                  {insurers.map((ins, i) => (
-                    <tr key={ins.name} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
-                      <td className="px-4 py-3 font-medium text-gray-700">{ins.name}</td>
-                      <td className="px-4 py-3 text-gray-700">{ins.claims}</td>
-                      <td className="px-4 py-3"><a href={`https://www.${ins.website}`} target="_blank" rel="noopener noreferrer" className="text-green-700 hover:text-green-800">{ins.website} ↗</a></td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+          {/* Claims contacts */}
+          <div className="bg-green-50 border border-green-200 rounded-2xl p-6">
+            <h2 className="text-2xl font-bold text-gray-900 mb-3">Finding Your Insurer's Claims Contact</h2>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Your insurer's claims contact number will be on your policy schedule or Certificate of Insurance. If you arranged cover through a broker, contact your broker first — they will manage the claim notification on your behalf. If you cannot locate your policy documents, contact us at <a href="mailto:hello@cover4you.co.nz" className="text-green-700 font-medium">hello@cover4you.co.nz</a> and we will help connect you with the right team.</p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {[
+                { title: 'Contact your broker first', desc: 'If you used a broker to arrange cover, call them immediately. They have direct claims lines and will manage the notification process.' },
+                { title: 'Check your policy schedule', desc: 'Your Certificate of Insurance lists the claims contact number and email for your specific insurer.' },
+              ].map(item => (
+                <div key={item.title} className="bg-white rounded-xl p-4 border border-green-200">
+                  <h3 className="font-bold text-gray-900 text-sm mb-1">{item.title}</h3>
+                  <p className="text-xs text-gray-600 leading-relaxed">{item.desc}</p>
+                </div>
+              ))}
             </div>
           </div>
 

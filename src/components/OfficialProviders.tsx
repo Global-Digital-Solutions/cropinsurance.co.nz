@@ -1,29 +1,20 @@
 export default function OfficialProviders() {
   const providers = [
     {
-      name: 'FMG',
-      description: 'Specialist in orchard fruit (hail, fire, flood, frost), kiwifruit top-up, and arable crops. Dedicated horticulture and viticulture team with deep NZ rural experience.',
-      url: 'https://www.fmg.co.nz/what-we-cover/horticulture-and-viticulture',
-      directOnly: true,
-    },
-    {
       name: 'NZI (via Ag Guard)',
       description: 'Rural material damage cover for horticulturists including greenhouse and growing cost protection. Division of IAG NZ, available through licensed brokers.',
       url: 'https://www.nzi.co.nz/business-cover/rural-insurance',
-      directOnly: false,
       brokerNote: 'Via broker only',
     },
     {
       name: 'Gallagher',
       description: 'Agribusiness specialist broker offering crop insurance including replanting costs. Access to specialist NZ and international markets for growers of all scales.',
       url: 'https://www.ajg.co.nz/industries/agriculture/',
-      directOnly: false,
     },
     {
       name: 'Aon NZ',
       description: 'Global broker with a Food, Agribusiness and Beverage sector focus. Specialist advice for orchardists, vine growers, and arable farmers across NZ.',
       url: 'https://www.aon.co.nz',
-      directOnly: false,
     },
   ];
 
@@ -40,7 +31,7 @@ export default function OfficialProviders() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {providers.map((p) => (
             <div
               key={p.name}
@@ -48,11 +39,6 @@ export default function OfficialProviders() {
             >
               <h3 className="font-bold text-gray-900 text-lg mb-2">{p.name}</h3>
 
-              {p.directOnly && (
-                <p className="text-xs font-semibold text-green-700 bg-green-50 border border-green-200 rounded-md px-2 py-1 mb-3">
-                  Direct insurer — contact FMG directly, no broker access
-                </p>
-              )}
               {p.brokerNote && (
                 <p className="text-xs font-semibold text-slate-500 bg-slate-100 border border-slate-200 rounded-md px-2 py-1 mb-3">
                   {p.brokerNote}
