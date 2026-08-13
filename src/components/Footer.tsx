@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-3 lg:col-span-1">
             <Logo variant="white" />
             <p className="mt-3 text-xs text-gray-400 leading-relaxed">
-              Free, independent broker advice for NZ orchardists, viticulturists, arable farmers and horticulture producers. We compare the market so you don&apos;t have to.
+              Independent crop insurance information for NZ orchardists, viticulturists, arable farmers and horticulture producers.
             </p>
             <div className="mt-3 flex flex-wrap gap-2">
               <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-green-900 text-green-300 border border-green-800">🌿 NZ Crop Specialists</span>

@@ -285,7 +285,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               <div className="sticky top-24 space-y-5">
                 {/* Trust badges */}
                 <div className="bg-green-900 rounded-2xl p-5 text-white">
-                  <h3 className="font-bold text-sm mb-3 text-green-200 uppercase tracking-wider">Why Trust Our Advice</h3>
+                  <h3 className="font-bold text-sm mb-3 text-green-200 uppercase tracking-wider">About this site</h3>
                   <div className="space-y-2.5">
                     {[
                       { icon: '🌿', text: 'Specialist Crop Expertise' },

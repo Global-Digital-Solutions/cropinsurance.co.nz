@@ -3,12 +3,12 @@ import Link from 'next/link';
 import HoldingPanel from '@/components/HoldingPanel';
 
 export const metadata: Metadata = {
-  title: 'About CropInsurance.co.nz | NZ Specialist Crop Insurance Brokers',
-  description: 'CropInsurance.co.nz is a free broker referral service connecting NZ growers with specialist crop insurance advisers. Independent, transparent, free.',
+  title: 'About CropInsurance.co.nz | Independent Crop Insurance Information NZ',
+  description: 'About CropInsurance.co.nz — independent crop insurance information for NZ orchardists, viticulturists, arable farmers and horticulture producers. Operated by Cover4You.',
   alternates: { canonical: 'https://www.cropinsurance.co.nz/about/' },
   openGraph: {
-    title: 'About CropInsurance.co.nz | NZ Specialist Crop Insurance Brokers',
-    description: 'CropInsurance.co.nz is a free broker referral service connecting NZ growers with specialist crop insurance advisers. Independent, transparent, free.',
+    title: 'About CropInsurance.co.nz | Independent Crop Insurance Information NZ',
+    description: 'Independent crop insurance information for NZ orchardists, viticulturists, arable farmers and horticulture producers.',
     url: 'https://www.cropinsurance.co.nz/about/',
     siteName: 'CropInsurance.co.nz',
     images: [{ url: 'https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=1200&q=80', width: 1200, height: 630, alt: 'About CropInsurance.co.nz' }],
@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'About CropInsurance.co.nz | NZ Crop Insurance Brokers',
-    description: 'Free broker referral service connecting NZ growers with specialist crop insurance advisers.',
+    title: 'About CropInsurance.co.nz | Independent Crop Insurance Information NZ',
+    description: 'Independent crop insurance information for NZ orchardists, viticulturists, arable farmers and horticulture producers.',
     images: ['https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=1200&q=80'],
   },
 };
@@ -27,13 +27,13 @@ const aboutSchema = {
   '@type': 'AboutPage',
   name: 'About CropInsurance.co.nz',
   url: 'https://www.cropinsurance.co.nz/about/',
-  description: 'CropInsurance.co.nz is a free broker referral service connecting NZ growers with specialist crop insurance advisers.',
+  description: 'CropInsurance.co.nz is an independent crop insurance information resource for NZ orchardists, viticulturists, arable farmers and horticulture producers.',
   isPartOf: { '@type': 'WebSite', url: 'https://www.cropinsurance.co.nz' },
   about: {
     '@type': 'Organization',
     name: 'CropInsurance.co.nz',
     url: 'https://www.cropinsurance.co.nz',
-    description: 'NZ specialist crop insurance broker referral and comparison service operated by Cover4You.',
+    description: 'Independent NZ crop insurance information resource operated by Cover4You.',
     email: 'hello@cover4you.co.nz',
     areaServed: { '@type': 'Country', name: 'New Zealand' },
   },
@@ -110,10 +110,10 @@ export default function AboutPage() {
               <div>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">How We Operate</h2>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  CropInsurance.co.nz is a trading style of Cover4You — a broker referral and comparison service. When you submit an enquiry, you are connected with specialist insurance brokers in our network who hold their own licences and operate under the Financial Markets Conduct Act 2013 (FMCA). The information on this site is general in nature and does not constitute insurance advice.
+                  CropInsurance.co.nz is a trading style of Cover4You — an independent insurance information service. The information on this site is general in nature and does not constitute insurance advice. If you choose to use a broker or adviser found through the IBANZ directory or FSP register, they will hold their own licences and operate under the Financial Markets Conduct Act 2013 (FMCA).
                 </p>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  We are committed to the principles of the Insurance Council of New Zealand (ICNZ) Fair Insurance Code — transparency, fairness, and clear disclosure. We may receive a referral fee from broker partners when we connect you with their services. This does not affect the independence of the comparison we provide.
+                  We are committed to transparency, fairness and clear disclosure. We may receive a referral fee from broker partners when we connect you with their services.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
                   {[

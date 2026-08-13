@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.cropinsurance.co.nz'),
   title: { default: 'Crop Insurance NZ | CropInsurance.co.nz', template: '%s | CropInsurance.co.nz' },
-  description: 'Compare crop insurance for kiwifruit, grapes, apples, wheat, hops and all NZ crops. Specialist rural broker advice — access to NZ and international underwriters.',
+  description: 'Crop insurance information for kiwifruit, grapes, apples, wheat, hops and all NZ crops. Compare specialist providers and access NZ and international underwriters.',
   keywords: ['crop insurance NZ', 'kiwifruit insurance', 'vineyard insurance', 'orchard insurance', 'horticulture insurance', 'farm insurance New Zealand'],
   openGraph: {
     type: 'website',
@@ -35,7 +35,7 @@ const orgSchema = {
   name: 'CropInsurance.co.nz',
   legalName: 'Cover4You (GDS)',
   url: 'https://www.cropinsurance.co.nz',
-  description: 'Specialist crop insurance comparison and broker referral for NZ growers — kiwifruit, grapes, apples, wheat, hops and all crop types.',
+  description: 'Independent crop insurance information for NZ growers — kiwifruit, grapes, apples, wheat, hops and all crop types.',
   contactPoint: { '@type': 'ContactPoint', email: 'hello@cover4you.co.nz', contactType: 'customer service', areaServed: 'NZ' },
   areaServed: { '@type': 'Country', name: 'New Zealand' },
 };

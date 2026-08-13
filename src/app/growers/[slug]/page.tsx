@@ -75,7 +75,7 @@ export default async function GrowerPage({ params }: { params: Promise<{ slug: s
       '@type': 'Offer',
       price: '0',
       priceCurrency: 'NZD',
-      description: 'Free broker referral — no obligation quote',
+      description: 'Specialist crop insurance information for NZ growers',
     },
   };
 

@@ -19,7 +19,7 @@ export const cropTypes: CropType[] = [
     slug: 'kiwifruit-insurance',
     name: 'Kiwifruit Insurance',
     shortName: 'Kiwifruit',
-    description: 'Protect your kiwifruit orchard from PSA, adverse weather, hail, frost, and post-harvest losses with specialist NZ broker advice.',
+    description: 'Protect your kiwifruit orchard from PSA, adverse weather, hail, frost, and post-harvest losses. Specialist crop insurance information for NZ orchardists.',
     longDescription: `New Zealand is the world's third-largest kiwifruit producer, with the Bay of Plenty region at the heart of a $3+ billion export industry. Kiwifruit growers face unique and evolving risks — from PSA disease and late frosts to hailstorms during flowering and post-harvest quality failures. A well-structured kiwifruit insurance policy protects your orchard investment, crop revenue, and business continuity against these threats, giving you the financial security to operate with confidence each season.`,
     longFormContent: `
 <h2>Kiwifruit Insurance in New Zealand: A Complete Guide</h2>

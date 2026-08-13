@@ -11,7 +11,7 @@ import { faqs } from '@/data/faqs';
 
 export const metadata: Metadata = {
   title: 'Crop Insurance NZ | Compare Quotes for Every Crop | CropInsurance.co.nz',
-  description: 'Compare crop insurance for kiwifruit, grapes, apples, wheat, hops and all NZ crops. Specialist broker advice — access to NZ and international underwriters. No obligation.',
+  description: 'Crop insurance information for kiwifruit, grapes, apples, wheat, hops and all NZ crops. Compare specialist providers and access NZ and international underwriters.',
   alternates: { canonical: 'https://www.cropinsurance.co.nz/' },
 };
 
@@ -23,7 +23,7 @@ const schema = {
       '@id': 'https://www.cropinsurance.co.nz/#organization',
       name: 'CropInsurance.co.nz',
       url: 'https://www.cropinsurance.co.nz',
-      description: 'NZ specialist crop insurance comparison and broker referral service',
+      description: 'Independent crop insurance information resource for NZ orchardists, viticulturists, arable farmers and horticulture producers.',
       areaServed: 'NZ',
       email: 'hello@cover4you.co.nz',
     },
@@ -138,15 +138,15 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <span className="inline-block px-3 py-1 bg-green-100 text-green-800 text-xs font-semibold rounded-full uppercase tracking-wider mb-3">Why CropInsurance.co.nz</span>
-              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">Specialist Crop Insurance Brokers</h2>
+              <span className="inline-block px-3 py-1 bg-green-100 text-green-800 text-xs font-semibold rounded-full uppercase tracking-wider mb-3">About this site</span>
+              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">About CropInsurance.co.nz</h2>
               <div className="space-y-5">
                 {[
-                  { icon: '🌾', title: 'Deep NZ Crop Expertise', desc: 'Our broker network understands NZ growing conditions, regional risks, and the specific insurance needs of orchardists, vine growers, and arable farmers.' },
-                  { icon: '🔍', title: 'Access to Specialist Markets', desc: 'Our broker network accesses the full NZ crop insurance market and specialist international underwriters — giving you genuine choice and competitive pricing.' },
-                  { icon: '💬', title: 'Independent Advice', desc: 'We are not tied to any single insurer. Our advice is based on what\'s best for your operation, not on commission targets.' },
-                  { icon: '⚡', title: 'Fast, Efficient Service', desc: 'Quotes within one business day. Claims support when you need it most — right after a weather event.' },
-                  { icon: '🤝', title: 'Free to Growers', desc: 'Our broker service is completely free to you. Brokers are paid by insurers — you get expert advice at no direct cost.' },
+                  { icon: '🌾', title: 'Crop-Specific Information', desc: 'Guides and information covering all major NZ crop types — from kiwifruit and grapes to arable, vegetables, and horticulture.' },
+                  { icon: '🔍', title: 'Independent', desc: 'Not owned by or affiliated with any insurer or broker. The information on this site is a starting point for your own research.' },
+                  { icon: '🇳🇿', title: 'NZ Owned', desc: 'CropInsurance.co.nz is operated by Cover4You, a New Zealand business built for NZ growing conditions and regional risks.' },
+                  { icon: '📋', title: 'Claims Guidance', desc: 'Information on how to make a claim is available to help policyholders from any provider find the right process.' },
+                  { icon: '💬', title: 'Transparent', desc: 'Provider information is independently researched. We are not paid by insurers to list or rank them.' },
                 ].map(item => (
                   <div key={item.title} className="flex gap-4">
                     <div className="flex-shrink-0 w-10 h-10 bg-green-100 rounded-xl flex items-center justify-center text-xl">{item.icon}</div>

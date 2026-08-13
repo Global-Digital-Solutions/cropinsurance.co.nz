@@ -40,9 +40,9 @@ Our broker network approaches multiple insurers simultaneously — the specialis
     slug: 'compare',
     title: 'Compare Crop Insurance NZ',
     metaTitle: 'Compare Crop Insurance NZ | Side-by-Side Quotes | CropInsurance.co.nz',
-    metaDescription: 'Compare crop insurance providers in New Zealand side by side. Side-by-side comparison of NZ crop insurance options. Free guidance from specialist rural brokers.',
+    metaDescription: 'Compare crop insurance providers in New Zealand side by side. Independent information on NZ crop insurance options — coverage, service, and value.',
     heroHeading: 'Compare NZ Crop Insurance Providers',
-    heroSubtitle: 'See how the main crop insurance providers stack up on coverage, service, and value. Our brokers provide transparent, side-by-side comparisons.',
+    heroSubtitle: 'See how the main crop insurance providers stack up on coverage, service, and value.',
     content: `## Comparing Crop Insurance in New Zealand
 
 The NZ crop insurance market has several distinct players, each with different strengths, target markets, and product offerings. Understanding the differences helps you choose the right insurer for your operation.
@@ -235,9 +235,9 @@ Northland is New Zealand's most northerly agricultural region and home to a grow
     slug: 'waikato',
     title: 'Waikato Crop Insurance',
     metaTitle: 'Waikato Crop Insurance | Maize, Vegetables & Horticulture | CropInsurance.co.nz',
-    metaDescription: 'Crop insurance for Waikato maize growers, vegetable producers and orchardists. Expert guidance from specialist crop insurance brokers.',
+    metaDescription: 'Crop insurance information for Waikato maize growers, vegetable producers and orchardists. Compare specialist providers for your operation.',
     heroHeading: 'Waikato Crop Insurance',
-    heroSubtitle: 'Protecting Waikato\'s diverse cropping and horticulture sector with specialist broker advice.',
+    heroSubtitle: 'Crop and horticulture insurance information for Waikato\'s diverse growing operations.',
     content: `## Crop Insurance in Waikato
 
 The Waikato region produces a diverse range of crops including maize (predominantly for silage and grain), vegetables, kiwifruit, and avocados. The region is also NZ's most important dairy farming area, and many cropping operations supply silage and feed grain to dairy farmers.
@@ -316,10 +316,10 @@ The figures above are indicative only. The best way to get an accurate premium f
   {
     slug: 'quote',
     title: 'Crop Insurance Quote NZ',
-    metaTitle: 'Get a Crop Insurance Quote NZ | Free, No Obligation | CropInsurance.co.nz',
-    metaDescription: 'Get a free crop insurance quote in New Zealand. Our specialist rural brokers compare specialist crop insurance brokers and underwriters. No obligation, expert advice.',
-    heroHeading: 'Get Your Crop Insurance Quote',
-    heroSubtitle: 'Free, expert advice from specialist NZ rural insurance brokers. We compare multiple providers so you don\'t have to.',
+    metaTitle: 'Crop Insurance NZ | Find a Specialist | CropInsurance.co.nz',
+    metaDescription: 'Find specialist crop insurance cover in New Zealand. Information on NZ and international underwriters for kiwifruit, grapes, arable and horticulture crops.',
+    heroHeading: 'Find Crop Insurance in NZ',
+    heroSubtitle: 'Specialist crop insurance information for NZ growers. Find a provider or contact an insurer directly.',
     content: `## Getting a Crop Insurance Quote in NZ
 
 Getting the right crop insurance quote isn't just about filling in a form — it's about having a conversation with an adviser who understands your crop, your region, and your specific risks.

@@ -97,16 +97,12 @@ export default function ClaimsPage() {
 
           {/* Complaints */}
           <div className="bg-amber-50 border border-amber-200 rounded-2xl p-6">
-            <h2 className="text-xl font-bold text-gray-900 mb-4">Complaints Process (ICNZ Fair Code)</h2>
-            <p className="text-sm text-gray-700 mb-3 leading-relaxed">Our partner advisers follow the Insurance Council of New Zealand (ICNZ) Fair Insurance Code. Under this code:</p>
-            <ul className="space-y-2 text-sm text-gray-700">
-              <li className="flex items-start gap-2"><span className="w-1.5 h-1.5 bg-amber-500 rounded-full flex-shrink-0 mt-1.5" />Your insurer must <strong>acknowledge your complaint within 5 business days</strong></li>
-              <li className="flex items-start gap-2"><span className="w-1.5 h-1.5 bg-amber-500 rounded-full flex-shrink-0 mt-1.5" />Your insurer must <strong>respond substantively within 10 business days</strong></li>
-            </ul>
-            <p className="text-sm text-gray-700 mt-4 mb-2"><strong>Escalation options:</strong></p>
+            <h2 className="text-xl font-bold text-gray-900 mb-4">Complaints</h2>
+            <p className="text-sm text-gray-700 mb-3 leading-relaxed">If you need to complain about an insurer, contact them directly first. Most ICNZ member insurers commit to acknowledging complaints within 5 business days and responding substantively within 10 business days.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">If your complaint is not resolved, you can escalate it to the insurer&apos;s dispute resolution scheme — either Financial Services Complaints Limited (FSCL) or the Insurance and Financial Services Ombudsman (IFSO) Scheme. Your insurer will tell you which one applies to them.</p>
             <ul className="space-y-1 text-sm text-gray-700">
               <li>• <strong>FSCL</strong> (Financial Services Complaints Ltd): <a href="tel:08003472573" className="text-green-700 font-medium">0800 347 257</a></li>
-              <li>• <strong>IFSO</strong> (Insurance & Financial Services Ombudsman): <a href="tel:08008882029" className="text-green-700 font-medium">0800 888 202</a></li>
+              <li>• <strong>IFSO</strong> (Insurance &amp; Financial Services Ombudsman): <a href="tel:08008882029" className="text-green-700 font-medium">0800 888 202</a></li>
               <li>• <strong>Service complaints about CropInsurance.co.nz:</strong> <a href="mailto:hello@cover4you.co.nz" className="text-green-700 font-medium">hello@cover4you.co.nz</a></li>
             </ul>
           </div>
