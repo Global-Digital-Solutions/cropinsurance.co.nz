@@ -35,6 +35,9 @@ const tableRows = [
   { label: 'Best For', values: ['Large orchards', 'Vineyards', 'Large operations'] },
 ];
 
+// Minimum review count to display a rating — suppress thin listings (e.g. one office of 30+)
+const MIN_REVIEWS = 50
+
 // ── Live Google rating fetch (ISR 30-day cache) ───────────────────────────
 async function fetchGoogleRating(placeId: string | null): Promise<{ rating: number | null; reviewCount: number | null } | null> {
   if (!placeId) return null;
@@ -199,6 +202,7 @@ export default async function ComparePage() {
               const displayRating = live?.rating ?? p.rating;
               const displayReviewCount = live?.reviewCount ?? p.reviewCount;
               const ratingAsAtDisplay = p.ratingAsAt ?? 'Aug 2026';
+              const showRating = displayRating !== null && (displayReviewCount ?? 0) >= MIN_REVIEWS;
               return (
               <div key={p.slug} className="bg-white border-2 border-gray-200 hover:border-green-400 rounded-2xl p-6 hover:shadow-xl transition-all duration-300">
                 <div className="flex items-start justify-between mb-4">
@@ -216,7 +220,7 @@ export default async function ComparePage() {
                 <p className="text-sm text-gray-600 leading-relaxed mb-4">{p.description}</p>
 
                 {/* Google rating */}
-                {displayRating !== null ? (
+                {showRating ? (
                   <div className="flex items-center gap-1.5 flex-wrap mb-4 pb-4 border-b border-gray-100">
                     {[...Array(5)].map((_, i) => (
                       <svg key={i} className={`w-3.5 h-3.5 ${i < Math.floor(displayRating) ? 'text-amber-400' : 'text-gray-200'}`} fill="currentColor" viewBox="0 0 20 20">
@@ -268,6 +272,8 @@ export default async function ComparePage() {
 
           <p className="text-xs text-slate-400 text-center max-w-3xl mx-auto mb-14 leading-relaxed">
             Provider information is based on publicly available data and is provided for general reference only. CropInsurance.co.nz is not affiliated with any provider listed. Contact us at <a href="mailto:hello@cover4you.co.nz" className="underline hover:text-gray-600 transition-colors">hello@cover4you.co.nz</a> if you believe any information requires correction.
+            {' '}★ Google ratings sourced live from Google Places API and refreshed monthly. Ratings are shown only where a substantive NZ Google listing exists with 50 or more reviews.{' '}
+            <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="text-[#4285F4] hover:underline">Powered by Google</a>
           </p>
 
           {/* Market access block */}
