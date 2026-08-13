@@ -158,7 +158,7 @@ We recommend Bay of Plenty kiwifruit growers review their insurance annually aga
 3. Business interruption provisions
 4. Cyclone/wind deductibles
 
-Use our quote form to connect with a broker who specialises in Bay of Plenty horticulture.`,
+Contact an IBANZ-registered broker who specialises in Bay of Plenty horticulture to discuss your specific cover needs.`,
   },
   {
     slug: 'marlborough',
@@ -227,7 +227,7 @@ Northland is New Zealand's most northerly agricultural region and home to a grow
 
 **Kiwifruit:** Northland grows both Green and Gold kiwifruit, with risks similar to the Bay of Plenty — hail, wind, and cyclone damage are the primary concerns.
 
-**Subtropical crops:** Feijoas, tamarillos, citrus, and other subtropical crops are increasingly grown commercially in Northland. Specialist cover for these crops is available through our broker network.
+**Subtropical crops:** Feijoas, tamarillos, citrus, and other subtropical crops are increasingly grown commercially in Northland. Specialist cover for these crops is available from brokers with access to the NZ rural insurance market.
 
 **Drought:** Northland's variable rainfall makes drought a significant risk, particularly in dry years. Water supply security is a key issue for Northland growers.`,
   },
@@ -277,7 +277,7 @@ Central Otago has experienced increasingly extreme weather in recent years — s
     slug: 'cost',
     title: 'Crop Insurance Cost NZ',
     metaTitle: 'Crop Insurance Cost NZ 2026 | Premium Guide | CropInsurance.co.nz',
-    metaDescription: 'How much does crop insurance cost in New Zealand? Premium guide by crop type and region. Get a free quote from specialist rural brokers.',
+    metaDescription: 'How much does crop insurance cost in New Zealand? Premium guide by crop type and region. Indicative ranges for kiwifruit, grapes, arable and horticultural crops.',
     heroHeading: 'How Much Does Crop Insurance Cost in NZ?',
     heroSubtitle: 'A transparent guide to crop insurance premiums in New Zealand — by crop type, coverage level, and region.',
     content: `## Crop Insurance Premiums in New Zealand
@@ -311,7 +311,7 @@ Crop insurance premiums in NZ are calculated based on several factors: crop type
 
 ### Getting an Accurate Quote
 
-The figures above are indicative only. The best way to get an accurate premium for your specific situation is to use our free quote service — our broker network will assess your exact requirements and return with competitive options.`,
+The figures above are indicative only. The only way to get an accurate premium for your specific situation is to request quotes from a specialist crop insurance broker or approach an insurer directly.`,
   },
   {
     slug: 'quote',
@@ -337,17 +337,14 @@ To get an accurate crop insurance quote, have the following information ready:
 - **Claims history** (any claims in the past 5 years)
 - **Risk mitigation** (hail nets, frost protection, drainage)
 
-### How the Process Works
+### How to Get a Quote
 
-1. **Submit your enquiry** using our quote form below
-2. **Our broker contacts you** within one business day to discuss your requirements
-3. **Quotes obtained** from relevant insurers and specialist crop insurance markets
-4. **Comparison presented** — coverage, exclusions, and premium side by side
-5. **Policy arranged** with your chosen insurer
-6. **Ongoing support** — your broker remains your point of contact for renewals and claims
+To get crop insurance quotes, you have two main options. You can approach an insurer directly — several NZ insurers deal with growers without requiring a broker. Or you can contact a specialist rural broker, who can approach multiple insurers simultaneously and present a comparison of options.
 
-### Our Service Is Free
+For a specialist broker, use the IBANZ broker directory at ibanz.co.nz. Before proceeding with any adviser, verify they are listed on the Financial Service Providers Register at fsp-register.companiesoffice.govt.nz.
 
-There is no cost to you for using our broker network. Brokers are remunerated by insurers through brokerage. You get independent expert advice at no direct cost.`,
+### Broker Fees
+
+Brokers are remunerated by insurers through brokerage — there is typically no direct cost to the grower for using a broker's service. The brokerage is included in the premium the insurer quotes.`,
   },
 ];

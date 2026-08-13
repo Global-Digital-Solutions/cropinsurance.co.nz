@@ -13,37 +13,37 @@ export const faqs: FAQ[] = [
   {
     category: 'Getting Started',
     question: 'How do I get a crop insurance quote in New Zealand?',
-    answer: 'Fill in our online quote form with details about your farm, crop type, region, and the coverage you\'re looking for. Our specialist broker network will assess your requirements and come back with tailored options from the NZ crop insurance market and specialist international underwriters — at no cost to you.',
+    answer: 'To get a crop insurance quote, contact a specialist rural broker or approach an insurer directly. Have your crop type, region, approximate insured value, and coverage requirements ready. A broker can approach multiple insurers simultaneously and present a comparison. Find a licensed broker through the IBANZ directory at ibanz.co.nz.',
   },
   {
     category: 'Getting Started',
     question: 'Is crop insurance expensive?',
-    answer: 'Premium costs depend on crop type, region, sum insured, and coverage level. As a guide, premiums typically range from 1–3% of the insured crop value. A $300,000 kiwifruit crop might cost $3,000–$9,000 to insure annually. Request a quote through our broker network to get an accurate figure for your operation.',
+    answer: 'Premium costs depend on crop type, region, sum insured, and coverage level. As a guide, premiums typically range from 1–3% of the insured crop value. A $300,000 kiwifruit crop might cost $3,000–$9,000 to insure annually. Contact a specialist crop insurance broker or insurer directly to get an accurate figure for your operation.',
   },
   {
     category: 'Coverage',
     question: 'What perils does crop insurance cover?',
-    answer: 'Named perils policies cover specific events: typically hail, frost, fire, wind, and flooding. Multi-peril policies cover virtually all natural causes of crop loss, including drought. The specific perils covered depend on the policy and insurer — our brokers will walk you through the options.',
+    answer: 'Named perils policies cover specific events: typically hail, frost, fire, wind, and flooding. Multi-peril policies cover virtually all natural causes of crop loss, including drought. The specific perils covered depend on the policy and insurer — a specialist broker can walk you through the options for your crop type.',
   },
   {
     category: 'Coverage',
     question: 'Does crop insurance cover drought?',
-    answer: 'Standard named perils policies typically do not cover drought. Drought cover requires either a multi-peril crop insurance (MPCI) policy or a specific parametric drought product. MPCI is available in NZ through specialist international markets accessed via licensed agribusiness brokers. Ask our advisers specifically about drought cover if this is a key risk for your region.',
+    answer: 'Standard named perils policies typically do not cover drought. Drought cover requires either a multi-peril crop insurance (MPCI) policy or a specific parametric drought product. MPCI is available in NZ through specialist international markets accessed via licensed agribusiness brokers. Ask a specialist broker specifically about drought cover options if this is a key risk for your region.',
   },
   {
     category: 'Coverage',
     question: 'Is disease covered by crop insurance?',
-    answer: 'Disease coverage is generally excluded from standard named perils crop insurance. However, some policies include limited disease cover or business interruption following a disease event (e.g., PSA in kiwifruit). Specialist disease covers may be available through international markets. Discuss your specific crop and disease risks with our broker network.',
+    answer: 'Disease coverage is generally excluded from standard named perils crop insurance. However, some policies include limited disease cover or business interruption following a disease event (e.g., PSA in kiwifruit). Specialist disease covers may be available through international markets. Discuss your specific crop and disease risks with a specialist rural broker.',
   },
   {
     category: 'Coverage',
     question: 'Can I insure my orchard infrastructure (hail nets, irrigation)?',
-    answer: 'Yes. Orchard infrastructure including hail nets, irrigation systems, packhouses, and coolstores can be insured under rural property cover alongside your crop insurance. We recommend combining crop and infrastructure cover into a single package — our brokers can arrange both.',
+    answer: 'Yes. Orchard infrastructure including hail nets, irrigation systems, packhouses, and coolstores can be insured under rural property cover alongside your crop insurance. Combining crop and infrastructure cover into a single package is worth considering — a specialist broker or rural insurer can arrange both.',
   },
   {
     category: 'Coverage',
     question: 'Does crop insurance cover post-harvest losses?',
-    answer: 'Post-harvest cover for quality losses occurring in storage or transit is available from select insurers. This is particularly relevant for kiwifruit and apple growers who store produce in coolstores before export. Ask our advisers about post-harvest cover options.',
+    answer: 'Post-harvest cover for quality losses occurring in storage or transit is available from select insurers. This is particularly relevant for kiwifruit and apple growers who store produce in coolstores before export. Ask a specialist broker or insurer about post-harvest cover options for your crop.',
   },
   {
     category: 'Claims',
@@ -58,7 +58,7 @@ export const faqs: FAQ[] = [
   {
     category: 'Claims',
     question: 'What if I disagree with the loss adjuster\'s assessment?',
-    answer: 'You have the right to dispute a claims settlement if you believe the assessment is inaccurate. You can request a review by the insurer, appoint your own independent assessor, or refer the matter to the Insurance & Financial Services Ombudsman (IFSO). Your broker should advocate for a fair outcome on your behalf throughout the process.',
+    answer: 'You have the right to dispute a claims settlement if you believe the assessment is inaccurate. You can request a review by the insurer, appoint your own independent assessor, or refer the matter to the Insurance & Financial Services Ombudsman (IFSO). If you used a broker, they should be able to assist you in understanding the insurer\'s position and escalation options.',
   },
   {
     category: 'Policy Details',
