@@ -5,6 +5,9 @@ export interface Provider {
   rating: number | null;
   reviewCount: number | null;
   ratingSource: string | null;
+  placeId: string | null;
+  googleMapsUri: string | null;
+  ratingAsAt: string | null;
   lastVerified: string;
   description: string;
   speciality: string;
@@ -21,9 +24,12 @@ export const providers: Provider[] = [
     slug: 'gallagher',
     name: 'Gallagher NZ',
     shortName: 'Gallagher',
-    rating: 4.5,
-    reviewCount: 8105,
-    ratingSource: 'Trustpilot (Gallagher global group)',
+    rating: 4.1,
+    reviewCount: 27,
+    ratingSource: 'Google',
+    placeId: 'ChIJkX5U5_pHDW0RKm5TlpiW53g',
+    googleMapsUri: 'https://maps.google.com/?cid=8712097586272759338',
+    ratingAsAt: '13 Aug 2026',
     lastVerified: 'August 2026',
     description: 'A global insurance broker with a strong New Zealand rural and agribusiness practice. Formerly known as Crombie Lockwood in NZ, Gallagher now operates across 30+ offices nationwide. They access specialist international crop insurance markets alongside domestic insurers, providing broader coverage options for large-scale growers.',
     speciality: 'Global broker — specialist agribusiness division',
@@ -40,7 +46,10 @@ export const providers: Provider[] = [
     shortName: 'Aon',
     rating: 4.2,
     reviewCount: 25,
-    ratingSource: 'Google (Auckland office)',
+    ratingSource: 'Google',
+    placeId: 'ChIJtTDcmvlHDW0RdNpNgVuU46o',
+    googleMapsUri: 'https://maps.google.com/?cid=12313848926893365876',
+    ratingAsAt: '13 Aug 2026',
     lastVerified: 'August 2026',
     description: 'One of the world\'s largest insurance brokers with a dedicated NZ Food, Agribusiness & Beverage practice. Aon combines global risk analytics with local expertise, attending National Fieldays annually and providing comprehensive crop and rural insurance programmes.',
     speciality: 'Global broker with NZ agribusiness team',
@@ -58,6 +67,9 @@ export const providers: Provider[] = [
     rating: null,
     reviewCount: null,
     ratingSource: null,
+    placeId: null,
+    googleMapsUri: null,
+    ratingAsAt: null,
     lastVerified: 'August 2026',
     description: 'Part of the global Howden Group operating in 122 countries with $51bn+ USD in premium under management. The NZ operation was built through multiple local acquisitions (formerly Apex, Wallace McLean, Omni, Sherpa, Bridges) and maintains offices across Auckland, Wellington, and Christchurch. Places business with top-rated insurers including AIG, Allianz, Chubb, NZI/IAG, Lloyd\'s, QBE, Vero, and Zurich.',
     speciality: 'Global rural insurance — large-scale operations',

@@ -35,6 +35,28 @@ const tableRows = [
   { label: 'Best For', values: ['Large orchards', 'Vineyards', 'Large operations'] },
 ];
 
+// ── Live Google rating fetch (ISR 30-day cache) ───────────────────────────
+async function fetchGoogleRating(placeId: string | null): Promise<{ rating: number | null; reviewCount: number | null } | null> {
+  if (!placeId) return null;
+  const apiKey = process.env.GOOGLE_PLACES_API_KEY;
+  if (!apiKey) return null;
+  try {
+    const res = await fetch(
+      `https://maps.googleapis.com/maps/api/place/details/json?place_id=${encodeURIComponent(placeId)}&fields=rating,user_ratings_total&key=${apiKey}`,
+      { next: { revalidate: 30 * 24 * 60 * 60 } }
+    );
+    if (!res.ok) return null;
+    const data = await res.json();
+    if (data.status !== 'OK') return null;
+    return {
+      rating: (data.result?.rating as number) ?? null,
+      reviewCount: (data.result?.user_ratings_total as number) ?? null,
+    };
+  } catch {
+    return null;
+  }
+}
+
 const compareSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebPage',
@@ -61,7 +83,16 @@ const itemListSchema = {
   ],
 };
 
-export default function ComparePage() {
+export default async function ComparePage() {
+  // Fetch live Google ratings (30-day ISR cache); falls back to providers.ts static values if no API key
+  const liveRatings = await Promise.all(
+    providers.map(async (p) => ({
+      slug: p.slug,
+      live: await fetchGoogleRating(p.placeId ?? null),
+    }))
+  );
+  const ratingMap = Object.fromEntries(liveRatings.map((r) => [r.slug, r.live]));
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(compareSchema) }} />
@@ -163,7 +194,12 @@ export default function ComparePage() {
           {/* Provider Cards */}
           <h2 className="text-2xl font-bold text-gray-900 mb-6">About Each Provider</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-14">
-            {providers.map(p => (
+            {providers.map(p => {
+              const live = ratingMap[p.slug];
+              const displayRating = live?.rating ?? p.rating;
+              const displayReviewCount = live?.reviewCount ?? p.reviewCount;
+              const ratingAsAtDisplay = p.ratingAsAt ?? 'Aug 2026';
+              return (
               <div key={p.slug} className="bg-white border-2 border-gray-200 hover:border-green-400 rounded-2xl p-6 hover:shadow-xl transition-all duration-300">
                 <div className="flex items-start justify-between mb-4">
                   <div className="flex items-center gap-3">
@@ -177,7 +213,30 @@ export default function ComparePage() {
                   </div>
                 </div>
 
-                <p className="text-sm text-gray-600 leading-relaxed mb-5">{p.description}</p>
+                <p className="text-sm text-gray-600 leading-relaxed mb-4">{p.description}</p>
+
+                {/* Google rating */}
+                {displayRating !== null ? (
+                  <div className="flex items-center gap-1.5 flex-wrap mb-4 pb-4 border-b border-gray-100">
+                    {[...Array(5)].map((_, i) => (
+                      <svg key={i} className={`w-3.5 h-3.5 ${i < Math.floor(displayRating) ? 'text-amber-400' : 'text-gray-200'}`} fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                      </svg>
+                    ))}
+                    <span className="text-xs text-gray-600">
+                      {displayRating} · {displayReviewCount?.toLocaleString()} Google reviews · as at {ratingAsAtDisplay}
+                    </span>
+                    {p.googleMapsUri && (
+                      <a href={p.googleMapsUri} target="_blank" rel="noopener noreferrer" className="text-xs text-[#4285F4] hover:underline">
+                        Powered by Google
+                      </a>
+                    )}
+                  </div>
+                ) : (
+                  <div className="mb-4 pb-4 border-b border-gray-100">
+                    <span className="text-xs text-gray-400 italic">No Google rating available</span>
+                  </div>
+                )}
 
                 <div className="grid grid-cols-2 gap-4 mb-5">
                   <div>
@@ -203,7 +262,8 @@ export default function ComparePage() {
                 </div>
 
               </div>
-            ))}
+              );
+            })}
           </div>
 
           <p className="text-xs text-slate-400 text-center max-w-3xl mx-auto mb-14 leading-relaxed">
