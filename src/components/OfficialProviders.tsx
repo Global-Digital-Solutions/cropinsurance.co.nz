@@ -4,14 +4,12 @@ export default function OfficialProviders() {
       name: 'FMG',
       description: 'Specialist in orchard fruit (hail, fire, flood, frost), kiwifruit top-up, and arable crops. Dedicated horticulture and viticulture team with deep NZ rural experience.',
       url: 'https://www.fmg.co.nz/what-we-cover/horticulture-and-viticulture',
-      phone: '0800 366 466',
       directOnly: true,
     },
     {
       name: 'NZI (via Ag Guard)',
       description: 'Rural material damage cover for horticulturists including greenhouse and growing cost protection. Division of IAG NZ, available through licensed brokers.',
       url: 'https://www.nzi.co.nz/business-cover/rural-insurance',
-      phone: null,
       directOnly: false,
       brokerNote: 'Via broker only',
     },
@@ -19,14 +17,12 @@ export default function OfficialProviders() {
       name: 'Gallagher',
       description: 'Agribusiness specialist broker offering crop insurance including replanting costs. Access to specialist NZ and international markets for growers of all scales.',
       url: 'https://www.ajg.co.nz/industries/agriculture/',
-      phone: '0800 276 624',
       directOnly: false,
     },
     {
       name: 'Aon NZ',
       description: 'Global broker with a Food, Agribusiness and Beverage sector focus. Specialist advice for orchardists, vine growers, and arable farmers across NZ.',
       url: 'https://www.aon.co.nz',
-      phone: '0800 266 276',
       directOnly: false,
     },
   ];
@@ -64,12 +60,6 @@ export default function OfficialProviders() {
               )}
 
               <p className="text-sm text-gray-600 leading-relaxed flex-1 mb-4">{p.description}</p>
-
-              {p.phone && (
-                <p className="text-xs text-gray-400 mb-4">
-                  <span className="font-medium text-gray-500">Phone:</span> {p.phone}
-                </p>
-              )}
 
               <a
                 href={p.url}
