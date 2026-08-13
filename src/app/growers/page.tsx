@@ -204,60 +204,38 @@ export default function GrowersIndexPage() {
         </div>
       </section>
 
-      {/* How the Process Works */}
+      {/* Cover by Type of Grower */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10">
-            <h2 className="text-3xl font-bold text-gray-900">How Getting Covered Works</h2>
-            <p className="text-gray-500 mt-2 text-sm">From first enquiry to cover in place — typically within one business day.</p>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-4 gap-6">
-            {[
-              { step: '01', icon: '📋', title: 'Tell Us About Your Operation', desc: 'Complete a short enquiry form with your crop type, region, and approximate insured value.' },
-              { step: '02', icon: '🔍', title: 'We Compare the Market', desc: 'Your specialist broker approaches the NZ crop insurance market and specialist international underwriters simultaneously.' },
-              { step: '03', icon: '📊', title: 'Receive Your Options', desc: 'We present a clear comparison of quotes, coverage terms, and what each policy actually covers.' },
-              { step: '04', icon: '✅', title: 'Cover Arranged', desc: 'You choose, your broker arranges the policy, and we remain your contact for renewals and claims support.' },
-            ].map((s, i) => (
-              <div key={s.step} className="relative bg-gray-50 rounded-2xl p-6 border border-gray-200 text-center">
-                {i < 3 && <div className="hidden sm:block absolute top-10 -right-3 w-6 h-0.5 bg-green-300 z-10" />}
-                <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-3 text-white font-bold text-sm">{s.step}</div>
-                <div className="text-2xl mb-2">{s.icon}</div>
-                <h3 className="font-bold text-gray-900 text-sm mb-1">{s.title}</h3>
-                <p className="text-xs text-gray-600 leading-relaxed">{s.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Why Us + Form */}
-      <section className="py-16 bg-green-900">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="text-white">
-              <span className="inline-block px-3 py-1 bg-green-400/20 border border-green-400/30 text-green-200 text-xs font-semibold rounded-full uppercase tracking-wider mb-4">
-                Why CropInsurance.co.nz
-              </span>
-              <h2 className="text-3xl font-extrabold mb-6">We Understand Your Growing Operation</h2>
-              <div className="space-y-4">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+            <div className="lg:col-span-2">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Cover by Type of Grower</h2>
+              <p className="text-gray-600 leading-relaxed mb-6">
+                What you need depends on how you grow. A specialist broker or insurer will structure cover around your operation rather than sell a standard package.
+              </p>
+              <div className="space-y-5 text-gray-600">
                 {[
-                  { icon: '🔍', title: 'We Compare the Market', desc: 'One enquiry reaches the full NZ crop insurance market and specialist international underwriters simultaneously.' },
-                  { icon: '🌾', title: 'Deep Crop Expertise', desc: 'Our broker network understands NZ growing conditions, regional risks and specific insurance needs for each crop and grower type.' },
-                  { icon: '💰', title: 'Free to Growers', desc: 'Our service is completely free to you. Brokers are paid by insurers — expert advice at no direct cost.' },
-                  { icon: '📋', title: 'Claims Support', desc: 'We advocate for you at claim time — not just at the point of sale.' },
+                  { label: 'Orchardists', body: 'Hail and wind are usually the primary exposures, alongside tree or vine reinstatement cost after a loss event.' },
+                  { label: 'Viticulture', body: 'Frost is the dominant peril in most NZ growing regions, and cover terms vary significantly by site and elevation.' },
+                  { label: 'Arable farmers', body: 'Cover typically centres on standing crop value and harvest-window weather risk.' },
+                  { label: 'Vegetable growers', body: 'Short cycles and multiple plantings a season mean cover needs to reflect the value at risk at any given point.' },
+                  { label: 'Hop growers', body: 'A concentrated growing region and high per-hectare values make specialist placement more likely than a standard farm pack.' },
+                  { label: 'Contract growers', body: 'Cover often needs to align with obligations under the supply contract, so the contract terms matter as much as the crop.' },
                 ].map(item => (
-                  <div key={item.title} className="flex gap-4">
-                    <div className="flex-shrink-0 w-10 h-10 bg-green-700 rounded-xl flex items-center justify-center text-xl">{item.icon}</div>
-                    <div>
-                      <h3 className="font-bold text-white text-sm">{item.title}</h3>
-                      <p className="text-sm text-green-200 mt-0.5 leading-relaxed">{item.desc}</p>
-                    </div>
-                  </div>
+                  <p key={item.label}><strong>{item.label}</strong> — {item.body}</p>
                 ))}
+              </div>
+              <div className="mt-8 pt-8 border-t border-gray-200">
+                <h3 className="text-lg font-bold text-gray-900 mb-3">Finding cover</h3>
+                <p className="text-gray-600 leading-relaxed mb-4">Some insurers deal with growers directly; others write only through brokers. For multi-peril or international placement, a broker with horticultural experience is usually the practical route.</p>
+                <div className="flex flex-wrap gap-4">
+                  <a href="https://www.ibanz.co.nz/" target="_blank" rel="noopener noreferrer" className="inline-block px-5 py-2.5 bg-green-700 hover:bg-green-600 text-white font-semibold rounded-xl text-sm transition-colors">Find a broker through IBANZ ↗</a>
+                  <a href="https://fsp-register.companiesoffice.govt.nz/" target="_blank" rel="noopener noreferrer" className="inline-block px-5 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 font-semibold rounded-xl text-sm transition-colors">Check the FSP register ↗</a>
+                </div>
               </div>
             </div>
             <div>
-              <div className="rounded-2xl p-1.5 bg-gradient-to-br from-green-400 to-green-500 shadow-2xl">
+              <div className="sticky top-24">
                 <HoldingPanel />
               </div>
             </div>

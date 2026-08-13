@@ -64,7 +64,7 @@ export default function AboutPage() {
             <span className="text-white">About Us</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-3">About CropInsurance.co.nz</h1>
-          <p className="text-green-200 text-lg max-w-2xl">We do the hard work comparing crop insurance across New Zealand's leading insurers — so NZ growers can focus on what they do best.</p>
+          <p className="text-green-200 text-lg max-w-2xl">Independent crop insurance information for NZ orchardists, viticulturists, arable farmers and horticulture producers.</p>
         </div>
       </section>
 
@@ -74,35 +74,24 @@ export default function AboutPage() {
 
             <div className="lg:col-span-2 space-y-10">
 
-              {/* Mission */}
+              {/* About */}
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h2>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">What This Site Is</h2>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  CropInsurance.co.nz was built to level the playing field for New Zealand growers. Crop insurance is complex — policy wordings differ, insurers specialise in different crops, and premiums can vary significantly between providers. Most growers simply don't have the time to navigate it all.
+                  CropInsurance.co.nz publishes independent information about crop and horticultural insurance in New Zealand. Crop insurance is a specialist field — policy wordings differ, insurers specialise in different crop types, and premiums can vary considerably by region and peril.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  We take on that work for you. Our specialist broker network approaches the full NZ crop insurance market and international underwriters simultaneously — comparing coverage, pricing and terms so you receive the best fit for your operation, not just the easiest option to sell.
+                  This site helps growers understand what cover is available, which insurers and brokers operate in the NZ market, and what to look for before arranging a policy. It does not sell insurance and does not provide insurance advice.
                 </p>
               </div>
 
-              {/* How We Work */}
+              {/* How to Get Covered */}
               <div className="bg-green-50 border border-green-200 rounded-2xl p-8">
-                <h2 className="text-2xl font-bold text-gray-900 mb-6">How We Work</h2>
-                <div className="space-y-5">
-                  {[
-                    { step: '01', title: 'You Tell Us About Your Crop', desc: 'Fill in a quick form — crop type, region, approximate value, and the coverage you need. No lengthy paperwork.' },
-                    { step: '02', title: 'We Compare the Market', desc: 'Our broker network approaches all relevant insurers simultaneously. We do the hard work so you don\'t have to.' },
-                    { step: '03', title: 'You Receive Options', desc: 'We present you with a clear comparison of the best options — coverage, price, and what each policy actually covers.' },
-                    { step: '04', title: 'Cover Arranged', desc: 'Once you\'ve chosen, your broker handles all the paperwork. You\'re covered, and we remain your point of contact for claims support.' },
-                  ].map(item => (
-                    <div key={item.step} className="flex gap-4">
-                      <div className="flex-shrink-0 w-10 h-10 bg-green-700 rounded-xl flex items-center justify-center text-white font-bold text-sm">{item.step}</div>
-                      <div>
-                        <h3 className="font-bold text-gray-900">{item.title}</h3>
-                        <p className="text-sm text-gray-600 mt-0.5 leading-relaxed">{item.desc}</p>
-                      </div>
-                    </div>
-                  ))}
+                <h2 className="text-2xl font-bold text-gray-900 mb-6">How to Get Covered</h2>
+                <div className="space-y-5 text-gray-600">
+                  <p><strong>Go direct.</strong> Several NZ insurers deal directly with growers. You can find them on our <a href="/compare/" className="text-green-700 font-medium hover:text-green-800">compare page</a>.</p>
+                  <p><strong>Use a specialist broker.</strong> For multi-peril cover or international markets, a rural broker can reach underwriters that are not available direct. The IBANZ directory lists licensed NZ brokers.</p>
+                  <p><strong>Check they are licensed.</strong> Anyone giving you insurance advice must hold a licence under the Financial Markets Conduct Act 2013 (FMCA). You can verify this on the <a href="https://fsp-register.companiesoffice.govt.nz/" target="_blank" rel="noopener noreferrer" className="text-green-700 font-medium hover:text-green-800">Financial Service Providers Register</a>.</p>
                 </div>
               </div>
 
@@ -128,10 +117,10 @@ export default function AboutPage() {
                 </div>
               </div>
 
-              {/* The Market We Access */}
+              {/* The NZ Crop Insurance Market */}
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">The Market We Access</h2>
-                <p className="text-gray-600 leading-relaxed mb-5">Our broker network has access to the full NZ crop insurance market and specialist international underwriters.</p>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">The NZ Crop Insurance Market</h2>
+                <p className="text-gray-600 leading-relaxed mb-5">Crop cover in New Zealand is written by a small number of specialist providers. Depending on your crop type and risk profile, cover may be arranged directly with an insurer or through a broker who can access specialist international markets.</p>
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
                   {[
                     { name: 'NZ rural insurers', tag: 'Domestic cover' },

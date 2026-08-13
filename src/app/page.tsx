@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import HoldingPanel from '@/components/HoldingPanel';
 import OfficialProviders from '@/components/OfficialProviders';
-import HowItWorks from '@/components/HowItWorks';
 import AnimatedStats from '@/components/AnimatedStats';
 import { cropTypes } from '@/data/crop-types';
 import { providers } from '@/data/providers';
@@ -188,7 +187,32 @@ export default function HomePage() {
         </div>
       </section>
 
-      <HowItWorks />
+      {/* Getting the Right Crop Cover */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">Getting the Right Crop Cover</h2>
+            <p className="text-gray-600 leading-relaxed mb-4">
+              Crop and horticultural insurance is a specialist field. Cover is written by a small number of New Zealand insurers and specialist international underwriters, and terms vary considerably by crop type, region and the perils you need covered.
+            </p>
+            <p className="text-gray-600 leading-relaxed mb-8">
+              A specialist broker or insurer can help you get the right cover. They will assess your operation — crop type, hectares, region, historical loss experience — and match it to the markets that will write it.
+            </p>
+            <h3 className="text-lg font-bold text-gray-900 mb-3">What to have ready</h3>
+            <ul className="space-y-2 mb-8 text-gray-600">
+              {['Crop type and planted area', 'Region and any known exposure (hail, frost, wind, flood)', 'Approximate insured value or expected yield value', 'Previous claims history', 'Any existing farm or business insurance'].map(item => (
+                <li key={item} className="flex items-start gap-2"><span className="text-green-600 mt-0.5 flex-shrink-0">•</span><span>{item}</span></li>
+              ))}
+            </ul>
+            <h3 className="text-lg font-bold text-gray-900 mb-4">Where to start</h3>
+            <div className="space-y-4 text-gray-600">
+              <p><strong>Go direct.</strong> Several insurers deal with growers directly. Their own sites are <a href="#providers" className="text-green-700 font-medium hover:text-green-800">listed below</a>.</p>
+              <p><strong>Use a specialist broker.</strong> For multi-peril cover or international markets, a rural broker can reach underwriters you cannot approach yourself. <a href="https://www.ibanz.co.nz/" target="_blank" rel="noopener noreferrer" className="text-green-700 font-medium hover:text-green-800">Find one through IBANZ ↗</a></p>
+              <p><strong>Check they are licensed.</strong> Anyone giving you insurance advice should appear on the <a href="https://fsp-register.companiesoffice.govt.nz/" target="_blank" rel="noopener noreferrer" className="text-green-700 font-medium hover:text-green-800">Financial Service Providers Register ↗</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Blog */}
       <section className="py-20 bg-white">
@@ -250,7 +274,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <OfficialProviders />
+      <div id="providers"><OfficialProviders /></div>
 
       {/* CTA Strip */}
       <section className="py-16 bg-green-700">
