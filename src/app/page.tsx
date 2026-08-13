@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import HoldingPanel from '@/components/HoldingPanel';
 import TrustBar from '@/components/TrustBar';
+import OfficialProviders from '@/components/OfficialProviders';
 import HowItWorks from '@/components/HowItWorks';
 import AnimatedStats from '@/components/AnimatedStats';
 import { cropTypes } from '@/data/crop-types';
@@ -251,6 +252,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <OfficialProviders />
 
       {/* CTA Strip */}
       <section className="py-16 bg-green-700">
