@@ -288,11 +288,9 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                   <h3 className="font-bold text-sm mb-3 text-green-200 uppercase tracking-wider">Why Trust Our Advice</h3>
                   <div className="space-y-2.5">
                     {[
-                      { icon: '✅', text: 'ICNZ Fair Insurance Code' },
-                      { icon: '🏆', text: 'NZ Licensed Broker Network' },
                       { icon: '🌿', text: 'Specialist Crop Expertise' },
-                      { icon: '💰', text: 'Free — No Obligation' },
-                      { icon: '⚡', text: 'Fast Turnaround' },
+                      { icon: '🔍', text: 'Independent — not insurer-owned' },
+                      { icon: '🇳🇿', text: 'NZ owned and operated' },
                     ].map(b => (
                       <div key={b.text} className="flex items-center gap-2 text-sm text-green-100">
                         <span>{b.icon}</span>

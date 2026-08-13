@@ -82,7 +82,7 @@ export default function Footer() {
                 <li key={href}><a href={href} target="_blank" rel="noopener noreferrer" className="text-xs text-gray-400 hover:text-green-400 transition-colors">{label} ↗</a></li>
               ))}
             </ul>
-            <h3 className="text-white font-semibold text-xs uppercase tracking-wider mb-3 mt-5">Regulators</h3>
+            <h3 className="text-white font-semibold text-xs uppercase tracking-wider mb-3 mt-5">Industry &amp; Regulators</h3>
             <ul className="space-y-1.5">
               {[
                 ['ICNZ', 'https://www.icnz.org.nz/'],

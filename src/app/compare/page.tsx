@@ -249,8 +249,6 @@ export default function ComparePage() {
                 { icon: '🔍', title: 'Market Access', desc: 'We approach Gallagher, Aon, Howden and international markets in one enquiry.' },
                 { icon: '💰', title: 'Free to You', desc: 'Brokers are remunerated by insurers. You get expert advice at no direct cost.' },
                 { icon: '🌾', title: 'Crop Expertise', desc: 'Deep understanding of NZ growing conditions, regional risks and crop-specific exposures.' },
-                { icon: '⚡', title: 'Fast Turnaround', desc: 'From enquiry to cover options in as little as one business day.' },
-                { icon: '🔒', title: 'ICNZ Code', desc: 'All advisers operate under the Insurance Council NZ Fair Insurance Code.' },
                 { icon: '📋', title: 'Claims Support', desc: 'We advocate for you at claim time — not just at point of sale.' },
               ].map(f => (
                 <div key={f.title} className="bg-gray-800 rounded-2xl p-5">

@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import HoldingPanel from '@/components/HoldingPanel';
-import TrustBar from '@/components/TrustBar';
 import OfficialProviders from '@/components/OfficialProviders';
 import HowItWorks from '@/components/HowItWorks';
 import AnimatedStats from '@/components/AnimatedStats';
@@ -100,8 +99,6 @@ export default function HomePage() {
       <section className="lg:hidden bg-green-900 py-8 px-4">
         <HoldingPanel />
       </section>
-
-      <TrustBar />
 
       {/* Crop Types Grid */}
       <section

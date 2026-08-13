@@ -244,7 +244,6 @@ export default function GrowersIndexPage() {
                   { icon: '🔍', title: 'We Compare the Market', desc: 'One enquiry reaches the full NZ crop insurance market and specialist international underwriters simultaneously.' },
                   { icon: '🌾', title: 'Deep Crop Expertise', desc: 'Our broker network understands NZ growing conditions, regional risks and specific insurance needs for each crop and grower type.' },
                   { icon: '💰', title: 'Free to Growers', desc: 'Our service is completely free to you. Brokers are paid by insurers — expert advice at no direct cost.' },
-                  { icon: '⚡', title: 'Fast Turnaround', desc: 'From enquiry to cover options in as little as one business day.' },
                   { icon: '📋', title: 'Claims Support', desc: 'We advocate for you at claim time — not just at the point of sale.' },
                 ].map(item => (
                   <div key={item.title} className="flex gap-4">
