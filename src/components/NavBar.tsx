@@ -61,7 +61,7 @@ export default function NavBar() {
 
           {/* CTA */}
           <Link href="/contact/" className="hidden sm:inline-block px-5 py-2 bg-green-700 text-white rounded-lg font-semibold text-sm hover:bg-green-800 transition-colors shadow-sm">
-            Compare &amp; Get Covered
+            Contact
           </Link>
 
           {/* Hamburger */}
@@ -104,7 +104,7 @@ export default function NavBar() {
             <Link href="/faqs/" onClick={() => setIsMenuOpen(false)} className="block px-4 py-2 text-sm font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50">FAQs</Link>
             <div className="px-4 pt-3 border-t border-gray-200 mt-2">
               <Link href="/contact/" onClick={() => setIsMenuOpen(false)} className="block w-full text-center px-4 py-2 bg-green-700 text-white rounded-lg font-semibold text-sm hover:bg-green-800 transition-colors">
-                Compare &amp; Get Covered
+                Contact
               </Link>
             </div>
           </div>

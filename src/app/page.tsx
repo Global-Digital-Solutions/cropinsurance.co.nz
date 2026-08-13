@@ -61,28 +61,28 @@ export default function HomePage() {
         className="relative min-h-[640px] flex items-center"
         style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1920&q=80)', backgroundSize: 'cover', backgroundPosition: 'center' }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-green-950/85 via-green-900/70 to-transparent" />
+        <div className="absolute inset-0 bg-black/50" />
+        <div className="absolute inset-0 bg-gradient-to-r from-green-950/75 via-green-900/50 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <span className="inline-block px-3 py-1 bg-green-400/20 border border-green-400/30 text-green-200 text-xs font-semibold rounded-full uppercase tracking-wider mb-4">NZ Specialist Crop Brokers</span>
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
-                Crop Insurance<br />
-                <span className="text-green-400">for Every Grower</span>
+              <span className="inline-block px-3 py-1 bg-green-400/20 border border-green-400/30 text-green-200 text-xs font-semibold rounded-full uppercase tracking-wider mb-4">NZ Crop Insurance Information</span>
+              <h1 className="text-white font-extrabold leading-tight" style={{ fontSize: 'clamp(1.9rem, 8vw, 3.5rem)' }}>
+                Crop Insurance NZ
               </h1>
               <p className="mt-5 text-lg text-green-100 leading-relaxed max-w-xl">
-                From kiwifruit orchards in the Bay of Plenty to vineyards in Marlborough and grain farms in Canterbury — our specialist brokers compare multiple insurers to save you time and normally money.
+                From kiwifruit orchards in the Bay of Plenty to vineyards in Marlborough and grain farms in Canterbury. Find a specialist crop insurance broker or go direct to an insurer.
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
-                <Link href="/contact/" className="px-6 py-3 bg-green-500 hover:bg-green-400 text-white font-bold rounded-xl transition-colors shadow-lg text-sm">
-                  Get a Free Quote →
-                </Link>
-                <Link href="/compare/" className="px-6 py-3 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-xl transition-colors border border-white/20 text-sm backdrop-blur-sm">
+                <Link href="/compare/" className="px-6 py-3 bg-green-500 hover:bg-green-400 text-white font-bold rounded-xl transition-colors shadow-lg text-sm">
                   Compare Providers
+                </Link>
+                <Link href="/contact/" className="px-6 py-3 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-xl transition-colors border border-white/20 text-sm backdrop-blur-sm">
+                  Find a Specialist
                 </Link>
               </div>
               <div className="mt-8 flex flex-wrap gap-3">
-                {['✅ ICNZ Fair Code', '🔒 Licensed NZ Brokers', '💰 Free to Growers', '⚡ 1-Day Quotes'].map(b => (
+                {['NZ owned & operated', 'Independent, not owned by an insurer'].map(b => (
                   <span key={b} className="text-xs text-green-200 font-medium bg-white/10 px-3 py-1 rounded-full border border-white/20">{b}</span>
                 ))}
               </div>
@@ -96,7 +96,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Mobile Form */}
+      {/* Mobile HoldingPanel */}
       <section className="lg:hidden bg-green-900 py-8 px-4">
         <HoldingPanel />
       </section>
@@ -163,10 +163,10 @@ export default function HomePage() {
             </div>
             <div>
               <div className="bg-green-900 rounded-2xl p-8 text-white mb-6">
-                <h3 className="text-xl font-bold mb-4">Ready to protect your crop?</h3>
-                <p className="text-green-200 text-sm mb-6">Get a free, no-obligation quote from our specialist broker network. We compare the market so you don't have to.</p>
+                <h3 className="text-xl font-bold mb-4">Need crop insurance?</h3>
+                <p className="text-green-200 text-sm mb-6">Find a specialist broker through IBANZ, check the FSP register, or go direct to an insurer. Our contact page has the options.</p>
                 <Link href="/contact/" className="block w-full text-center py-3 bg-green-400 hover:bg-green-300 text-green-900 font-bold rounded-xl transition-colors text-sm">
-                  Get Your Free Quote →
+                  Find a Specialist →
                 </Link>
               </div>
               <div className="grid grid-cols-3 gap-4">
@@ -258,10 +258,10 @@ export default function HomePage() {
       {/* CTA Strip */}
       <section className="py-16 bg-green-700">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-4">Protect Your Crop This Season</h2>
-          <p className="text-green-100 text-lg mb-8 max-w-2xl mx-auto">Don't wait until after a hailstorm or frost to think about cover. Get a free quote from our specialist broker network today.</p>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-4">Find a Crop Insurance Specialist</h2>
+          <p className="text-green-100 text-lg mb-8 max-w-2xl mx-auto">Use a licensed broker, go direct to an insurer, or verify any adviser through the FSP register. Our contact page has all three options.</p>
           <Link href="/contact/" className="inline-block px-8 py-4 bg-white text-green-800 font-bold rounded-xl hover:bg-green-50 transition-colors shadow-lg text-base">
-            Get a Free Quote →
+            Find a Specialist →
           </Link>
         </div>
       </section>

@@ -87,7 +87,7 @@ export default function GrowersIndexPage() {
           </p>
           <div className="flex flex-wrap gap-3">
             <Link href="/contact/" className="px-6 py-3 bg-green-500 hover:bg-green-400 text-white font-bold rounded-xl transition-colors text-sm shadow-lg">
-              Get My Free Quote →
+              Find a Specialist →
             </Link>
             <Link href="/compare/" className="px-6 py-3 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-xl transition-colors border border-white/20 text-sm backdrop-blur-sm">
               Compare Insurers

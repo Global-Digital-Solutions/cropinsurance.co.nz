@@ -74,12 +74,7 @@ export default async function CropPage({ params }: { params: Promise<{ slug: str
     },
     areaServed: { '@type': 'Country', name: 'New Zealand' },
     serviceType: 'Crop Insurance Broker Referral',
-    offers: {
-      '@type': 'Offer',
-      price: '0',
-      priceCurrency: 'NZD',
-      description: 'Free broker referral — no obligation quote',
-    },
+    serviceOutput: 'Crop insurance information and specialist referral',
   };
 
   return (
@@ -108,17 +103,15 @@ export default async function CropPage({ params }: { params: Promise<{ slug: str
           <p className="mt-4 text-lg text-green-200 max-w-2xl leading-relaxed">{crop.description}</p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Link href="/contact/" className="px-6 py-3 bg-green-500 hover:bg-green-400 text-white font-bold rounded-xl transition-colors text-sm shadow-lg">
-              Get a Free Quote →
+              Find a Specialist →
             </Link>
             <Link href="/compare/" className="px-6 py-3 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-xl transition-colors border border-white/20 text-sm backdrop-blur-sm">
               Compare Insurers
             </Link>
           </div>
-        </div>
-        <div className="relative w-full bg-black/50 backdrop-blur-sm border-t border-white/10">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-wrap gap-4 items-center">
-            {['✅ ICNZ Fair Code', '🔒 Licensed NZ Brokers', '💰 Free to Growers', '⚡ 1-Day Turnaround', '🔍 Multi-Provider Comparison'].map(b => (
-              <span key={b} className="text-xs text-white/80 font-medium">{b}</span>
+          <div className="mt-6 flex flex-wrap gap-2">
+            {['NZ owned & operated', 'Independent, not owned by an insurer'].map(b => (
+              <span key={b} className="bg-black/40 border border-white/40 text-white text-xs font-medium px-2.5 py-1 rounded-full">{b}</span>
             ))}
           </div>
         </div>
@@ -178,7 +171,7 @@ export default async function CropPage({ params }: { params: Promise<{ slug: str
                   <div className="mt-4 pt-4 border-t border-green-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
                     <p className="text-xs text-green-700 font-medium">Coverage options vary by insurer and policy. Our brokers match the right cover to your operation.</p>
                     <Link href="/contact/" className="flex-shrink-0 px-4 py-2 bg-green-600 hover:bg-green-700 text-white text-xs font-bold rounded-lg transition-colors whitespace-nowrap">
-                      Get Covered →
+                      Find a Specialist →
                     </Link>
                   </div>
                 </div>
@@ -217,7 +210,7 @@ export default async function CropPage({ params }: { params: Promise<{ slug: str
                   <p className="text-3xl font-extrabold text-green-300 mb-2">{crop.typicalPremiumRange}</p>
                   <p className="text-green-200 text-xs leading-relaxed">Premiums vary by size, region, coverage level and claims history. Our brokers compare multiple insurers to find the best deal.</p>
                   <Link href="/contact/" className="mt-4 block text-center py-2.5 bg-white text-green-800 font-bold text-sm rounded-xl hover:bg-green-50 transition-colors">
-                    Get My Quote →
+                    Find a Specialist →
                   </Link>
                 </div>
               </div>
@@ -338,14 +331,13 @@ export default async function CropPage({ params }: { params: Promise<{ slug: str
             <div>
               <div className="sticky top-24 space-y-5">
                 <div className="bg-green-900 rounded-2xl p-5 text-white">
-                  <h3 className="font-bold text-sm mb-3 text-green-200 uppercase tracking-wider">Why Choose Us</h3>
+                  <h3 className="font-bold text-sm mb-3 text-green-200 uppercase tracking-wider">About this site</h3>
                   <div className="space-y-2.5">
                     {[
-                      { icon: '✅', text: 'ICNZ Fair Insurance Code' },
-                      { icon: '🔍', text: 'Access the specialist crop market' },
-                      { icon: '💰', text: 'Free to growers — no fees' },
-                      { icon: '⚡', text: 'Quotes within 1 business day' },
-                      { icon: '🌿', text: 'Crop specialist brokers' },
+                      { icon: '🇳🇿', text: 'NZ owned and operated' },
+                      { icon: '🔍', text: 'Independent, not owned by an insurer' },
+                      { icon: '🌾', text: 'Specialist crop insurance information' },
+                      { icon: '📋', text: 'Claims guidance for all providers' },
                     ].map(b => (
                       <div key={b.text} className="flex items-center gap-2 text-sm text-green-100">
                         <span>{b.icon}</span>
@@ -383,10 +375,10 @@ export default async function CropPage({ params }: { params: Promise<{ slug: str
       {/* CTA Strip */}
       <section className="py-14 bg-green-900">
         <div className="max-w-3xl mx-auto px-4 text-center">
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-3">Ready to Protect Your {crop.shortName} Crop?</h2>
-          <p className="text-green-200 mb-6">Our specialist brokers access the full NZ crop insurance market and international underwriters — one enquiry, multiple quotes, expert advice within one business day.</p>
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-3">Looking for {crop.shortName} Insurance?</h2>
+          <p className="text-green-200 mb-6">Find a licensed specialist broker or go direct to an insurer. Use the options on our contact page to get started.</p>
           <Link href="/contact/" className="inline-block px-8 py-3 bg-green-400 hover:bg-green-300 text-green-900 font-bold rounded-xl transition-colors text-sm shadow-lg">
-            Get My Free Quote →
+            Find a Specialist →
           </Link>
         </div>
       </section>

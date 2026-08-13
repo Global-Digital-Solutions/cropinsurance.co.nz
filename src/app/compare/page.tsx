@@ -88,11 +88,11 @@ export default function ComparePage() {
             We do the hard work — comparing Gallagher, Aon and Howden so you get the right cover at the right price.
           </p>
           <Link href="/contact/" className="inline-block px-8 py-3.5 bg-green-500 hover:bg-green-400 text-white font-bold rounded-xl transition-colors text-sm shadow-lg">
-            Get My Free Comparison →
+            Find a Specialist →
           </Link>
-          <div className="flex flex-wrap gap-3 mt-8">
-            {['✅ ICNZ Fair Insurance Code', '🔒 Licensed NZ Brokers', '💰 Free to Growers', '⚡ Compare in 1 Day', '🔍 Multiple Insurers Compared'].map(b => (
-              <span key={b} className="inline-flex items-center px-4 py-2 bg-white/15 backdrop-blur-sm border border-white/30 text-white text-xs font-semibold rounded-full shadow-sm">
+          <div className="flex flex-wrap gap-2 mt-8">
+            {['NZ owned & operated', 'Independent, not owned by an insurer'].map(b => (
+              <span key={b} className="inline-flex items-center px-4 py-2 bg-black/40 border border-white/40 text-white text-xs font-semibold rounded-full">
                 {b}
               </span>
             ))}
@@ -156,7 +156,7 @@ export default function ComparePage() {
               <p className="text-sm text-gray-600 mt-1">Our brokers approach all relevant insurers simultaneously — one enquiry, multiple real quotes.</p>
             </div>
             <Link href="/contact/" className="flex-shrink-0 px-6 py-3 bg-green-700 hover:bg-green-600 text-white font-bold rounded-xl transition-colors text-sm shadow whitespace-nowrap">
-              Get Free Comparison →
+              Find a Specialist →
             </Link>
           </div>
 
@@ -262,18 +262,17 @@ export default function ComparePage() {
             </div>
           </div>
 
-          {/* Quote form section */}
+          {/* Find a specialist section */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             <div>
-              <h2 className="text-3xl font-extrabold text-gray-900 mb-4">Get a Free Quote Comparison</h2>
-              <p className="text-gray-600 leading-relaxed mb-6">Fill in the form and our specialist brokers will approach the right insurers for your crop type and region. No obligation, no pitch — just expert advice.</p>
+              <h2 className="text-3xl font-extrabold text-gray-900 mb-4">Find a Crop Insurance Specialist</h2>
+              <p className="text-gray-600 leading-relaxed mb-6">Crop insurance is a specialist area. Use the options on the right to find a licensed broker via IBANZ, check the FSP register, or go direct to an insurer.</p>
               <ul className="space-y-3">
                 {[
-                  'One enquiry reaches multiple insurers simultaneously',
-                  'Compare real quotes, not just estimates',
-                  'Specialist advice on coverage gaps',
-                  'Free — brokers are paid by insurers',
-                  'Response within 1 business day',
+                  'IBANZ lists licensed NZ insurance brokers',
+                  'FSP register shows authorised advisers and their scope',
+                  'Some insurers can be contacted directly for rural cover',
+                  'This site is NZ owned and independent',
                 ].map(b => (
                   <li key={b} className="flex items-center gap-3 text-sm text-gray-700">
                     <svg className="w-5 h-5 text-green-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">

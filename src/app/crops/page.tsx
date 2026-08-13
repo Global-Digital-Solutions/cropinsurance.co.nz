@@ -50,7 +50,7 @@ export default function CropsIndexPage() {
             <span className="text-white">Crop Types</span>
           </nav>
           <h1 className="text-4xl font-extrabold text-white mb-4">Crop Insurance by Crop Type</h1>
-          <p className="text-green-200 text-lg max-w-2xl">Find specialist insurance information and free quotes for every major NZ crop — from kiwifruit and grapes to wheat and vegetables.</p>
+          <p className="text-green-200 text-lg max-w-2xl">Specialist insurance information for every major NZ crop type - from kiwifruit and grapes to wheat and vegetables.</p>
         </div>
       </section>
       <section className="py-16 bg-white">
