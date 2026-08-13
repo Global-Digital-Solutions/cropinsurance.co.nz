@@ -16,7 +16,6 @@ export default function Footer() {
             </p>
             <div className="mt-3 flex flex-wrap gap-2">
               <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-green-900 text-green-300 border border-green-800">🌿 NZ Crop Specialists</span>
-              <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-gray-800 text-gray-300 border border-gray-700">🤝 Free Advice</span>
             </div>
           </div>
 
@@ -112,7 +111,7 @@ export default function Footer() {
             </ul>
             <div className="mt-5 p-3 bg-gray-800 rounded-xl border border-gray-700">
               <p className="text-xs text-gray-400 leading-relaxed">
-                CropInsurance.co.nz is a free broker referral service. We may receive referral fees from insurers. Information is general in nature and does not constitute insurance advice. Read the PDS before deciding.
+                CropInsurance.co.nz may receive a referral fee from brokers when a user proceeds with a policy. This fee is paid by the broker — you pay no additional cost. Information is general in nature and does not constitute insurance advice. Read the PDS before deciding.
               </p>
             </div>
           </div>

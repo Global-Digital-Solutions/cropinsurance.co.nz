@@ -1,14 +1,14 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import QuoteForm from '@/components/QuoteForm';
+import HoldingPanel from '@/components/HoldingPanel';
 
 export const metadata: Metadata = {
   title: 'Get a Free Crop Insurance Quote | Contact Us | CropInsurance.co.nz',
-  description: 'Contact our specialist crop insurance brokers for a free, no-obligation quote. We compare FMG, Gallagher, Aon, Farmcover and more for NZ growers.',
+  description: 'Contact our specialist crop insurance brokers for a no-obligation quote. We compare Gallagher, Aon, Farmcover and more for NZ growers.',
   alternates: { canonical: 'https://www.cropinsurance.co.nz/contact/' },
   openGraph: {
-    title: 'Get a Free Crop Insurance Quote | CropInsurance.co.nz',
-    description: 'Contact our specialist crop insurance brokers for a free, no-obligation quote. We compare FMG, Gallagher, Aon, Farmcover and more for NZ growers.',
+    title: 'Get a Crop Insurance Quote | CropInsurance.co.nz',
+    description: 'Contact our specialist crop insurance brokers for a no-obligation quote. We compare Gallagher, Aon, Farmcover and more for NZ growers.',
     url: 'https://www.cropinsurance.co.nz/contact/',
     siteName: 'CropInsurance.co.nz',
     images: [{ url: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80', width: 1200, height: 630, alt: 'Get a Free Crop Insurance Quote' }],
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Get a Free Crop Insurance Quote | CropInsurance.co.nz',
-    description: 'Free broker referral — compare FMG, Gallagher, Aon, Farmcover and more.',
+    description: 'Broker referral — compare Gallagher, Aon, Farmcover and more.',
     images: ['https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80'],
   },
 };
@@ -62,7 +62,7 @@ export default function ContactPage() {
             <span className="text-white">Contact</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-3">Get Your Crop Insurance Quote</h1>
-          <p className="text-green-200 text-lg max-w-xl">We do the hard work — comparing FMG, Gallagher, Aon, Farmcover and more so you get the right cover at the right price. Free, no obligation, fast turnaround.</p>
+          <p className="text-green-200 text-lg max-w-xl">We do the hard work — comparing Gallagher, Aon, Farmcover and more so you get the right cover at the right price. No obligation, fast turnaround.</p>
         </div>
       </section>
 
@@ -76,7 +76,7 @@ export default function ContactPage() {
               <div className="space-y-5">
                 {[
                   { icon: '🌾', title: 'NZ Crop Specialists', desc: 'Our brokers work specifically in the NZ agricultural sector and understand the unique risks facing orchardists, viticulturists, and arable farmers.' },
-                  { icon: '🔍', title: 'We Compare the Market', desc: 'One enquiry reaches multiple insurers — FMG, Gallagher, Aon, Farmcover, Howden and specialist international markets — giving you genuine choice.' },
+                  { icon: '🔍', title: 'We Compare the Market', desc: 'One enquiry reaches multiple insurers — Gallagher, Aon, Farmcover, Howden and specialist international markets — giving you genuine choice.' },
                   { icon: '🤝', title: 'Independent Advice', desc: 'We are not tied to any single insurer. We do the hard work comparing options so the advice is always in your best interests.' },
                   { icon: '⚡', title: 'Fast Turnaround', desc: 'We commit to responding to all enquiries quickly — saving you time when you need to focus on your operation.' },
                   { icon: '💰', title: 'Free Service', desc: 'Our broker service is completely free to you as a grower. Brokers are remunerated by insurers — you get expert advice at no direct cost.' },
@@ -101,9 +101,9 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* Right — Gradient-bordered Form */}
+            {/* Right — Holding Panel */}
             <div className="rounded-2xl p-1 bg-gradient-to-br from-green-500 to-green-700 shadow-2xl">
-              <QuoteForm variant="full" />
+              <HoldingPanel />
             </div>
 
           </div>

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { faqs } from '@/data/faqs';
-import QuoteForm from '@/components/QuoteForm';
+import HoldingPanel from '@/components/HoldingPanel';
 
 export const metadata: Metadata = {
   title: 'Crop Insurance FAQs NZ | Common Questions Answered | CropInsurance.co.nz',
@@ -70,7 +70,7 @@ export default function FAQsPage() {
             </div>
             <div>
               <div className="sticky top-24 space-y-5">
-                <QuoteForm variant="sidebar" />
+                <HoldingPanel />
                 <div className="bg-green-50 rounded-2xl p-5 border border-green-200">
                   <h3 className="font-bold text-gray-900 text-sm mb-2">Can't find your answer?</h3>
                   <p className="text-xs text-gray-600 mb-3 leading-relaxed">Our specialist advisers can answer any crop insurance question. Get in touch — it's free.</p>

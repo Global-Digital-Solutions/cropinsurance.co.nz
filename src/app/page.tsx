@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import QuoteForm from '@/components/QuoteForm';
+import HoldingPanel from '@/components/HoldingPanel';
 import TrustBar from '@/components/TrustBar';
 import HowItWorks from '@/components/HowItWorks';
 import AnimatedStats from '@/components/AnimatedStats';
@@ -11,7 +11,7 @@ import { faqs } from '@/data/faqs';
 
 export const metadata: Metadata = {
   title: 'Crop Insurance NZ | Compare Quotes for Every Crop | CropInsurance.co.nz',
-  description: 'Compare crop insurance for kiwifruit, grapes, apples, wheat, hops and all NZ crops. Free quotes from FMG, Gallagher, Aon and more. Specialist broker advice — no obligation.',
+  description: 'Compare crop insurance for kiwifruit, grapes, apples, wheat, hops and all NZ crops. Quotes from Gallagher, Aon and more. Specialist broker advice — no obligation.',
   alternates: { canonical: 'https://www.cropinsurance.co.nz/' },
 };
 
@@ -88,7 +88,7 @@ export default function HomePage() {
             </div>
             <div className="hidden lg:flex lg:justify-end">
               <div className="w-[420px]">
-                <QuoteForm variant="hero" />
+                <HoldingPanel />
               </div>
             </div>
           </div>
@@ -97,7 +97,7 @@ export default function HomePage() {
 
       {/* Mobile Form */}
       <section className="lg:hidden bg-green-900 py-8 px-4">
-        <QuoteForm variant="hero" />
+        <HoldingPanel />
       </section>
 
       <TrustBar />
@@ -145,7 +145,7 @@ export default function HomePage() {
               <div className="space-y-5">
                 {[
                   { icon: '🌾', title: 'Deep NZ Crop Expertise', desc: 'Our broker network understands NZ growing conditions, regional risks, and the specific insurance needs of orchardists, vine growers, and arable farmers.' },
-                  { icon: '🔍', title: 'Access to All Major Insurers', desc: 'We approach FMG, Gallagher, Aon, Farmcover, Howden and specialist international markets — giving you genuine choice and competitive pricing.' },
+                  { icon: '🔍', title: 'Access to Specialist Markets', desc: 'We approach Gallagher, Aon, Farmcover, Howden and specialist international markets — giving you genuine choice and competitive pricing.' },
                   { icon: '💬', title: 'Independent Advice', desc: 'We are not tied to any single insurer. Our advice is based on what\'s best for your operation, not on commission targets.' },
                   { icon: '⚡', title: 'Fast, Efficient Service', desc: 'Quotes within one business day. Claims support when you need it most — right after a weather event.' },
                   { icon: '🤝', title: 'Free to Growers', desc: 'Our broker service is completely free to you. Brokers are paid by insurers — you get expert advice at no direct cost.' },

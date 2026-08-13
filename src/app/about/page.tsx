@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import QuoteForm from '@/components/QuoteForm';
+import HoldingPanel from '@/components/HoldingPanel';
 
 export const metadata: Metadata = {
   title: 'About CropInsurance.co.nz | NZ Specialist Crop Insurance Brokers',
@@ -81,7 +81,7 @@ export default function AboutPage() {
                   CropInsurance.co.nz was built to level the playing field for New Zealand growers. Crop insurance is complex — policy wordings differ, insurers specialise in different crops, and premiums can vary significantly between providers. Most growers simply don't have the time to navigate it all.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  We take on that work for you. Our specialist broker network approaches FMG, Gallagher, Aon, Farmcover, Howden and other underwriters simultaneously — comparing coverage, pricing and terms so you receive the best fit for your operation, not just the easiest option to sell.
+                  We take on that work for you. Our specialist broker network approaches Gallagher, Aon, Farmcover, Howden and other underwriters simultaneously — comparing coverage, pricing and terms so you receive the best fit for your operation, not just the easiest option to sell.
                 </p>
               </div>
 
@@ -133,7 +133,7 @@ export default function AboutPage() {
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">Insurers We Work With</h2>
                 <p className="text-gray-600 leading-relaxed mb-5">Our broker network has relationships with all major NZ crop insurers and specialist international underwriters.</p>
                 <div className="grid grid-cols-2 sm:grid-cols-5 gap-4">
-                  {['FMG', 'Gallagher', 'Aon', 'Farmcover', 'Howden'].map(name => (
+                  {['Gallagher', 'Aon', 'Farmcover', 'Howden'].map(name => (
                     <div key={name} className="bg-gray-50 rounded-xl p-4 text-center border border-gray-200">
                       <p className="text-sm font-bold text-gray-800">{name}</p>
                     </div>
@@ -146,7 +146,7 @@ export default function AboutPage() {
             {/* Sidebar */}
             <div>
               <div className="sticky top-24 space-y-5">
-                <QuoteForm variant="sidebar" />
+                <HoldingPanel />
                 <div className="bg-gray-50 rounded-2xl p-5 border border-gray-200">
                   <h3 className="font-bold text-gray-900 text-sm mb-3">Quick Links</h3>
                   <ul className="space-y-2">

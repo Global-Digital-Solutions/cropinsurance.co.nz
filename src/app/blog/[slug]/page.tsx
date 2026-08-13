@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { blogPosts } from '@/data/blog-posts';
-import QuoteForm from '@/components/QuoteForm';
+import HoldingPanel from '@/components/HoldingPanel';
 
 export async function generateStaticParams() {
   return blogPosts.map(p => ({ slug: p.slug }));
@@ -302,8 +302,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                   </div>
                 </div>
 
-                {/* Quote form */}
-                <QuoteForm variant="sidebar" />
+                {/* Getting cover */}
+                <HoldingPanel />
 
                 {/* Explore links */}
                 <div className="bg-white rounded-2xl p-5 border border-gray-200 shadow-sm">

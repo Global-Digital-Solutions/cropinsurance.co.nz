@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { providers } from '@/data/providers';
-import QuoteForm from '@/components/QuoteForm';
+import HoldingPanel from '@/components/HoldingPanel';
 
 export const metadata: Metadata = {
-  title: 'Compare Crop Insurance Providers NZ | FMG vs Gallagher vs Aon | CropInsurance.co.nz',
-  description: 'Compare NZ crop insurance providers side by side — FMG, Gallagher, Aon, Farmcover and Howden. Coverage, ratings, and what each insurer does best.',
+  title: 'Compare Crop Insurance Providers NZ | Gallagher vs Aon vs Farmcover | CropInsurance.co.nz',
+  description: 'Compare NZ crop insurance providers side by side — Gallagher, Aon, Farmcover and Howden. Coverage, ratings, and what each insurer does best.',
   alternates: { canonical: 'https://www.cropinsurance.co.nz/compare/' },
 };
 
@@ -22,24 +22,24 @@ function ScoreBar({ score, color = 'green' }: { score: number; color?: string })
 }
 
 const tableRows = [
-  { label: 'Named Perils Cover', values: ['✅', '✅', '✅', '✅', '✅'] },
-  { label: 'Multi-Peril (MPCI)', values: ['✅', '✅', '✅', '❌', '❌'] },
-  { label: 'Revenue Protection', values: ['✅', '✅', '✅', '❌', '❌'] },
-  { label: 'Drought Cover', values: ['Limited', '✅', '✅', '❌', '❌'] },
-  { label: 'Parametric Products', values: ['❌', '✅', '✅', '❌', '❌'] },
-  { label: 'NZ Adviser Network', values: ['✅✅✅', '✅✅', '✅✅', '✅', '✅'] },
-  { label: 'International Capacity', values: ['Limited', '✅', '✅', '❌', '✅'] },
-  { label: 'Horticulture Specialist', values: ['✅', '✅', '✅', '✅', '❌'] },
-  { label: 'Arable / Grain', values: ['✅', '✅', '✅', '✅', '✅'] },
-  { label: 'Farm Package Cover', values: ['✅', '✅', '✅', '✅', '✅'] },
-  { label: 'Best For', values: ['All NZ farms', 'Large orchards', 'Vineyards', 'Small farms', 'Large operations'] },
+  { label: 'Named Perils Cover', values: ['✅', '✅', '✅', '✅'] },
+  { label: 'Multi-Peril (MPCI)', values: ['✅', '✅', '❌', '❌'] },
+  { label: 'Revenue Protection', values: ['✅', '✅', '❌', '❌'] },
+  { label: 'Drought Cover', values: ['✅', '✅', '❌', '❌'] },
+  { label: 'Parametric Products', values: ['✅', '✅', '❌', '❌'] },
+  { label: 'NZ Adviser Network', values: ['✅✅', '✅✅', '✅', '✅'] },
+  { label: 'International Capacity', values: ['✅', '✅', '❌', '✅'] },
+  { label: 'Horticulture Specialist', values: ['✅', '✅', '✅', '❌'] },
+  { label: 'Arable / Grain', values: ['✅', '✅', '✅', '✅'] },
+  { label: 'Farm Package Cover', values: ['✅', '✅', '✅', '✅'] },
+  { label: 'Best For', values: ['Large orchards', 'Vineyards', 'Small farms', 'Large operations'] },
 ];
 
 const compareSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebPage',
   name: 'Compare Crop Insurance Providers NZ',
-  description: 'Compare NZ crop insurance providers side by side — FMG, Gallagher, Aon, Farmcover and Howden. Coverage, ratings, and what each insurer does best.',
+  description: 'Compare NZ crop insurance providers side by side — Gallagher, Aon, Farmcover and Howden. Coverage, ratings, and what each insurer does best.',
   url: 'https://www.cropinsurance.co.nz/compare/',
   breadcrumb: {
     '@type': 'BreadcrumbList',
@@ -55,11 +55,10 @@ const itemListSchema = {
   '@type': 'ItemList',
   name: 'NZ Crop Insurance Providers',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'FMG – Farmers Mutual Group', url: 'https://www.fmg.co.nz' },
-    { '@type': 'ListItem', position: 2, name: 'Gallagher NZ', url: 'https://www.gallagher.co.nz' },
-    { '@type': 'ListItem', position: 3, name: 'Aon New Zealand', url: 'https://www.aon.co.nz' },
-    { '@type': 'ListItem', position: 4, name: 'Farmcover NZ', url: 'https://www.farmcover.co.nz' },
-    { '@type': 'ListItem', position: 5, name: 'Howden Group NZ', url: 'https://www.howdengroup.com/nz' },
+    { '@type': 'ListItem', position: 1, name: 'Gallagher NZ', url: 'https://www.gallagher.co.nz' },
+    { '@type': 'ListItem', position: 2, name: 'Aon New Zealand', url: 'https://www.aon.co.nz' },
+    { '@type': 'ListItem', position: 3, name: 'Farmcover NZ', url: 'https://www.farmcover.co.nz' },
+    { '@type': 'ListItem', position: 4, name: 'Howden Group NZ', url: 'https://www.howdengroup.com/nz' },
   ],
 };
 
@@ -87,13 +86,13 @@ export default function ComparePage() {
             Compare NZ Crop Insurance<br /><span className="text-green-400">Providers Side by Side</span>
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-8">
-            We do the hard work — comparing FMG, Gallagher, Aon, Farmcover and Howden so you get the right cover at the right price.
+            We do the hard work — comparing Gallagher, Aon, Farmcover and Howden so you get the right cover at the right price.
           </p>
           <Link href="/contact/" className="inline-block px-8 py-3.5 bg-green-500 hover:bg-green-400 text-white font-bold rounded-xl transition-colors text-sm shadow-lg">
             Get My Free Comparison →
           </Link>
           <div className="flex flex-wrap gap-3 mt-8">
-            {['✅ ICNZ Fair Insurance Code', '🔒 Licensed NZ Brokers', '💰 Free to Growers', '⚡ Compare in 1 Day', '🔍 5+ Insurers Compared'].map(b => (
+            {['✅ ICNZ Fair Insurance Code', '🔒 Licensed NZ Brokers', '💰 Free to Growers', '⚡ Compare in 1 Day', '🔍 Multiple Insurers Compared'].map(b => (
               <span key={b} className="inline-flex items-center px-4 py-2 bg-white/15 backdrop-blur-sm border border-white/30 text-white text-xs font-semibold rounded-full shadow-sm">
                 {b}
               </span>
@@ -108,7 +107,7 @@ export default function ComparePage() {
           {/* Comparison Table — FIRST */}
           <div className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-2">Side-by-Side Provider Comparison</h2>
-            <p className="text-gray-500 text-sm mb-6">Our specialist brokers work with all five major providers — this table shows you what each can offer NZ crop growers.</p>
+            <p className="text-gray-500 text-sm mb-6">Our specialist brokers work with all major providers — this table shows you what each can offer NZ crop growers.</p>
             <div className="overflow-x-auto rounded-2xl border border-gray-200 shadow-md">
               <table className="w-full text-sm">
                 <thead>
@@ -237,7 +236,7 @@ export default function ComparePage() {
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-10">
               {[
-                { icon: '🔍', title: 'Market Access', desc: 'We approach FMG, Gallagher, Aon, Farmcover, Howden and international markets in one enquiry.' },
+                { icon: '🔍', title: 'Market Access', desc: 'We approach Gallagher, Aon, Farmcover, Howden and international markets in one enquiry.' },
                 { icon: '💰', title: 'Free to You', desc: 'Brokers are remunerated by insurers. You get expert advice at no direct cost.' },
                 { icon: '🌾', title: 'Crop Expertise', desc: 'Deep understanding of NZ growing conditions, regional risks and crop-specific exposures.' },
                 { icon: '⚡', title: 'Fast Turnaround', desc: 'From enquiry to cover options in as little as one business day.' },
@@ -260,7 +259,7 @@ export default function ComparePage() {
               <p className="text-gray-600 leading-relaxed mb-6">Fill in the form and our specialist brokers will approach the right insurers for your crop type and region. No obligation, no pitch — just expert advice.</p>
               <ul className="space-y-3">
                 {[
-                  'One enquiry reaches 5+ insurers simultaneously',
+                  'One enquiry reaches multiple insurers simultaneously',
                   'Compare real quotes, not just estimates',
                   'Specialist advice on coverage gaps',
                   'Free — brokers are paid by insurers',
@@ -277,7 +276,7 @@ export default function ComparePage() {
             </div>
             <div>
               <div className="rounded-2xl p-1.5 bg-gradient-to-br from-green-400 to-green-600 shadow-2xl">
-                <QuoteForm variant="hero" />
+                <HoldingPanel />
               </div>
             </div>
           </div>

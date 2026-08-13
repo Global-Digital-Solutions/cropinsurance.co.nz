@@ -49,7 +49,7 @@ export default function DisclaimerPage() {
 
             <div>
               <h2 className="text-lg font-bold text-gray-900 mb-3">Provider Information</h2>
-              <p>Information about insurance providers (FMG, Gallagher, Aon, Farmcover, Howden and others) is provided for general comparison purposes only. Provider offerings, coverage terms, appetite and availability change regularly. CropInsurance.co.nz does not represent or act on behalf of any specific insurer. Our broker partners work with multiple insurers and will recommend options suited to your individual circumstances.</p>
+              <p>Information about insurance providers (Gallagher, Aon, Farmcover, Howden and others) is provided for general comparison purposes only. Provider offerings, coverage terms, appetite and availability change regularly. CropInsurance.co.nz does not represent or act on behalf of any specific insurer. Our broker partners work with multiple insurers and will recommend options suited to your individual circumstances.</p>
             </div>
 
             <div>

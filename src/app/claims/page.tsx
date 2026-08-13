@@ -43,7 +43,6 @@ export default function ClaimsPage() {
   ];
 
   const insurers = [
-    { name: 'FMG – Farmers Mutual Group', claims: '0800 366 436', website: 'fmg.co.nz' },
     { name: 'Gallagher NZ', claims: '0800 425 524', website: 'gallagher.co.nz' },
     { name: 'Aon New Zealand', claims: '0800 266 276', website: 'aon.co.nz' },
     { name: 'Farmcover NZ', claims: 'Via broker', website: 'farmcover.co.nz' },

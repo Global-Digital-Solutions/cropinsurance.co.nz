@@ -28,7 +28,7 @@ export const blogPosts: BlogPost[] = [
 
 Crop insurance protects growers against financial loss from crop damage or failure due to specified events. In New Zealand, two main types are available:
 
-**Named Perils Insurance** covers specific, listed events such as hail, frost, fire, and wind. This is the most common form of crop insurance in NZ and is available from FMG, Gallagher, Aon, and specialist brokers. Premiums are generally lower than multi-peril cover, and the policy clearly defines what is and isn't covered.
+**Named Perils Insurance** covers specific, listed events such as hail, frost, fire, and wind. This is the most common form of crop insurance in NZ and is available from Gallagher, Aon, and specialist brokers. Premiums are generally lower than multi-peril cover, and the policy clearly defines what is and isn't covered.
 
 **Multi-Peril Crop Insurance (MPCI)** provides broader protection, guaranteeing a minimum yield or revenue regardless of the cause of loss. MPCI is more common in the United States and Australia but is increasingly available in NZ through specialist brokers accessing international markets via Lloyd's of London and specialist underwriters.
 
@@ -45,8 +45,6 @@ Any grower who would suffer significant financial hardship from a crop failure s
 ## The NZ Crop Insurance Market in 2026
 
 The NZ crop insurance market is served by several key players, each with different strengths:
-
-**FMG (Farmers Mutual Group)** is New Zealand's largest rural insurer — a mutual organisation owned by its farming policyholders. FMG has an unrivalled network of rural advisers throughout NZ and strong expertise in named perils cover for arable, horticulture, and pastoral farms.
 
 **Gallagher** is a global insurance broker with specialist agribusiness teams. For larger operations and complex risks, Gallagher can access international insurance markets unavailable to domestic-only insurers. They are increasingly active in parametric crop products.
 
@@ -113,7 +111,7 @@ Crop insurance should be reviewed at least annually, ideally 2–3 months before
 
 ## Getting Started
 
-Using a broker like our partner network at CropInsurance.co.nz gives you access to multiple insurers — including FMG, Gallagher, Aon, Farmcover, and specialist markets — through a single conversation. Our advisers understand NZ growing conditions and can recommend the right coverage level for your operation. Contact us today for a free, no-obligation review of your crop insurance needs.`,
+Using a broker like our partner network at CropInsurance.co.nz gives you access to multiple insurers — including Gallagher, Aon, Farmcover, and specialist markets — through a single conversation. Our advisers understand NZ growing conditions and can recommend the right coverage level for your operation. Contact us today for a free, no-obligation review of your crop insurance needs.`,
   },
   {
     slug: 'kiwifruit-insurance-psa-weather',
@@ -182,7 +180,7 @@ Your insurance policy should be structured to compensate for this downgrade — 
 
 ## Getting a Quote
 
-Given the complexity of kiwifruit insurance — with its combination of disease risk, high infrastructure value, post-harvest exposure, and Zespri grading standards — we strongly recommend working with a specialist horticulture insurance broker. Use our enquiry form to connect with an adviser who works specifically in the Bay of Plenty and kiwifruit sector. We can arrange access to FMG, Gallagher, Aon, and specialist international markets to find the most competitive and comprehensive solution for your orchard.`,
+Given the complexity of kiwifruit insurance — with its combination of disease risk, high infrastructure value, post-harvest exposure, and Zespri grading standards — we strongly recommend working with a specialist horticulture insurance broker. Use our enquiry form to connect with an adviser who works specifically in the Bay of Plenty and kiwifruit sector. We can arrange access to Gallagher, Aon, and specialist international markets to find the most competitive and comprehensive solution for your orchard.`,
   },
   {
     slug: 'vineyard-frost-insurance-nz',
@@ -254,7 +252,7 @@ Many NZ vineyards invest in active frost protection systems to mitigate risk. Co
 - **Helicopter work**: On-call helicopter contractors can mix warm and cold air layers during frost events. Often the most cost-effective for smaller vineyards.
 - **Smudge pots / heaters**: Less common in modern NZ viticulture due to cost and labour.
 
-Insurers — particularly FMG and Gallagher — will typically offer premium discounts for vineyards with documented, maintained active frost protection systems. Keep records of your frost protection equipment, maintenance, and any activation during the season, as these may be relevant to your claim or premium.
+Insurers will typically offer premium discounts for vineyards with documented, maintained active frost protection systems. Keep records of your frost protection equipment, maintenance, and any activation during the season, as these may be relevant to your claim or premium.
 
 ## Other Key Vineyard Perils
 
@@ -280,7 +278,7 @@ A Marlborough Sauvignon Blanc vineyard on a known frost-prone site in the Wairau
 
 ## Connecting with a Vineyard Insurance Specialist
 
-Given the complexity of viticulture insurance, the variation in risk between sites, and the significant revenue at stake, working with a specialist broker is strongly recommended. Our advisers can access FMG, Gallagher, Aon, and specialist international markets, and will ensure your policy is structured to reflect the specific frost risk, variety mix, and scale of your vineyard operation. Contact us today for a no-obligation quote.`,
+Given the complexity of viticulture insurance, the variation in risk between sites, and the significant revenue at stake, working with a specialist broker is strongly recommended. Our advisers can access Gallagher, Aon, and specialist international markets, and will ensure your policy is structured to reflect the specific frost risk, variety mix, and scale of your vineyard operation. Contact us today for a no-obligation quote.`,
   },
   {
     slug: 'named-perils-vs-multi-peril-crop-insurance',
@@ -327,7 +325,7 @@ Understanding the exclusions is just as important as understanding what is cover
 
 **Simplicity** — both the grower and the insurer know exactly what is and isn't covered. This clarity reduces disputes at claim time.
 
-**Wide availability** — named perils cover is available from multiple NZ insurers including FMG, Gallagher, Aon, and Farmcover. Competition keeps pricing reasonable.
+**Wide availability** — named perils cover is available from multiple NZ insurers including Gallagher, Aon, and Farmcover. Competition keeps pricing reasonable.
 
 **Tailored peril selection** — some insurers allow growers to select only the perils that are genuinely relevant to their operation, reducing premium cost.
 
@@ -389,7 +387,7 @@ Many of NZ's larger growers use a hybrid structure: named perils cover for the s
 
 ## Getting the Right Advice
 
-The best approach is to have a frank conversation with a specialist crop insurance broker who can present both options with comparative pricing. Our broker network can access named perils policies from NZ insurers including FMG and Farmcover, and MPCI products from specialist international markets accessed via Gallagher, Aon, and Howden. Contact us for a no-obligation comparison.`,
+The best approach is to have a frank conversation with a specialist crop insurance broker who can present both options with comparative pricing. Our broker network can access named perils policies from NZ insurers including Farmcover, and MPCI products from specialist international markets accessed via Gallagher, Aon, and Howden. Contact us for a no-obligation comparison.`,
   },
   {
     slug: 'hailstorm-insurance-nz-orchards',
@@ -490,7 +488,7 @@ Your hail premium is influenced by:
 
 ## Getting a Hail Insurance Quote
 
-Our specialist brokers can approach FMG, Gallagher, Aon, Farmcover, and other relevant markets to find the most competitive hail cover for your orchard. We understand NZ export grading standards and can help you structure a policy that genuinely compensates you for the way hail damage actually affects your revenue. Contact us to discuss your needs.`,
+Our specialist brokers can approach Gallagher, Aon, Farmcover, and other relevant markets to find the most competitive hail cover for your orchard. We understand NZ export grading standards and can help you structure a policy that genuinely compensates you for the way hail damage actually affects your revenue. Contact us to discuss your needs.`,
   },
   {
     slug: 'climate-change-nz-crop-insurance-premiums',
@@ -624,17 +622,13 @@ Crop insurance makes economic sense for smaller operations in several specific c
 
 ## Options for Smaller Operations
 
-### FMG (Farmers Mutual Group)
-
-FMG will consider smaller horticultural operations and has competitive terms for lifestyle blocks and small orchards with clear commercial intent. FMG's rural adviser network is a genuine advantage for smaller growers — you can have a face-to-face conversation with an adviser who understands NZ farming. FMG typically provides named perils cover (hail, frost, fire, wind) for small operations.
-
 ### Farmcover
 
 Farmcover specialises in competitive premiums for smaller farms and can arrange basic named perils cover for market gardens, small orchards, and mixed lifestyle operations. Their products are designed for simplicity, which suits smaller growers who do not want to navigate complex policy documents.
 
 ### Package Policies Within Farm Insurance
 
-Rural property and contents policies from FMG and other rural insurers sometimes include limited crop cover as part of a broader farm package. For smaller operations where the crop is one element of a mixed farm, this can be a cost-effective way to get basic protection without a standalone crop policy.
+Rural property and contents policies from specialist rural insurers sometimes include limited crop cover as part of a broader farm package. For smaller operations where the crop is one element of a mixed farm, this can be a cost-effective way to get basic protection without a standalone crop policy.
 
 ### Howden and Specialist Brokers
 
@@ -805,40 +799,20 @@ Our specialist brokers support growers throughout the full insurance cycle — i
   },
   {
     slug: 'comparing-nz-crop-insurance-providers',
-    title: 'FMG vs. Aon vs. Gallagher: Comparing NZ Crop Insurance Providers',
-    metaTitle: 'FMG vs Aon vs Gallagher: NZ Crop Insurance',
+    title: 'Comparing NZ Crop Insurance Providers: Gallagher, Aon, Farmcover & More',
+    metaTitle: 'Comparing NZ Crop Insurance Providers: Gallagher, Aon & More',
     excerpt: 'An independent comparison of the main crop insurance providers in New Zealand — coverage, service, and value for NZ growers.',
     publishDate: '2025-12-20',
     readTime: 9,
     category: 'Provider Reviews',
     heroImage: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80',
     author: { name: 'James Harrington', role: 'Agricultural Insurance Adviser', avatar: '' },
-    tags: ['FMG', 'Aon', 'Gallagher', 'compare', 'crop insurance review'],
+    tags: ['Aon', 'Gallagher', 'compare', 'crop insurance review'],
     content: `## Overview
 
-New Zealand growers have access to several specialist crop insurance providers. The market is served by a mix of NZ-owned rural insurers, global insurance brokers accessing international markets, and specialist agricultural underwriters. Understanding the differences between these providers is essential for any grower making an informed insurance decision.
+New Zealand growers have access to several specialist crop insurance providers. The market is served by a mix of specialist rural insurers, global insurance brokers accessing international markets, and specialist agricultural underwriters. Understanding the differences between these providers is essential for any grower making an informed insurance decision.
 
-The three dominant players are FMG (Farmers Mutual Group), Aon NZ, and Gallagher, each with distinct strengths and target markets. Farmcover and Howden round out the market for specific segments.
-
-## FMG — Farmers Mutual Group
-
-**Best for:** NZ farmers and growers wanting a farmer-owned insurer with genuine rural expertise and nationwide face-to-face adviser support.
-
-FMG is New Zealand's largest rural insurer and has been supporting NZ farmers for over 100 years. As a mutual, FMG's profits are retained to benefit policyholders rather than paid to external shareholders. FMG employs over 100 rural advisers throughout New Zealand, providing genuine face-to-face service in farming communities.
-
-**Crop insurance strengths:**
-- Named perils cover for arable crops: FMG is the market leader for Canterbury grain crops and NZ horticultural operations — covering hail, frost, fire, and wind
-- Strong claims handling reputation backed by significant NZ rural experience
-- Farm package policies that integrate crop, livestock, property, and vehicle cover under a single relationship
-- Competitive pricing for standard NZ horticultural risk profiles
-- Face-to-face rural adviser support in Hawke's Bay, Bay of Plenty, Marlborough, Canterbury, and Otago
-
-**Potential limitations:**
-- Primarily NZ domestic market capacity — very large risks or complex structures requiring London market capacity may not be achievable
-- MPCI and parametric products are less developed than at global brokers
-- Niche or unusual risk profiles may receive less flexible underwriting terms
-
-**Verdict:** FMG should be the first port of call for most NZ growers — particularly those with standard horticulture, arable, or mixed farm risk profiles who value local relationships and NZ-owned service.
+Key players include Gallagher, Aon NZ, and Farmcover, each with distinct strengths and target markets. Howden rounds out the market for niche segments.
 
 ## Gallagher NZ
 
@@ -856,7 +830,6 @@ Gallagher is a global insurance broker with specialist agribusiness teams in NZ 
 **Potential limitations:**
 - Better suited to larger commercial operations — smaller growers may find pricing less competitive than domestic market alternatives
 - Global broker overhead reflected in pricing for standard risks
-- Less grassroots NZ farming community presence than FMG
 
 **Verdict:** Gallagher is the preferred choice for NZ's largest and most complex crop operations — particularly those seeking MPCI, parametric cover, or very large limits that exceed domestic insurer capacity.
 
@@ -895,7 +868,7 @@ Howden operates as a specialist broker with access to Lloyd's and international 
 
 ## Our Recommendation
 
-There is no single "best" crop insurer — the right choice depends on your scale, crop type, risk profile, and risk appetite. Our broker network can approach FMG, Gallagher, Aon, Farmcover, Howden, and other relevant markets simultaneously and present you with comparative quotes. Use our quote form to get started — the service is completely free to NZ growers.`,
+There is no single "best" crop insurer — the right choice depends on your scale, crop type, risk profile, and risk appetite. Our broker network can approach Gallagher, Aon, Farmcover, Howden, and other relevant markets simultaneously and present you with comparative quotes. Contact us to discuss your needs.`,
   },
   {
     slug: 'extreme-weather-nz-crop-insurance',
@@ -1001,7 +974,7 @@ Crop insurance premiums in New Zealand are calculated based on a combination of 
 - **Claims history**: Growers with recent claims will pay more; a clean history over three or more years can earn lower rates
 - **Infrastructure**: Hail netting, frost protection systems, and good on-farm biosecurity can all attract underwriting discounts — sometimes substantial ones
 - **Deductible/excess**: A higher excess reduces your premium but increases your out-of-pocket exposure on any claim
-- **Market access**: Brokers accessing multiple insurers — FMG, Gallagher, Aon, Farmcover, Howden — can find more competitive pricing than going direct to a single insurer
+- **Market access**: Brokers accessing multiple insurers — Gallagher, Aon, Farmcover, Howden — can find more competitive pricing than going direct to a single insurer
 
 ## 2026 Indicative Premium Ranges by Crop
 
@@ -1033,7 +1006,7 @@ Frost is the dominant premium driver for most Marlborough operations — frost c
 - Medium farm (200–500 ha): $3,000 – $9,000/year
 - Large operation (500+ ha): $9,000 – $20,000+/year
 
-Arable cover is generally the most affordable crop insurance in NZ per hectare. FMG is the primary market for Canterbury arable hail and fire cover.
+Arable cover is generally the most affordable crop insurance in NZ per hectare. Specialist rural insurers are active in the Canterbury arable hail and fire market.
 
 ### Stone Fruit (Cherries, Peaches, Nectarines, Plums)
 - Small orchard: $1,500 – $5,000/year
@@ -1069,7 +1042,7 @@ Typical premium increases in the 2024–2026 period have ranged from 10–30% de
 
 ## Getting a Personalised Quote
 
-The only way to know what you will actually pay is to request quotes. Our specialist brokers will approach FMG, Gallagher, Aon, Farmcover, Howden, and other relevant markets on your behalf and present a comparison. The service is completely free to NZ growers — contact us to get started.`,
+The only way to know what you will actually pay is to request quotes. Our specialist brokers will approach Gallagher, Aon, Farmcover, Howden, and other relevant markets on your behalf and present a comparison. Contact us to get started.`,
   },
   {
     slug: 'export-crop-logistics-insurance-nz',
@@ -1256,10 +1229,6 @@ The financial exposure in commercial vegetable growing can be substantial. A 50-
 
 ## Insurance Options for Vegetable Growers
 
-### FMG
-
-FMG is well-positioned for outdoor vegetable operations of commercial scale. They offer named perils cover (hail, frost, fire, wind) and have experience with Pukekohe, Canterbury, and Marlborough vegetable growing. FMG's rural adviser network means face-to-face support is available in most vegetable growing regions.
-
 ### Gallagher and Specialist Brokers
 
 For larger commercial vegetable operations, or those with complex risk profiles including significant greenhouse assets, Gallagher and specialist brokers can access broader coverage including business interruption, equipment breakdown, and — in some cases — multi-peril crop insurance with drought cover.
@@ -1310,7 +1279,7 @@ For contract vegetable growers, insurance should be structured to cover:
 
 ## Getting a Quote for Your Vegetable Operation
 
-Every vegetable growing operation has a different risk profile — crop mix, production system, region, and scale all affect what insurance you need and what it will cost. Our specialist brokers can work through your specific situation and approach FMG, Gallagher, Aon, Farmcover, and other markets to find competitive and comprehensive coverage. Contact us for a free, no-obligation consultation.`,
+Every vegetable growing operation has a different risk profile — crop mix, production system, region, and scale all affect what insurance you need and what it will cost. Our specialist brokers can work through your specific situation and approach Gallagher, Aon, Farmcover, and other markets to find competitive and comprehensive coverage. Contact us to discuss your needs.`,
   },
   {
     slug: 'avocado-insurance-nz',
@@ -1380,13 +1349,9 @@ If cyclone damage to limbs or roots affects your orchard's production capacity f
 
 ## Insurance Providers for Avocado Growers
 
-### FMG
-
-FMG is the primary insurer for NZ avocado orchards through their horticulture programme. Their Northland and Bay of Plenty rural advisers have experience with avocado risk profiles. FMG can provide named perils cover including cyclone, hail, frost, and fire.
-
 ### Gallagher
 
-For larger commercial avocado operations, Gallagher can access international market capacity for higher-value risk placements. They are particularly relevant for orchards seeking business interruption cover or higher sum insured limits.
+For commercial avocado operations, Gallagher can access international market capacity for higher-value risk placements. They are particularly relevant for orchards seeking business interruption cover or higher sum insured limits, and can provide named perils cover including cyclone, hail, frost, and fire.
 
 ### Aon
 
@@ -1412,7 +1377,7 @@ These are indicative ranges — wind/cyclone loading can push premiums higher fo
 
 ## Getting a Quote for Your Avocado Orchard
 
-Avocado insurance is a specialist area that requires a broker with specific NZ horticulture expertise. Our advisers understand avocado risk profiles in Northland and the Bay of Plenty and can access FMG, Gallagher, Aon, and other markets to find the most competitive and comprehensive cover for your orchard. Contact us for a free, no-obligation consultation.`,
+Avocado insurance is a specialist area that requires a broker with specific NZ horticulture expertise. Our advisers understand avocado risk profiles in Northland and the Bay of Plenty and can access Gallagher, Aon, and other markets to find the most competitive and comprehensive cover for your orchard. Contact us to discuss your needs.`,
   },
   {
     slug: 'stone-fruit-insurance-central-otago',
@@ -1468,9 +1433,7 @@ The standard approach for most Central Otago stone fruit growers is named perils
 - **Wind**: For ground-fall and structural damage
 - **Fire**: Standard inclusion for all orchard insurance
 
-**FMG** is the most active insurer in Central Otago stone fruit and has specific experience with the region's risk profile. Their Otago/Southland rural advisers understand local frost and hail patterns.
-
-**Gallagher** can access international market capacity for larger operations or those seeking parametric frost products.
+**Gallagher** can access international market capacity for larger operations or those seeking parametric frost products. Specialist rural brokers with Central Otago experience can guide you to the insurer best suited to your orchard's risk profile.
 
 ### Parametric Frost Cover
 
@@ -1505,7 +1468,7 @@ Frost cover is the largest component of Central Otago stone fruit premiums. Orch
 
 ## Getting the Right Cover for Your Central Otago Orchard
 
-Central Otago stone fruit insurance requires specialist knowledge — both of the region's specific risk profile and of the export market dynamics that determine how losses are valued. Our specialist brokers have experience in the Central Otago market and can approach FMG, Gallagher, Aon, and other relevant underwriters to find the most comprehensive and competitive cover for your operation. Contact us for a free consultation before your next renewal.`,
+Central Otago stone fruit insurance requires specialist knowledge — both of the region's specific risk profile and of the export market dynamics that determine how losses are valued. Our specialist brokers have experience in the Central Otago market and can approach Gallagher, Aon, and other relevant underwriters to find the most comprehensive and competitive cover for your operation. Contact us before your next renewal.`,
   },
   {
     slug: 'hop-growers-insurance-guide-nz',
@@ -1592,11 +1555,9 @@ If significant infrastructure damage — for example, widespread pole and wire s
 
 ## Insurance Providers for Hop Growers
 
-**FMG** has experience with Nelson-Tasman hop growers and is the primary insurer in the region. Their Nelson-based rural advisers understand the specific risk profile of the Waimea Plains and Moutere Valley operations.
-
 **Gallagher** can provide access to broader market capacity for larger hop operations or those seeking infrastructure cover limits that exceed domestic insurer capacity.
 
-**Aon** has a presence in the Nelson-Marlborough market and can be relevant for larger operations.
+**Aon** has a presence in the Nelson-Marlborough market and can be relevant for larger operations. Specialist rural brokers with Nelson-Tasman experience understand the specific risk profile of the Waimea Plains and Moutere Valley operations.
 
 ## Contract Growing and Insurance
 
@@ -1616,7 +1577,7 @@ Infrastructure cover is additional and dependent on replacement cost values.
 
 ## Getting a Quote
 
-Hop insurance is a specialist area within NZ horticulture insurance. Our brokers have experience with Nelson-Tasman and Marlborough hop operations and can approach FMG, Gallagher, Aon, and other markets to find competitive and appropriate cover for your hop garden and associated infrastructure. Contact us for a free consultation.`,
+Hop insurance is a specialist area within NZ horticulture insurance. Our brokers have experience with Nelson-Tasman and Marlborough hop operations and can approach Gallagher, Aon, and other markets to find competitive and appropriate cover for your hop garden and associated infrastructure. Contact us to discuss your needs.`,
   },
   {
     slug: 'cyclone-gabrielle-crop-insurance-claims',
@@ -1750,19 +1711,15 @@ Standard named perils policies do not include drought. Options for drought cover
 
 Extended wet weather during the Canterbury harvest period (January–March for many crops) can delay harvest, leading to quality deterioration in standing grain, seed losses through shedding, and increased weathering damage. Some specialist policies can include harvest disruption cover as an extension.
 
-## FMG's Role in Canterbury Arable Insurance
+## Insurance Options for Canterbury Arable
 
-**FMG is the dominant crop insurer in Canterbury's arable sector**, with deep experience in grain, seed, and arable risk across the plains. FMG's Canterbury-based rural advisers understand local conditions — including specific hail risk zones, fire risk during harvest, and regional drought patterns.
+Named perils cover for Canterbury arable — covering hail, fire, wind, and more — is available through our specialist broker network. Key options include:
 
-FMG offers:
-- Named perils cover: hail, fire, wind
-- Cover for a wide range of Canterbury arable crops including wheat, barley, ryegrass seed, canola, peas, and fodder crops
-- Competitive pricing for the Canterbury arable sector, reflecting their market position and local risk knowledge
-- Farm package policies that can integrate arable crop cover with farm property, vehicles, and liability
+- Named perils cover for a wide range of arable crops including wheat, barley, ryegrass seed, canola, peas, and fodder crops
+- Farm package policies integrating arable crop cover with farm property, vehicles, and liability
+- Competitive pricing through broker market access
 
-For most Canterbury arable operations, FMG should be the first quote obtained. Their Canterbury market experience is unmatched.
-
-## Other Insurance Options for Canterbury Arable
+### Specialist Brokers and International Markets
 
 **Gallagher** can access MPCI and parametric drought products from international markets — relevant for Canterbury operations where drought exposure makes the more comprehensive multi-peril protection worth the higher premium.
 
@@ -1803,7 +1760,7 @@ Canterbury arable premiums remain among the most affordable crop insurance in NZ
 
 ## Getting a Quote for Your Canterbury Farm
 
-Our specialist brokers work with Canterbury arable farmers and can approach FMG, Gallagher, Aon, and other markets to find the most competitive and comprehensive cover for your operation. We can also assist with reviewing your irrigation infrastructure cover and coordinating your full farm insurance programme. Contact us for a free consultation before your next growing season.`,
+Our specialist brokers work with Canterbury arable farmers and can approach Gallagher, Aon, and other markets to find the most competitive and comprehensive cover for your operation. We can also assist with reviewing your irrigation infrastructure cover and coordinating your full farm insurance programme. Contact us before your next growing season.`,
   },
   {
     slug: 'crop-insurance-vs-self-insurance-nz',

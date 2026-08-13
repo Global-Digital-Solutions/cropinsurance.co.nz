@@ -1,7 +1,7 @@
 export default function HowItWorks() {
   const steps = [
     { step: '01', icon: '📋', title: 'Tell Us About Your Crop', desc: 'Share your crop type, region, and coverage needs using our simple quote form. Takes under 2 minutes.' },
-    { step: '02', icon: '🔍', title: 'We Compare the Market', desc: 'Our specialist brokers approach FMG, Gallagher, Aon, Farmcover and specialist markets on your behalf.' },
+    { step: '02', icon: '🔍', title: 'We Compare the Market', desc: 'Our specialist brokers approach Gallagher, Aon, Farmcover and specialist markets on your behalf.' },
     { step: '03', icon: '📊', title: 'Compare Your Options', desc: 'Receive a clear, side-by-side comparison of policies, coverage terms, and premiums — no jargon.' },
     { step: '04', icon: '✅', title: 'Cover Arranged', desc: 'Choose your preferred policy and your broker arranges cover. Ongoing support for renewals and claims.' },
   ];

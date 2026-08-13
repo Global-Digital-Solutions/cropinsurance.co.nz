@@ -17,22 +17,6 @@ export interface Provider {
 
 export const providers: Provider[] = [
   {
-    slug: 'fmg',
-    name: 'FMG – Farmers Mutual Group',
-    shortName: 'FMG',
-    logo: '',
-    rating: 4.7,
-    reviewCount: 412,
-    description: 'New Zealand\'s leading rural insurer, providing specialist crop and farm insurance to NZ growers for over 100 years. FMG is farmer-owned and provides dedicated rural advisers throughout the country.',
-    speciality: 'NZ\'s #1 rural insurer — farmer-owned',
-    cropProducts: ['Named Perils Crop', 'Multi-Peril Crop', 'Horticulture Cover', 'Arable Cover', 'Orchard Cover', 'Vineyard Cover'],
-    strengths: ['Farmer-owned mutual', 'Nationwide rural adviser network', 'NZ-focused crop expertise', 'Strong claims reputation', 'Tailored horticulture policies'],
-    website: 'https://www.fmg.co.nz',
-    coverageScore: 95,
-    valueScore: 88,
-    serviceScore: 94,
-  },
-  {
     slug: 'gallagher',
     name: 'Gallagher NZ',
     shortName: 'Gallagher',

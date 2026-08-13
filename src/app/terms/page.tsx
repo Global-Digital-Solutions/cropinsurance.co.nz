@@ -44,7 +44,7 @@ export default function TermsPage() {
 
             <div>
               <h2 className="text-lg font-bold text-gray-900 mb-3">Provider Information</h2>
-              <p>References to insurance providers (including FMG, Gallagher, Aon, Farmcover, Howden and others) are for general informational and comparison purposes only. CropInsurance.co.nz is not affiliated with, endorsed by, or acting as an agent for any specific insurer. Our partner brokers work across multiple insurers and act in your interest to find appropriate coverage.</p>
+              <p>References to insurance providers (including Gallagher, Aon, Farmcover, Howden and others) are for general informational and comparison purposes only. CropInsurance.co.nz is not affiliated with, endorsed by, or acting as an agent for any specific insurer. Our partner brokers work across multiple insurers and act in your interest to find appropriate coverage.</p>
             </div>
 
             <div>

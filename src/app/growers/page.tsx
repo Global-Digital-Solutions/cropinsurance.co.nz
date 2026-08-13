@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { growerTypes } from '@/data/grower-types';
-import QuoteForm from '@/components/QuoteForm';
+import HoldingPanel from '@/components/HoldingPanel';
 
 export const metadata: Metadata = {
   title: 'Crop Insurance by Grower Type NZ | Orchardists, Viticulture & More | CropInsurance.co.nz',
@@ -214,7 +214,7 @@ export default function GrowersIndexPage() {
           <div className="grid grid-cols-1 sm:grid-cols-4 gap-6">
             {[
               { step: '01', icon: '📋', title: 'Tell Us About Your Operation', desc: 'Complete a short enquiry form with your crop type, region, and approximate insured value.' },
-              { step: '02', icon: '🔍', title: 'We Compare the Market', desc: 'Your specialist broker approaches FMG, Gallagher, Aon, Farmcover, Howden and relevant markets simultaneously.' },
+              { step: '02', icon: '🔍', title: 'We Compare the Market', desc: 'Your specialist broker approaches Gallagher, Aon, Farmcover, Howden and relevant markets simultaneously.' },
               { step: '03', icon: '📊', title: 'Receive Your Options', desc: 'We present a clear comparison of quotes, coverage terms, and what each policy actually covers.' },
               { step: '04', icon: '✅', title: 'Cover Arranged', desc: 'You choose, your broker arranges the policy, and we remain your contact for renewals and claims support.' },
             ].map((s, i) => (
@@ -241,7 +241,7 @@ export default function GrowersIndexPage() {
               <h2 className="text-3xl font-extrabold mb-6">We Understand Your Growing Operation</h2>
               <div className="space-y-4">
                 {[
-                  { icon: '🔍', title: 'We Compare Multiple Providers', desc: 'One enquiry reaches FMG, Gallagher, Aon, Farmcover, Howden and specialist international markets simultaneously.' },
+                  { icon: '🔍', title: 'We Compare Multiple Providers', desc: 'One enquiry reaches Gallagher, Aon, Farmcover, Howden and specialist international markets simultaneously.' },
                   { icon: '🌾', title: 'Deep Crop Expertise', desc: 'Our broker network understands NZ growing conditions, regional risks and specific insurance needs for each crop and grower type.' },
                   { icon: '💰', title: 'Free to Growers', desc: 'Our service is completely free to you. Brokers are paid by insurers — expert advice at no direct cost.' },
                   { icon: '⚡', title: 'Fast Turnaround', desc: 'From enquiry to cover options in as little as one business day.' },
@@ -259,7 +259,7 @@ export default function GrowersIndexPage() {
             </div>
             <div>
               <div className="rounded-2xl p-1.5 bg-gradient-to-br from-green-400 to-green-500 shadow-2xl">
-                <QuoteForm variant="hero" />
+                <HoldingPanel />
               </div>
             </div>
           </div>
@@ -271,7 +271,7 @@ export default function GrowersIndexPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-center text-xs font-semibold text-gray-400 uppercase tracking-widest mb-6">Insurers Our Broker Network Works With</p>
           <div className="grid grid-cols-3 sm:grid-cols-5 gap-4">
-            {['FMG', 'Gallagher', 'Aon', 'Farmcover', 'Howden'].map(name => (
+            {['Gallagher', 'Aon', 'Farmcover', 'Howden'].map(name => (
               <div key={name} className="bg-gray-50 rounded-xl py-4 px-3 text-center border border-gray-200">
                 <p className="text-sm font-bold text-gray-700">{name}</p>
               </div>

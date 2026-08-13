@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { cropSeoPages } from '@/data/crop-pages';
-import QuoteForm from '@/components/QuoteForm';
+import HoldingPanel from '@/components/HoldingPanel';
 import { cropTypes } from '@/data/crop-types';
 
 export async function generateStaticParams() {
@@ -151,7 +151,7 @@ export default async function CropSeoPage({ params }: { params: Promise<{ slug: 
             </div>
             <div>
               <div className="sticky top-24 space-y-5">
-                <QuoteForm variant="sidebar" />
+                <HoldingPanel />
                 <div className="bg-gray-50 rounded-2xl p-5 border border-gray-200">
                   <h3 className="font-bold text-gray-900 text-sm mb-3">Quick Links</h3>
                   <ul className="space-y-2">

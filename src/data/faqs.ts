@@ -13,7 +13,7 @@ export const faqs: FAQ[] = [
   {
     category: 'Getting Started',
     question: 'How do I get a crop insurance quote in New Zealand?',
-    answer: 'Fill in our online quote form with details about your farm, crop type, region, and the coverage you\'re looking for. Our specialist broker network will assess your requirements and come back with tailored options from FMG, Gallagher, Aon, Farmcover, and other specialist markets — at no cost to you.',
+    answer: 'Fill in our online quote form with details about your farm, crop type, region, and the coverage you\'re looking for. Our specialist broker network will assess your requirements and come back with tailored options from Gallagher, Aon, Farmcover, and other specialist markets — at no cost to you.',
   },
   {
     category: 'Getting Started',
@@ -73,12 +73,12 @@ export const faqs: FAQ[] = [
   {
     category: 'Policy Details',
     question: 'Can I insure multiple crops under one policy?',
-    answer: 'Yes. Many rural insurers — particularly FMG — offer farm package policies that cover multiple crops, farm buildings, livestock, and vehicles under a single policy. This simplifies administration and can reduce overall premium costs. Our brokers can arrange comprehensive multi-crop farm packages.',
+    answer: 'Yes. Many rural insurers offer farm package policies that cover multiple crops, farm buildings, livestock, and vehicles under a single policy. This simplifies administration and can reduce overall premium costs. Our brokers can arrange comprehensive multi-crop farm packages.',
   },
   {
     category: 'Specific Crops',
     question: 'What insurance is available for kiwifruit growers?',
-    answer: 'Kiwifruit growers can access: named perils crop cover (hail, frost, fire, wind), orchard infrastructure cover (hail nets, irrigation), business interruption cover, and post-harvest cover. PSA disease is generally excluded but business interruption following PSA can be arranged. FMG is the dominant provider, with Gallagher and Aon offering specialist options for larger orchards.',
+    answer: 'Kiwifruit growers can access: named perils crop cover (hail, frost, fire, wind), orchard infrastructure cover (hail nets, irrigation), business interruption cover, and post-harvest cover. PSA disease is generally excluded but business interruption following PSA can be arranged. Specialist options are available through our broker network including Gallagher and Aon.',
   },
   {
     category: 'Specific Crops',
@@ -88,6 +88,6 @@ export const faqs: FAQ[] = [
   {
     category: 'Specific Crops',
     question: 'Is there crop insurance for arable farmers in Canterbury?',
-    answer: 'Yes. Canterbury arable farmers can access named perils crop insurance from FMG and other rural insurers, covering hail, fire, wind, and waterlogging. Multi-peril cover including drought protection is available through specialist brokers. Cereal, oilseed, and seed crop growers are all eligible.',
+    answer: 'Yes. Canterbury arable farmers can access named perils crop insurance from specialist rural insurers, covering hail, fire, wind, and waterlogging. Multi-peril cover including drought protection is available through specialist brokers. Cereal, oilseed, and seed crop growers are all eligible.',
   },
 ];

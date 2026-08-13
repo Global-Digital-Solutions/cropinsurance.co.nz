@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { growerTypes } from '@/data/grower-types';
-import QuoteForm from '@/components/QuoteForm';
+import HoldingPanel from '@/components/HoldingPanel';
 
 export async function generateStaticParams() {
   return growerTypes.map(g => ({ slug: g.slug }));
@@ -188,7 +188,7 @@ export default async function GrowerPage({ params }: { params: Promise<{ slug: s
 
             <div className="space-y-5">
               <div className="sticky top-24">
-                <QuoteForm variant="sidebar" />
+                <HoldingPanel />
                 <div className="mt-5 bg-gray-50 rounded-2xl p-5 border border-gray-200">
                   <h3 className="font-bold text-gray-900 text-sm mb-3">Other Grower Types</h3>
                   <ul className="space-y-2">
