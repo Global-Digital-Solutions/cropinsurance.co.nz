@@ -4,8 +4,8 @@ import { providers } from '@/data/providers';
 import HoldingPanel from '@/components/HoldingPanel';
 
 export const metadata: Metadata = {
-  title: 'Compare Crop Insurance Providers NZ | Gallagher vs Aon vs Howden | CropInsurance.co.nz',
-  description: 'Compare NZ crop insurance providers side by side — Gallagher, Aon and Howden. Coverage, ratings, and what each insurer does best.',
+  title: 'NZ Crop Insurance Providers — Gallagher, Aon, Howden | CropInsurance.co.nz',
+  description: 'Independent comparison of NZ crop insurance providers — Gallagher, Aon and Howden. Coverage types, strengths, and how to find the right specialist for your operation.',
   alternates: { canonical: 'https://www.cropinsurance.co.nz/compare/' },
 };
 
@@ -79,13 +79,13 @@ export default function ComparePage() {
             <span className="text-white">Compare Providers</span>
           </nav>
           <span className="inline-block px-3 py-1 bg-green-400/20 border border-green-400/30 text-green-200 text-xs font-semibold rounded-full uppercase tracking-wider mb-4">
-            Independent · Free · No Obligation
+            Independent · Not insurer-owned
           </span>
           <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4 leading-tight max-w-3xl">
-            Compare NZ Crop Insurance<br /><span className="text-green-400">Providers Side by Side</span>
+            NZ Crop Insurance<br /><span className="text-green-400">Providers Compared</span>
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-8">
-            We do the hard work — comparing Gallagher, Aon and Howden so you get the right cover at the right price.
+            Independent information on Gallagher, Aon, and Howden — the main agribusiness brokers active in the NZ crop insurance market.
           </p>
           <Link href="/contact/" className="inline-block px-8 py-3.5 bg-green-500 hover:bg-green-400 text-white font-bold rounded-xl transition-colors text-sm shadow-lg">
             Find a Specialist →
@@ -153,11 +153,11 @@ export default function ComparePage() {
           <div className="mb-14 bg-green-50 border-2 border-green-200 rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
               <h3 className="font-bold text-gray-900">Not sure which provider suits your operation?</h3>
-              <p className="text-sm text-gray-600 mt-1">Specialist brokers approach all relevant insurers simultaneously — one enquiry, multiple real quotes.</p>
+              <p className="text-sm text-gray-600 mt-1">Use the IBANZ directory to find a licensed NZ agribusiness broker who can advise on your specific crop and risk profile.</p>
             </div>
-            <Link href="/contact/" className="flex-shrink-0 px-6 py-3 bg-green-700 hover:bg-green-600 text-white font-bold rounded-xl transition-colors text-sm shadow whitespace-nowrap">
-              Find a Specialist →
-            </Link>
+            <a href="https://www.ibanz.co.nz/" target="_blank" rel="noopener noreferrer" className="flex-shrink-0 px-6 py-3 bg-green-700 hover:bg-green-600 text-white font-bold rounded-xl transition-colors text-sm shadow whitespace-nowrap">
+              Find a Broker (IBANZ) →
+            </a>
           </div>
 
           {/* Provider Cards */}
@@ -173,21 +173,7 @@ export default function ComparePage() {
                     </div>
                   </div>
                   <div className="text-right">
-                    {p.rating !== null ? (
-                      <>
-                        <div className="flex items-center justify-end gap-0.5">
-                          {[...Array(5)].map((_, i) => (
-                            <svg key={i} className={`w-4 h-4 ${i < Math.floor(p.rating!) ? 'text-amber-400' : 'text-gray-200'}`} fill="currentColor" viewBox="0 0 20 20">
-                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                            </svg>
-                          ))}
-                        </div>
-                        <p className="text-xs text-gray-500 mt-0.5">{p.rating}/5 · {p.reviewCount?.toLocaleString()} reviews</p>
-                        <p className="text-xs text-gray-400 mt-0.5">{p.ratingSource}</p>
-                      </>
-                    ) : (
-                      <span className="text-xs text-gray-400 italic">No public rating available</span>
-                    )}
+                    <a href={p.website} target="_blank" rel="noopener noreferrer" className="text-xs font-medium text-green-700 hover:underline">Visit site →</a>
                   </div>
                 </div>
 
@@ -216,40 +202,28 @@ export default function ComparePage() {
                   </div>
                 </div>
 
-                <div className="space-y-2.5 border-t border-gray-100 pt-4">
-                  <div className="flex items-center gap-3">
-                    <span className="text-xs text-gray-500 w-20 flex-shrink-0">Coverage</span>
-                    <ScoreBar score={p.coverageScore} color="green" />
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <span className="text-xs text-gray-500 w-20 flex-shrink-0">Value</span>
-                    <ScoreBar score={p.valueScore} color="blue" />
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <span className="text-xs text-gray-500 w-20 flex-shrink-0">Service</span>
-                    <ScoreBar score={p.serviceScore} color="amber" />
-                  </div>
-                </div>
               </div>
             ))}
           </div>
 
           <p className="text-xs text-slate-400 text-center max-w-3xl mx-auto mb-14 leading-relaxed">
-            ★ Ratings are sourced from Trustpilot or Google Reviews and reflect the provider&apos;s score at the time of last verification (August 2026). Where no public rating exists, none is shown. Ratings for global groups may reflect worldwide reviews. Cover4You is not affiliated with any provider listed.
+            Provider information is based on publicly available data and is provided for general reference only. CropInsurance.co.nz is not affiliated with any provider listed. Contact us at <a href="mailto:hello@cover4you.co.nz" className="underline hover:text-gray-600 transition-colors">hello@cover4you.co.nz</a> if you believe any information requires correction.
           </p>
 
-          {/* USP block */}
+          {/* Market access block */}
           <div className="bg-gray-900 rounded-3xl p-10 mb-14">
-            <div className="text-center mb-8">
-              <h2 className="text-3xl font-extrabold text-white mb-2">Why Use a Specialist Broker?</h2>
-              <p className="text-gray-400 max-w-xl mx-auto text-sm">Going direct means talking to one insurer. Through us, one enquiry reaches the whole market simultaneously.</p>
-            </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-10">
+            <h2 className="text-3xl font-extrabold text-white mb-4">Market access</h2>
+            <p className="text-gray-300 max-w-3xl leading-relaxed mb-8">
+              Crop cover in New Zealand is written by a small number of domestic insurers, agribusiness brokers holding rural agencies, and specialist international underwriters including Lloyd&apos;s syndicates. Which markets are open to you depends on crop type, scale and loss history.
+            </p>
+            <p className="text-gray-300 max-w-3xl leading-relaxed mb-8">
+              A broker with horticultural experience can reach markets you can&apos;t approach directly. Some insurers also deal with growers direct — their sites are listed in the table above.
+            </p>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
               {[
-                { icon: '🔍', title: 'Market Access', desc: 'We approach Gallagher, Aon, Howden and international markets in one enquiry.' },
-                { icon: '💰', title: 'Free to You', desc: 'Brokers are remunerated by insurers. You get expert advice at no direct cost.' },
-                { icon: '🌾', title: 'Crop Expertise', desc: 'Deep understanding of NZ growing conditions, regional risks and crop-specific exposures.' },
-                { icon: '📋', title: 'Claims Support', desc: 'We advocate for you at claim time — not just at point of sale.' },
+                { icon: '🏦', title: 'Domestic insurers', desc: 'NZ-based rural and farm insurers writing named perils policies.' },
+                { icon: '🤝', title: 'Agribusiness brokers', desc: 'Hold direct agency relationships with rural insurers and access specialist markets.' },
+                { icon: '🌐', title: "Lloyd's & international", desc: 'International capacity for MPCI, parametric, and large complex risks.' },
               ].map(f => (
                 <div key={f.title} className="bg-gray-800 rounded-2xl p-5">
                   <div className="text-2xl mb-2">{f.icon}</div>

@@ -260,7 +260,7 @@ export default function GrowersIndexPage() {
               </div>
             ))}
           </div>
-          <p className="text-center text-xs text-gray-400 mt-4">One enquiry reaches all relevant markets — domestic insurers and specialist international underwriters.</p>
+          <p className="text-center text-xs text-gray-400 mt-4">Crop cover is placed across three broad market types. Which is right for your operation depends on crop, scale and the perils you need covered.</p>
         </div>
       </section>
 

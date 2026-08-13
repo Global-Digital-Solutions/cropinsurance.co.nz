@@ -54,7 +54,7 @@ export default function PrivacyPage() {
 
             <div>
               <h2 className="text-lg font-bold text-gray-900 mb-3">Security</h2>
-              <p>We take reasonable steps to protect the personal information we hold from loss, unauthorised access, disclosure or modification. Quote form submissions are transmitted securely. However, no method of internet transmission is completely secure, and we cannot guarantee absolute security.</p>
+              <p>We take reasonable steps to protect the personal information we hold from loss, unauthorised access, disclosure or modification. Contact form submissions are transmitted securely. However, no method of internet transmission is completely secure, and we cannot guarantee absolute security.</p>
             </div>
 
             <div>
