@@ -4,8 +4,8 @@ import { providers } from '@/data/providers';
 import HoldingPanel from '@/components/HoldingPanel';
 
 export const metadata: Metadata = {
-  title: 'Compare Crop Insurance Providers NZ | Gallagher vs Aon vs Farmcover | CropInsurance.co.nz',
-  description: 'Compare NZ crop insurance providers side by side — Gallagher, Aon, Farmcover and Howden. Coverage, ratings, and what each insurer does best.',
+  title: 'Compare Crop Insurance Providers NZ | Gallagher vs Aon vs Howden | CropInsurance.co.nz',
+  description: 'Compare NZ crop insurance providers side by side — Gallagher, Aon and Howden. Coverage, ratings, and what each insurer does best.',
   alternates: { canonical: 'https://www.cropinsurance.co.nz/compare/' },
 };
 
@@ -22,24 +22,24 @@ function ScoreBar({ score, color = 'green' }: { score: number; color?: string })
 }
 
 const tableRows = [
-  { label: 'Named Perils Cover', values: ['✅', '✅', '✅', '✅'] },
-  { label: 'Multi-Peril (MPCI)', values: ['✅', '✅', '❌', '❌'] },
-  { label: 'Revenue Protection', values: ['✅', '✅', '❌', '❌'] },
-  { label: 'Drought Cover', values: ['✅', '✅', '❌', '❌'] },
-  { label: 'Parametric Products', values: ['✅', '✅', '❌', '❌'] },
-  { label: 'NZ Adviser Network', values: ['✅✅', '✅✅', '✅', '✅'] },
-  { label: 'International Capacity', values: ['✅', '✅', '❌', '✅'] },
-  { label: 'Horticulture Specialist', values: ['✅', '✅', '✅', '❌'] },
-  { label: 'Arable / Grain', values: ['✅', '✅', '✅', '✅'] },
-  { label: 'Farm Package Cover', values: ['✅', '✅', '✅', '✅'] },
-  { label: 'Best For', values: ['Large orchards', 'Vineyards', 'Small farms', 'Large operations'] },
+  { label: 'Named Perils Cover', values: ['✅', '✅', '✅'] },
+  { label: 'Multi-Peril (MPCI)', values: ['✅', '✅', '❌'] },
+  { label: 'Revenue Protection', values: ['✅', '✅', '❌'] },
+  { label: 'Drought Cover', values: ['✅', '✅', '❌'] },
+  { label: 'Parametric Products', values: ['✅', '✅', '❌'] },
+  { label: 'NZ Adviser Network', values: ['✅✅', '✅✅', '✅'] },
+  { label: 'International Capacity', values: ['✅', '✅', '✅'] },
+  { label: 'Horticulture Specialist', values: ['✅', '✅', '❌'] },
+  { label: 'Arable / Grain', values: ['✅', '✅', '✅'] },
+  { label: 'Farm Package Cover', values: ['✅', '✅', '✅'] },
+  { label: 'Best For', values: ['Large orchards', 'Vineyards', 'Large operations'] },
 ];
 
 const compareSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebPage',
   name: 'Compare Crop Insurance Providers NZ',
-  description: 'Compare NZ crop insurance providers side by side — Gallagher, Aon, Farmcover and Howden. Coverage, ratings, and what each insurer does best.',
+  description: 'Compare NZ crop insurance providers side by side — Gallagher, Aon and Howden. Coverage, ratings, and what each insurer does best.',
   url: 'https://www.cropinsurance.co.nz/compare/',
   breadcrumb: {
     '@type': 'BreadcrumbList',
@@ -55,10 +55,9 @@ const itemListSchema = {
   '@type': 'ItemList',
   name: 'NZ Crop Insurance Providers',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Gallagher NZ', url: 'https://www.gallagher.co.nz' },
+    { '@type': 'ListItem', position: 1, name: 'Gallagher NZ', url: 'https://www.ajg.co.nz' },
     { '@type': 'ListItem', position: 2, name: 'Aon New Zealand', url: 'https://www.aon.co.nz' },
-    { '@type': 'ListItem', position: 3, name: 'Farmcover NZ', url: 'https://www.farmcover.co.nz' },
-    { '@type': 'ListItem', position: 4, name: 'Howden Group NZ', url: 'https://www.howdengroup.com/nz' },
+    { '@type': 'ListItem', position: 3, name: 'Howden Group NZ', url: 'https://www.howdengroup.com/nz-en' },
   ],
 };
 
@@ -86,7 +85,7 @@ export default function ComparePage() {
             Compare NZ Crop Insurance<br /><span className="text-green-400">Providers Side by Side</span>
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-8">
-            We do the hard work — comparing Gallagher, Aon, Farmcover and Howden so you get the right cover at the right price.
+            We do the hard work — comparing Gallagher, Aon and Howden so you get the right cover at the right price.
           </p>
           <Link href="/contact/" className="inline-block px-8 py-3.5 bg-green-500 hover:bg-green-400 text-white font-bold rounded-xl transition-colors text-sm shadow-lg">
             Get My Free Comparison →
@@ -174,14 +173,21 @@ export default function ComparePage() {
                     </div>
                   </div>
                   <div className="text-right">
-                    <div className="flex items-center justify-end gap-0.5">
-                      {[...Array(5)].map((_, i) => (
-                        <svg key={i} className={`w-4 h-4 ${i < Math.floor(p.rating) ? 'text-amber-400' : 'text-gray-200'}`} fill="currentColor" viewBox="0 0 20 20">
-                          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                      ))}
-                    </div>
-                    <p className="text-xs text-gray-500 mt-0.5">{p.rating}/5 · {p.reviewCount} reviews</p>
+                    {p.rating !== null ? (
+                      <>
+                        <div className="flex items-center justify-end gap-0.5">
+                          {[...Array(5)].map((_, i) => (
+                            <svg key={i} className={`w-4 h-4 ${i < Math.floor(p.rating!) ? 'text-amber-400' : 'text-gray-200'}`} fill="currentColor" viewBox="0 0 20 20">
+                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                          ))}
+                        </div>
+                        <p className="text-xs text-gray-500 mt-0.5">{p.rating}/5 · {p.reviewCount?.toLocaleString()} reviews</p>
+                        <p className="text-xs text-gray-400 mt-0.5">{p.ratingSource}</p>
+                      </>
+                    ) : (
+                      <span className="text-xs text-gray-400 italic">No public rating available</span>
+                    )}
                   </div>
                 </div>
 
@@ -228,6 +234,10 @@ export default function ComparePage() {
             ))}
           </div>
 
+          <p className="text-xs text-slate-400 text-center max-w-3xl mx-auto mb-14 leading-relaxed">
+            ★ Ratings are sourced from Trustpilot or Google Reviews and reflect the provider&apos;s score at the time of last verification (August 2026). Where no public rating exists, none is shown. Ratings for global groups may reflect worldwide reviews. Cover4You is not affiliated with any provider listed.
+          </p>
+
           {/* USP block */}
           <div className="bg-gray-900 rounded-3xl p-10 mb-14">
             <div className="text-center mb-8">
@@ -236,7 +246,7 @@ export default function ComparePage() {
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-10">
               {[
-                { icon: '🔍', title: 'Market Access', desc: 'We approach Gallagher, Aon, Farmcover, Howden and international markets in one enquiry.' },
+                { icon: '🔍', title: 'Market Access', desc: 'We approach Gallagher, Aon, Howden and international markets in one enquiry.' },
                 { icon: '💰', title: 'Free to You', desc: 'Brokers are remunerated by insurers. You get expert advice at no direct cost.' },
                 { icon: '🌾', title: 'Crop Expertise', desc: 'Deep understanding of NZ growing conditions, regional risks and crop-specific exposures.' },
                 { icon: '⚡', title: 'Fast Turnaround', desc: 'From enquiry to cover options in as little as one business day.' },

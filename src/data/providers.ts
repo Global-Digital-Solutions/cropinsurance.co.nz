@@ -2,9 +2,10 @@ export interface Provider {
   slug: string;
   name: string;
   shortName: string;
-  logo: string;
-  rating: number;
-  reviewCount: number;
+  rating: number | null;
+  reviewCount: number | null;
+  ratingSource: string | null;
+  lastVerified: string;
   description: string;
   speciality: string;
   cropProducts: string[];
@@ -20,14 +21,15 @@ export const providers: Provider[] = [
     slug: 'gallagher',
     name: 'Gallagher NZ',
     shortName: 'Gallagher',
-    logo: '',
     rating: 4.5,
-    reviewCount: 187,
-    description: 'A global insurance broker with a strong New Zealand rural and agribusiness practice. Gallagher (formerly AJG) can access specialist international crop insurance markets alongside domestic insurers, providing broader coverage options for large-scale growers.',
+    reviewCount: 8105,
+    ratingSource: 'Trustpilot (Gallagher global group)',
+    lastVerified: 'August 2026',
+    description: 'A global insurance broker with a strong New Zealand rural and agribusiness practice. Formerly known as Crombie Lockwood in NZ, Gallagher now operates across 30+ offices nationwide. They access specialist international crop insurance markets alongside domestic insurers, providing broader coverage options for large-scale growers.',
     speciality: 'Global broker — specialist agribusiness division',
     cropProducts: ['Named Perils Crop', 'Revenue Protection', 'Multi-Peril Crop', 'Parametric Insurance', 'Specialty Horticulture'],
     strengths: ['Access to London & global insurance markets', 'Specialist agribusiness brokers', 'Parametric weather solutions', 'Large-scale orchard expertise', 'Complex risk structuring'],
-    website: 'https://www.gallagher.co.nz',
+    website: 'https://www.ajg.co.nz',
     coverageScore: 93,
     valueScore: 82,
     serviceScore: 88,
@@ -36,10 +38,11 @@ export const providers: Provider[] = [
     slug: 'aon',
     name: 'Aon New Zealand',
     shortName: 'Aon',
-    logo: '',
-    rating: 4.4,
-    reviewCount: 156,
-    description: 'One of the world\'s largest insurance brokers with a dedicated NZ agribusiness practice. Aon combines global reach and risk analytics with local expertise to arrange comprehensive crop and rural insurance programmes.',
+    rating: 4.2,
+    reviewCount: 25,
+    ratingSource: 'Google (Auckland office)',
+    lastVerified: 'August 2026',
+    description: 'One of the world\'s largest insurance brokers with a dedicated NZ Food, Agribusiness & Beverage practice. Aon combines global risk analytics with local expertise, attending National Fieldays annually and providing comprehensive crop and rural insurance programmes.',
     speciality: 'Global broker with NZ agribusiness team',
     cropProducts: ['Named Perils Crop', 'Revenue Protection', 'Vineyard Cover', 'Horticultural Cover', 'Arable Risk', 'Business Interruption'],
     strengths: ['Global risk analytics capability', 'Strong vineyard & viticulture expertise', 'Risk management consulting', 'Multi-country grower programmes', 'Data-driven risk assessment'],
@@ -49,33 +52,18 @@ export const providers: Provider[] = [
     serviceScore: 87,
   },
   {
-    slug: 'farmcover',
-    name: 'Farmcover New Zealand',
-    shortName: 'Farmcover',
-    logo: '',
-    rating: 4.3,
-    reviewCount: 98,
-    description: 'A specialist NZ farm and rural insurance provider offering straightforward, competitive crop and property cover for farms of all sizes. Farmcover focuses on delivering simple, transparent policies with competitive premiums.',
-    speciality: 'Specialist NZ farm insurance — competitive premiums',
-    cropProducts: ['Named Perils Crop', 'Farm Property', 'Horticultural Cover', 'Arable Cover', 'Rural Liability'],
-    strengths: ['Competitive premiums', 'Simple policy wording', 'NZ-focused products', 'Fast online quotes', 'Good for smaller operations'],
-    website: 'https://www.farmcover.co.nz',
-    coverageScore: 82,
-    valueScore: 92,
-    serviceScore: 83,
-  },
-  {
     slug: 'howden',
     name: 'Howden Group NZ',
     shortName: 'Howden',
-    logo: '',
-    rating: 4.3,
-    reviewCount: 74,
-    description: 'Part of the global Howden Group, the NZ operation provides rural and farm insurance including crop cover, particularly for larger farming operations. Howden\'s global reach enables access to specialist reinsurance markets for high-value crop programmes.',
+    rating: null,
+    reviewCount: null,
+    ratingSource: null,
+    lastVerified: 'August 2026',
+    description: 'Part of the global Howden Group operating in 122 countries with $51bn+ USD in premium under management. The NZ operation was built through multiple local acquisitions (formerly Apex, Wallace McLean, Omni, Sherpa, Bridges) and maintains offices across Auckland, Wellington, and Christchurch. Places business with top-rated insurers including AIG, Allianz, Chubb, NZI/IAG, Lloyd\'s, QBE, Vero, and Zurich.',
     speciality: 'Global rural insurance — large-scale operations',
     cropProducts: ['Named Perils Crop', 'Farm Package', 'Horticultural Cover', 'Rural Business Pack', 'Machinery Breakdown'],
     strengths: ['Global insurer network access', 'Suitable for large operations', 'Rural business package deals', 'International expertise', 'Strong reinsurance backing'],
-    website: 'https://www.howdengroup.com/nz',
+    website: 'https://www.howdengroup.com/nz-en',
     coverageScore: 88,
     valueScore: 81,
     serviceScore: 84,
