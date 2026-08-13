@@ -18,7 +18,7 @@ export default function PrivacyPage() {
             <span className="text-white">Privacy Policy</span>
           </nav>
           <h1 className="text-3xl font-extrabold text-white mb-2">Privacy Policy</h1>
-          <p className="text-green-300 text-sm">Last updated: May 2026</p>
+          <p className="text-green-300 text-sm">Last updated: August 2026</p>
           <p className="text-green-200 text-sm mt-3 max-w-2xl">CropInsurance.co.nz (a trading style of Cover4You) is committed to protecting your privacy in accordance with the Privacy Act 2020 (New Zealand).</p>
         </div>
       </section>
@@ -34,17 +34,17 @@ export default function PrivacyPage() {
 
             <div>
               <h2 className="text-lg font-bold text-gray-900 mb-3">How We Use Your Information</h2>
-              <p>We use your contact information solely to forward your enquiry to a licensed NZ insurance adviser or broker who specialises in crop and rural insurance. This allows them to contact you, understand your requirements, and provide appropriate insurance advice and quotes. We do not use your information for marketing purposes without your explicit consent, and we do not sell or share your information with third parties other than the licensed advisers we refer you to.</p>
+              <p>We do not sell your personal information to third parties. Contact form submissions are used solely to respond to your enquiry. We do not forward your details to advisers or brokers on your behalf. We do not use your information for marketing purposes without your explicit consent.</p>
             </div>
 
             <div>
-              <h2 className="text-lg font-bold text-gray-900 mb-3">Adviser Referrals</h2>
-              <p>When we forward your enquiry to a licensed broker or adviser, that adviser will receive your contact details and the information you provided in the quote form. From that point, your information is also subject to the adviser's own privacy policy. Licensed advisers are required to comply with the Privacy Act 2020 and their obligations under the Financial Markets Conduct Act 2013.</p>
+              <h2 className="text-lg font-bold text-gray-900 mb-3">Third-Party Links</h2>
+              <p>This website may contain links to third-party insurers, brokers, and industry bodies. If you navigate to a third-party website and provide personal information there, that information is subject to that third party's own privacy policy. We are not responsible for the privacy practices of any external site.</p>
             </div>
 
             <div>
               <h2 className="text-lg font-bold text-gray-900 mb-3">Data Retention</h2>
-              <p>We retain enquiry data for a limited period for the purposes of following up on referred enquiries and improving our service. Enquiry data is not retained indefinitely. You may request deletion of your information at any time by contacting us at <a href="mailto:hello@cover4you.co.nz" className="text-green-700 underline hover:text-green-800">hello@cover4you.co.nz</a>.</p>
+              <p>We retain enquiry data for a limited period for the purposes of responding to contact enquiries and improving this website. Enquiry data is not retained indefinitely. You may request deletion of your information at any time by contacting us at <a href="mailto:hello@cover4you.co.nz" className="text-green-700 underline hover:text-green-800">hello@cover4you.co.nz</a>.</p>
             </div>
 
             <div>

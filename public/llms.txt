@@ -1,18 +1,20 @@
 # CropInsurance.co.nz
 
-> NZ crop insurance broker referral service. We help New Zealand growers — orchardists, viticulturists, arable and vegetable farmers — compare and find the right crop insurance through specialist brokers.
+> CropInsurance.co.nz is operated by Cover4You. We publish independent information about crop insurance in New Zealand.
 
 ## About
 
-CropInsurance.co.nz is a free broker referral service operated by Cover4You (trading style). We are not an insurer. We connect NZ growers with specialist licensed insurance advisers and brokers who compare products from FMG, Gallagher, Aon, Farmcover, and Howden.
+CropInsurance.co.nz is an independent crop insurance information site operated by Cover4You. We are not an insurer, broker, or financial adviser. We publish general information about crop insurance in New Zealand to help orchardists, viticulturists, arable and vegetable farmers understand what cover is available and how to find it.
 
 Contact: hello@cover4you.co.nz
 
+Last updated: August 2026
+
 ## Key Pages
 
-- [Homepage](https://www.cropinsurance.co.nz/) — Crop insurance overview and quote form
+- [Homepage](https://www.cropinsurance.co.nz/) — Crop insurance overview and information
 - [Compare Providers](https://www.cropinsurance.co.nz/compare/) — FMG vs Gallagher vs Aon vs Farmcover vs Howden comparison
-- [Get a Quote](https://www.cropinsurance.co.nz/contact/) — Free no-obligation broker referral form
+- [Find a Specialist](https://www.cropinsurance.co.nz/contact/) — Information on how to find a licensed crop insurance broker
 - [FAQs](https://www.cropinsurance.co.nz/faqs/) — Common questions on crop insurance in NZ
 - [Claims Guide](https://www.cropinsurance.co.nz/claims/) — How to make a crop insurance claim
 - [About Us](https://www.cropinsurance.co.nz/about/) — Who we are and how we work

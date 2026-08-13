@@ -73,7 +73,7 @@ export const faqs: FAQ[] = [
   {
     category: 'Policy Details',
     question: 'Can I insure multiple crops under one policy?',
-    answer: 'Yes. Many rural insurers offer farm package policies that cover multiple crops, farm buildings, livestock, and vehicles under a single policy. This simplifies administration and can reduce overall premium costs. Our brokers can arrange comprehensive multi-crop farm packages.',
+    answer: 'Yes. Many rural insurers offer farm package policies that cover multiple crops, farm buildings, livestock, and vehicles under a single policy. This simplifies administration and can reduce overall premium costs. A specialist broker can arrange comprehensive multi-crop farm packages.',
   },
   {
     category: 'Specific Crops',
@@ -83,7 +83,7 @@ export const faqs: FAQ[] = [
   {
     category: 'Specific Crops',
     question: 'What insurance do Marlborough vineyard owners need?',
-    answer: 'Marlborough vine growers should prioritise: frost cover (budburst to harvest), hail cover, and business interruption. Given the significant capital in Marlborough vineyards, revenue protection policies are increasingly popular. Smoke taint cover has also become available from select markets. Our brokers with viticulture specialisation can structure a comprehensive programme.',
+    answer: 'Marlborough vine growers should prioritise: frost cover (budburst to harvest), hail cover, and business interruption. Given the significant capital in Marlborough vineyards, revenue protection policies are increasingly popular. Smoke taint cover has also become available from select markets. A specialist broker with viticulture experience can structure a comprehensive programme.',
   },
   {
     category: 'Specific Crops',

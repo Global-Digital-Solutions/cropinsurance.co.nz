@@ -106,7 +106,7 @@ export default function ComparePage() {
           {/* Comparison Table — FIRST */}
           <div className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-2">Side-by-Side Provider Comparison</h2>
-            <p className="text-gray-500 text-sm mb-6">Our specialist brokers work with all major providers — this table shows you what each can offer NZ crop growers.</p>
+            <p className="text-gray-500 text-sm mb-6">Specialist brokers work with all major providers — this table shows you what each can offer NZ crop growers.</p>
             <div className="overflow-x-auto rounded-2xl border border-gray-200 shadow-md">
               <table className="w-full text-sm">
                 <thead>
@@ -146,14 +146,14 @@ export default function ComparePage() {
 
           {/* Table disclaimer */}
           <p className="text-xs text-gray-400 mt-3 mb-8 leading-relaxed">
-            Whilst every effort is made to present the above information correctly, CropInsurance.co.nz cannot be held responsible for errors or omissions. Information is based on publicly available data and our brokers&apos; market experience and is subject to change. If you are an insurer and would like to discuss any information displayed, please contact us at <a href="mailto:hello@cover4you.co.nz" className="underline hover:text-gray-600 transition-colors">hello@cover4you.co.nz</a>.
+            Whilst every effort is made to present the above information correctly, CropInsurance.co.nz cannot be held responsible for errors or omissions. Information is based on publicly available data and general market knowledge and is subject to change. If you are an insurer and would like to discuss any information displayed, please contact us at <a href="mailto:hello@cover4you.co.nz" className="underline hover:text-gray-600 transition-colors">hello@cover4you.co.nz</a>.
           </p>
 
           {/* Post-table CTA */}
           <div className="mb-14 bg-green-50 border-2 border-green-200 rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
               <h3 className="font-bold text-gray-900">Not sure which provider suits your operation?</h3>
-              <p className="text-sm text-gray-600 mt-1">Our brokers approach all relevant insurers simultaneously — one enquiry, multiple real quotes.</p>
+              <p className="text-sm text-gray-600 mt-1">Specialist brokers approach all relevant insurers simultaneously — one enquiry, multiple real quotes.</p>
             </div>
             <Link href="/contact/" className="flex-shrink-0 px-6 py-3 bg-green-700 hover:bg-green-600 text-white font-bold rounded-xl transition-colors text-sm shadow whitespace-nowrap">
               Find a Specialist →

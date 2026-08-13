@@ -1,9 +1,9 @@
 export default function HowItWorks() {
   const steps = [
-    { step: '01', icon: '📋', title: 'Tell Us About Your Crop', desc: 'Share your crop type, region, and coverage needs using our simple quote form. Takes under 2 minutes.' },
-    { step: '02', icon: '🔍', title: 'We Compare the Market', desc: 'Our specialist brokers approach the NZ crop insurance market and international underwriters on your behalf.' },
-    { step: '03', icon: '📊', title: 'Compare Your Options', desc: 'Receive a clear, side-by-side comparison of policies, coverage terms, and premiums — no jargon.' },
-    { step: '04', icon: '✅', title: 'Cover Arranged', desc: 'Choose your preferred policy and your broker arranges cover. Ongoing support for renewals and claims.' },
+    { step: '01', icon: '📋', title: 'Understand Your Risk', desc: 'Use our guides to explore what crop insurance is available for your crop type, region, and scale of operation.' },
+    { step: '02', icon: '🔍', title: 'Compare the Market', desc: 'Review side-by-side comparisons of the specialist brokers and insurers active in the NZ crop insurance market.' },
+    { step: '03', icon: '📞', title: 'Contact a Specialist', desc: 'Reach out to a licensed rural insurance broker or insurer directly — use the IBANZ directory or FSP register to find one.' },
+    { step: '04', icon: '✅', title: 'Arrange Cover', desc: 'Work with your chosen broker or insurer to arrange cover suited to your operation, crop type, and risk profile.' },
   ];
   return (
     <section className="py-20 bg-gray-50">
@@ -11,7 +11,7 @@ export default function HowItWorks() {
         <div className="text-center mb-12">
           <span className="inline-block px-3 py-1 bg-green-100 text-green-800 text-xs font-semibold rounded-full uppercase tracking-wider mb-3">Simple Process</span>
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">How CropInsurance.co.nz Works</h2>
-          <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">From enquiry to cover in as little as one business day. Our specialist brokers handle the complexity so you don't have to.</p>
+          <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">Independent information to help you understand, compare, and arrange crop insurance — at your own pace and on your terms.</p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {steps.map((s, i) => (

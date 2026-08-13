@@ -19,7 +19,7 @@ export const growerTypes: GrowerType[] = [
     name: 'Orchardists',
     shortName: 'Orchardists',
     description: 'Specialist insurance for kiwifruit, apple, pear, avocado and stone fruit orchardists across New Zealand.',
-    longDescription: `New Zealand orchardists operate high-value horticultural businesses that are highly exposed to weather events and biological risks. Whether you grow kiwifruit in the Bay of Plenty, apples in Hawke's Bay, or cherries in Central Otago, our broker network can arrange specialist crop insurance that covers your standing crop, orchard infrastructure, and business income.`,
+    longDescription: `New Zealand orchardists operate high-value horticultural businesses that are highly exposed to weather events and biological risks. Whether you grow kiwifruit in the Bay of Plenty, apples in Hawke's Bay, or cherries in Central Otago, specialist crop insurance brokers can arrange cover for your standing crop, orchard infrastructure, and business income.`,
     heroImage: 'https://images.unsplash.com/photo-1727120279660-5c28b8461609?w=1200&q=80',
     icon: '🌳',
     typicalCrops: ['Kiwifruit', 'Apples & Pears', 'Cherries', 'Avocados', 'Peaches & Nectarines', 'Apricots & Plums'],
@@ -61,10 +61,10 @@ export const growerTypes: GrowerType[] = [
 </ul>
 
 <h2>How the Claims Process Works</h2>
-<p>When a weather event damages your orchard, the claims process typically follows these steps: notify your broker as soon as possible after the event; a specialist horticultural loss adjuster is appointed; the adjuster attends the orchard to assess damage (typically within 48–72 hours of notification for urgent situations); an assessment report is prepared quantifying the loss; the insurer reviews and accepts or negotiates the claim; payment is made. Our partner broker network maintains relationships with experienced horticultural loss adjusters nationwide and will manage the claims process on your behalf.</p>
+<p>When a weather event damages your orchard, the claims process typically follows these steps: notify your broker as soon as possible after the event; a specialist horticultural loss adjuster is appointed; the adjuster attends the orchard to assess damage (typically within 48–72 hours of notification for urgent situations); an assessment report is prepared quantifying the loss; the insurer reviews and accepts or negotiates the claim; payment is made. Specialist brokers maintain relationships with experienced horticultural loss adjusters nationwide and can help manage the claims notification process.</p>
 
 <h2>Regions and Specialist Coverage</h2>
-<p>Orchard insurance requirements vary significantly by region. Bay of Plenty kiwifruit orchardists face different primary risks (wind, cyclone, occasional frost) to Central Otago cherry growers (frost, hail) or Hawke's Bay apple growers (hail, drought). Our broker network includes advisers with specific expertise in each major growing region who can tailor cover to your actual risk profile rather than offering a generic national product.</p>
+<p>Orchard insurance requirements vary significantly by region. Bay of Plenty kiwifruit orchardists face different primary risks (wind, cyclone, occasional frost) to Central Otago cherry growers (frost, hail) or Hawke's Bay apple growers (hail, drought). Specialist brokers include advisers with specific expertise in each major growing region who can tailor cover to your actual risk profile rather than offering a generic national product.</p>
     `,
     faqs: [
       { q: 'Is hail net insurance separate from crop insurance?', a: 'Hail net systems can be insured either as part of a comprehensive orchard policy (under infrastructure cover) or as a standalone asset. Many orchardists insure their nets separately to ensure the full replacement value is covered, as the cost of net replacement can easily exceed $1 million on a large property.' },
@@ -216,7 +216,7 @@ export const growerTypes: GrowerType[] = [
 <p>Given the long establishment period for hops and the potential for multi-season production losses following trellis damage or crown damage, business interruption cover is particularly valuable for hop growers. Indemnity periods of 2–3 years are appropriate for operations where storm damage might take multiple seasons to fully recover from.</p>
 
 <h2>Working with a Specialist Broker</h2>
-<p>Hop insurance is a specialist product. Not all NZ agricultural insurers have underwriting expertise in hop production, and policies from general rural insurers may not adequately reflect the specific risk profile of hop growing. Our broker network includes advisers with specific expertise in the Nelson-Tasman hop growing region who can access specialist markets and tailor coverage to the unique requirements of your operation.</p>
+<p>Hop insurance is a specialist product. Not all NZ agricultural insurers have underwriting expertise in hop production, and policies from general rural insurers may not adequately reflect the specific risk profile of hop growing. Specialist brokers with expertise in the Nelson-Tasman hop growing region can access specialist markets and tailor coverage to the unique requirements of your operation.</p>
     `,
     faqs: [
       { q: 'Is trellis insurance included in a standard farm policy?', a: 'Sometimes, but often at inadequate levels. Standard farm property policies may include trellis as part of a general "farm improvements" category with a blanket limit that is insufficient to cover full replacement. We recommend having your trellis system assessed for replacement value and ensuring it is specifically scheduled in your policy at the correct value.' },
@@ -318,7 +318,7 @@ export const growerTypes: GrowerType[] = [
 <p>Insurance policies for seed growers should consider the specific certification requirements of the seed company, the typical premium prices received (which can vary significantly year to year based on global seed market conditions), and the specific weather risks of the paddock and region. A specialist broker with knowledge of the Canterbury seed industry can structure coverage that genuinely reflects the economics of your operation.</p>
 
 <h2>Claims Process for Contract Growers</h2>
-<p>Contract growing insurance claims involve additional documentation compared to standard crop insurance. In addition to the weather event records, paddock assessment, and yield estimates required for any crop claim, contract growing claims typically require: a copy of the supply contract; evidence of the shortfall volume and grade; documentation of any penalty clauses triggered; invoices or evidence of the cost of replacement product sourcing (if applicable). Our broker network includes advisers experienced in contract growing claims who can guide you through this more complex process.</p>
+<p>Contract growing insurance claims involve additional documentation compared to standard crop insurance. In addition to the weather event records, paddock assessment, and yield estimates required for any crop claim, contract growing claims typically require: a copy of the supply contract; evidence of the shortfall volume and grade; documentation of any penalty clauses triggered; invoices or evidence of the cost of replacement product sourcing (if applicable). Specialist brokers experienced in contract growing claims can guide you through this more complex process.</p>
     `,
     faqs: [
       { q: 'What happens if my seed crop fails certification — is this covered?', a: 'Standard named perils policies do not automatically cover certification failure. Quality and certification failure cover is a specialist extension that must be specifically included in the policy. It covers the difference between the certified seed price and the commodity fallback price when certification is refused. Not all insurers offer this cover — ask your broker about specialist markets that can provide it.' },

@@ -73,8 +73,8 @@ export default async function CropPage({ params }: { params: Promise<{ slug: str
       url: 'https://www.cropinsurance.co.nz',
     },
     areaServed: { '@type': 'Country', name: 'New Zealand' },
-    serviceType: 'Crop Insurance Broker Referral',
-    serviceOutput: 'Crop insurance information and specialist referral',
+    serviceType: 'Crop Insurance Information',
+    serviceOutput: 'Independent crop insurance information for NZ growers',
   };
 
   return (
@@ -169,7 +169,7 @@ export default async function CropPage({ params }: { params: Promise<{ slug: str
                     ))}
                   </div>
                   <div className="mt-4 pt-4 border-t border-green-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
-                    <p className="text-xs text-green-700 font-medium">Coverage options vary by insurer and policy. Our brokers match the right cover to your operation.</p>
+                    <p className="text-xs text-green-700 font-medium">Coverage options vary by insurer and policy. A specialist broker can match the right cover to your operation.</p>
                     <Link href="/contact/" className="flex-shrink-0 px-4 py-2 bg-green-600 hover:bg-green-700 text-white text-xs font-bold rounded-lg transition-colors whitespace-nowrap">
                       Find a Specialist →
                     </Link>
@@ -206,12 +206,11 @@ export default async function CropPage({ params }: { params: Promise<{ slug: str
                   </ul>
                 </div>
                 <div className="bg-green-700 rounded-2xl p-6 text-white shadow-sm">
-                  <h3 className="font-bold mb-2">💰 Typical Premium Range</h3>
-                  <p className="text-3xl font-extrabold text-green-300 mb-2">{crop.typicalPremiumRange}</p>
-                  <p className="text-green-200 text-xs leading-relaxed">Premiums vary by size, region, coverage level and claims history. Our brokers compare multiple insurers to find the best deal.</p>
-                  <Link href="/contact/" className="mt-4 block text-center py-2.5 bg-white text-green-800 font-bold text-sm rounded-xl hover:bg-green-50 transition-colors">
-                    Find a Specialist →
-                  </Link>
+                  <h3 className="font-bold mb-2">Finding the Right Cover</h3>
+                  <p className="text-green-200 text-xs leading-relaxed mb-4">Premiums vary by crop type, size, region, coverage structure, and claims history. Contact a specialist rural insurance broker for an accurate quote.</p>
+                  <a href="https://www.ibanz.co.nz/" target="_blank" rel="noopener noreferrer" className="block text-center py-2.5 bg-white text-green-800 font-bold text-sm rounded-xl hover:bg-green-50 transition-colors">
+                    Find a Broker (IBANZ) →
+                  </a>
                 </div>
               </div>
 
@@ -239,10 +238,10 @@ export default async function CropPage({ params }: { params: Promise<{ slug: str
                 </div>
               </div>
 
-              {/* Market Access Strip */}
+              {/* Market Info Strip */}
               <div className="bg-gray-900 rounded-2xl p-6">
-                <h2 className="text-lg font-bold text-white mb-2">The Crop Insurance Market — One Enquiry, Multiple Quotes</h2>
-                <p className="text-gray-400 text-sm mb-5">Our brokers approach all relevant NZ and international markets simultaneously — giving you genuine choice and competitive pricing.</p>
+                <h2 className="text-lg font-bold text-white mb-2">The NZ Crop Insurance Market</h2>
+                <p className="text-gray-400 text-sm mb-5">NZ crop insurance is written across domestic rural insurers, agribusiness brokers, and international markets including Lloyd&apos;s. Cover options and pricing vary significantly — a specialist broker can identify which market best suits your crop and risk profile.</p>
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-5">
                   {[
                     { name: 'NZ rural insurers', note: 'Domestic cover' },
@@ -257,7 +256,7 @@ export default async function CropPage({ params }: { params: Promise<{ slug: str
                   ))}
                 </div>
                 <Link href="/compare/" className="inline-block px-5 py-2.5 bg-green-600 hover:bg-green-500 text-white font-bold text-sm rounded-xl transition-colors">
-                  Compare All Providers →
+                  Compare Providers →
                 </Link>
               </div>
 

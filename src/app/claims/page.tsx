@@ -55,7 +55,7 @@ export default function ClaimsPage() {
             <span className="text-white">Making a Claim</span>
           </nav>
           <h1 className="text-4xl font-extrabold text-white mb-4">Making a Crop Insurance Claim</h1>
-          <p className="text-green-200 text-lg max-w-2xl">CropInsurance.co.nz is a referral service, not an insurer or broker. We connect growers with licensed insurance advisers. For claims, contact your insurer or broker directly.</p>
+          <p className="text-green-200 text-lg max-w-2xl">CropInsurance.co.nz is an independent information site. We are not an insurer, a broker, or a licensed financial adviser. We do not arrange claims on your behalf.</p>
         </div>
       </section>
 
@@ -81,7 +81,7 @@ export default function ClaimsPage() {
           {/* Claims contacts */}
           <div className="bg-green-50 border border-green-200 rounded-2xl p-6">
             <h2 className="text-2xl font-bold text-gray-900 mb-3">Finding Your Insurer's Claims Contact</h2>
-            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Your insurer's claims contact number will be on your policy schedule or Certificate of Insurance. If you arranged cover through a broker, contact your broker first — they will manage the claim notification on your behalf. If you cannot locate your policy documents, contact us at <a href="mailto:hello@cover4you.co.nz" className="text-green-700 font-medium">hello@cover4you.co.nz</a> and we will help connect you with the right team.</p>
+            <p className="text-sm text-gray-700 mb-4 leading-relaxed">Your insurer's claims contact number will be on your policy schedule or Certificate of Insurance. If you arranged cover through a broker, contact your broker first — they will manage the claim notification. If you cannot locate your policy documents, contact us at <a href="mailto:hello@cover4you.co.nz" className="text-green-700 font-medium">hello@cover4you.co.nz</a> and we will help point you to the right contacts.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {[
                 { title: 'Contact your broker first', desc: 'If you used a broker to arrange cover, call them immediately. They have direct claims lines and will manage the notification process.' },

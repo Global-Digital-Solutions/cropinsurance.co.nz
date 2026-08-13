@@ -111,7 +111,7 @@ Crop insurance should be reviewed at least annually, ideally 2–3 months before
 
 ## Getting Started
 
-Using a broker like our partner network at CropInsurance.co.nz gives you access to multiple insurers — including domestic insurers and specialist international markets — through a single conversation. Our advisers understand NZ growing conditions and can recommend the right coverage level for your operation. Contact us today for a free, no-obligation review of your crop insurance needs.`,
+A specialist broker gives you access to multiple insurers — including domestic insurers and specialist international markets — through a single conversation, and can recommend the right coverage level for your operation.`,
   },
   {
     slug: 'kiwifruit-insurance-psa-weather',
@@ -278,7 +278,7 @@ A Marlborough Sauvignon Blanc vineyard on a known frost-prone site in the Wairau
 
 ## Connecting with a Vineyard Insurance Specialist
 
-Given the complexity of viticulture insurance, the variation in risk between sites, and the significant revenue at stake, working with a specialist broker is strongly recommended. Our advisers can access the full NZ crop insurance market and specialist international markets, and will ensure your policy is structured to reflect the specific frost risk, variety mix, and scale of your vineyard operation. Contact us today for a no-obligation quote.`,
+Given the complexity of viticulture insurance, the variation in risk between sites, and the significant revenue at stake, working with a specialist broker is strongly recommended. Specialist agribusiness brokers can access the full NZ crop insurance market and specialist international markets, and can structure a policy that reflects the specific frost risk, variety mix, and scale of your vineyard operation.`,
   },
   {
     slug: 'named-perils-vs-multi-peril-crop-insurance',
@@ -387,7 +387,7 @@ Many of NZ's larger growers use a hybrid structure: named perils cover for the s
 
 ## Getting the Right Advice
 
-The best approach is to have a frank conversation with a specialist crop insurance broker who can present both options with comparative pricing. Our broker network can access named perils policies from NZ rural insurers, and MPCI products from specialist international markets accessed via agribusiness brokers with Lloyd's capacity. Contact us for a no-obligation comparison.`,
+The best approach is to have a frank conversation with a specialist crop insurance broker who can present both options with comparative pricing. Specialist brokers can access named perils policies from NZ rural insurers, and MPCI products from specialist international markets accessed via agribusiness brokers with Lloyd's capacity.`,
   },
   {
     slug: 'hailstorm-insurance-nz-orchards',
@@ -488,7 +488,7 @@ Your hail premium is influenced by:
 
 ## Getting a Hail Insurance Quote
 
-Our specialist brokers can approach the NZ crop insurance market and relevant international markets to find the most competitive hail cover for your orchard. We understand NZ export grading standards and can help you structure a policy that genuinely compensates you for the way hail damage actually affects your revenue. Contact us to discuss your needs.`,
+A specialist broker can approach the NZ crop insurance market and relevant international markets to find the most competitive hail cover for your orchard, and can help you structure a policy that genuinely compensates for the way hail damage affects your revenue.`,
   },
   {
     slug: 'climate-change-nz-crop-insurance-premiums',
@@ -578,7 +578,7 @@ The NZ Government, through the Ministry for Primary Industries, has been explori
 
 Climate-driven premium increases in NZ crop insurance are unlikely to reverse in the near term. The global reinsurance market is pricing for a world with more frequent and severe weather events, and NZ's own loss history since 2020 provides little argument for premium reductions.
 
-The practical implication is that premium management — through risk reduction investment, active market comparison, and careful policy structuring — becomes as important as any other aspect of your farm business. Our specialist brokers can help you navigate this environment. Contact us for a free, no-obligation review of your current crop insurance programme.`,
+The practical implication is that premium management — through risk reduction investment, active market comparison, and careful policy structuring — becomes as important as any other aspect of your farm business. A specialist broker can help you navigate this environment and identify opportunities to manage premium costs.`,
   },
   {
     slug: 'crop-insurance-small-scale-growers-nz',
@@ -670,7 +670,7 @@ If your operation scores high on multiple factors, the cost of insurance is almo
 
 ## Getting the Right Advice for Your Scale
 
-Our broker network works with growers at all scales — from 2-hectare lifestyle orchards to 50-hectare commercial horticulture operations. We do not have a minimum size threshold. Use our quote form to describe your operation and get tailored advice on whether crop insurance is right for you — and what it would cost. The consultation is free, and you are under no obligation to proceed.`,
+Specialist brokers work with growers at all scales — from small lifestyle orchards to large commercial horticulture operations. There is no minimum size threshold for seeking specialist advice on crop insurance options.`,
   },
   {
     slug: 'how-to-make-crop-insurance-claim-nz',
@@ -795,7 +795,7 @@ Understanding which basis applies to your policy — and whether it will adequat
 4. **Don't accept a poor settlement** — you have the right to dispute an assessment; a well-documented counter-argument will usually result in a revised offer
 5. **Lodge a notification even if you are uncertain** — you can always withdraw a claim, but you cannot reinstate one that was not lodged within the notification window
 
-Our specialist brokers support growers throughout the full insurance cycle — including during claims. If you have a claim in progress and are not satisfied with how it is being handled, contact us for support.`,
+A specialist broker should support you throughout the full insurance cycle — including during claims. If a claim is not being handled satisfactorily, your broker should be your first point of contact.`,
   },
   {
     slug: 'comparing-nz-crop-insurance-providers',
@@ -852,7 +852,7 @@ An independent comparison also surfaces options you might not have known existed
 
 ## Our Recommendation
 
-There is no single "best" crop insurance broker or insurer — the right choice depends on your scale, crop type, risk profile, and the nature of your farming business. Our specialist adviser network can assess your operation and access the full NZ crop insurance market on your behalf. Contact us to discuss your needs — no obligation.`,
+There is no single "best" crop insurance broker or insurer — the right choice depends on your scale, crop type, risk profile, and the nature of your farming business. A specialist broker can assess your operation and access the full NZ crop insurance market for you.`,
   },
   {
     slug: 'extreme-weather-nz-crop-insurance',
@@ -932,7 +932,7 @@ Before each growing season, growers should review:
 4. Is your policy in place before any key risk window opens (budburst, flowering, harvest)?
 5. Does your policy include business interruption if a catastrophic event could put you out of production for a full season?
 
-Our specialist brokers can run a pre-season policy review at no cost. Contact us to arrange this before your next growing season begins.`,
+A specialist broker can run a pre-season policy review — arrange this before your next growing season begins.`,
   },
   {
     slug: 'crop-insurance-costs-nz-2026',
@@ -1026,7 +1026,7 @@ Typical premium increases in the 2024–2026 period have ranged from 10–30% de
 
 ## Getting a Personalised Quote
 
-The only way to know what you will actually pay is to request quotes. Our specialist brokers will approach the full NZ crop insurance market and international underwriters on your behalf and present a comparison. Contact us to get started.`,
+The only way to know what you will actually pay is to request quotes. A specialist broker can approach the full NZ crop insurance market and international underwriters and present a comparison.`,
   },
   {
     slug: 'export-crop-logistics-insurance-nz',
@@ -1104,7 +1104,7 @@ Revenue protection insurance and trade credit insurance are separate products th
 4. **Consider revenue protection**: For export-dependent operations, revenue protection provides a safety net against price and volume shortfalls
 5. **Keep records of logistics costs**: Documentation of freight costs, cold chain records, and delivery timelines will be critical in any transit claim
 
-Our specialist brokers work across both crop insurance and marine cargo and can ensure your export crop operation has seamless cover from field to foreign market. Contact us to review your full insurance programme.`,
+A specialist broker working across both crop insurance and marine cargo can ensure your export crop operation has seamless cover from field to foreign market.`,
   },
   {
     slug: 'nz-crop-insurance-premium-trends-2026',
@@ -1170,7 +1170,7 @@ Growers with farm insurance, crop, vehicle, and marine cargo cover spread across
 
 The global reinsurance market showed some stabilisation in late 2025 as capital returned following strong earnings years. However, NZ-specific factors — including ongoing climate variability and the continuing repricing of cyclone and wind risk — suggest meaningful premium reductions are unlikely in the near term.
 
-Active management of your insurance programme — working with a specialist broker and investing in physical risk reduction — will deliver better outcomes than passive renewal. Our specialist brokers are available for a free, no-obligation review of your current cover. Contact us today.`,
+Active management of your insurance programme — working with a specialist broker and investing in physical risk reduction — will deliver better outcomes than passive renewal. A specialist broker can review your current cover and identify cost management opportunities.`,
   },
   {
     slug: 'vegetable-crop-insurance-nz',
@@ -1263,7 +1263,7 @@ For contract vegetable growers, insurance should be structured to cover:
 
 ## Getting a Quote for Your Vegetable Operation
 
-Every vegetable growing operation has a different risk profile — crop mix, production system, region, and scale all affect what insurance you need and what it will cost. Our specialist brokers can work through your specific situation and approach the NZ crop insurance market and relevant international markets to find competitive and comprehensive coverage. Contact us to discuss your needs.`,
+Every vegetable growing operation has a different risk profile — crop mix, production system, region, and scale all affect what insurance you need and what it will cost. A specialist broker can work through your specific situation and approach the NZ crop insurance market and relevant international markets to find competitive and comprehensive coverage.`,
   },
   {
     slug: 'avocado-insurance-nz',
@@ -1361,7 +1361,7 @@ These are indicative ranges — wind/cyclone loading can push premiums higher fo
 
 ## Getting a Quote for Your Avocado Orchard
 
-Avocado insurance is a specialist area that requires a broker with specific NZ horticulture expertise. Our advisers understand avocado risk profiles in Northland and the Bay of Plenty and can access the full NZ crop insurance market to find the most competitive and comprehensive cover for your orchard. Contact us to discuss your needs.`,
+Avocado insurance is a specialist area that requires a broker with specific NZ horticulture expertise. A specialist broker with avocado experience can access the full NZ crop insurance market to find competitive and comprehensive cover for your orchard.`,
   },
   {
     slug: 'stone-fruit-insurance-central-otago',
@@ -1452,7 +1452,7 @@ Frost cover is the largest component of Central Otago stone fruit premiums. Orch
 
 ## Getting the Right Cover for Your Central Otago Orchard
 
-Central Otago stone fruit insurance requires specialist knowledge — both of the region's specific risk profile and of the export market dynamics that determine how losses are valued. Our specialist brokers have experience in the Central Otago market and can approach the NZ crop insurance market and relevant international underwriters to find the most comprehensive and competitive cover for your operation. Contact us before your next renewal.`,
+Central Otago stone fruit insurance requires specialist knowledge — both of the region's specific risk profile and of the export market dynamics that determine how losses are valued. A specialist broker with Central Otago experience can approach the NZ crop insurance market and relevant international underwriters to find comprehensive and competitive cover for your operation.`,
   },
   {
     slug: 'hop-growers-insurance-guide-nz',
@@ -1561,7 +1561,7 @@ Infrastructure cover is additional and dependent on replacement cost values.
 
 ## Getting a Quote
 
-Hop insurance is a specialist area within NZ horticulture insurance. Our brokers have experience with Nelson-Tasman and Marlborough hop operations and can approach the NZ crop insurance market and relevant international underwriters to find competitive and appropriate cover for your hop garden and associated infrastructure. Contact us to discuss your needs.`,
+Hop insurance is a specialist area within NZ horticulture insurance. A specialist broker with NZ hop experience can approach the crop insurance market and relevant international underwriters to find competitive and appropriate cover for your hop garden and associated infrastructure.`,
   },
   {
     slug: 'cyclone-gabrielle-crop-insurance-claims',
@@ -1744,7 +1744,7 @@ Canterbury arable premiums remain among the most affordable crop insurance in NZ
 
 ## Getting a Quote for Your Canterbury Farm
 
-Our specialist brokers work with Canterbury arable farmers and can approach the NZ crop insurance market and relevant international underwriters to find the most competitive and comprehensive cover for your operation. We can also assist with reviewing your irrigation infrastructure cover and coordinating your full farm insurance programme. Contact us before your next growing season.`,
+A specialist broker working with Canterbury arable farmers can approach the NZ crop insurance market and relevant international underwriters to find competitive and comprehensive cover for your operation, including irrigation infrastructure and full farm insurance coordination.`,
   },
   {
     slug: 'crop-insurance-vs-self-insurance-nz',
@@ -1934,6 +1934,6 @@ A common problem is growers having crop insurance with one insurer and infrastru
 
 ## Getting a Quote for Your Farm Infrastructure
 
-Properly valuing and insuring farm infrastructure requires a thorough assessment of replacement costs — not book values or estimates. Our specialist brokers can assist with this assessment and ensure your infrastructure programme is coordinated with your crop insurance. Contact us for a free review of your complete farm insurance programme, covering both crop and infrastructure.`,
+Properly valuing and insuring farm infrastructure requires a thorough assessment of replacement costs — not book values or estimates. A specialist broker can assist with this assessment and ensure your infrastructure programme is coordinated with your crop insurance.`,
   },
 ];

@@ -196,7 +196,7 @@ export default function GrowersIndexPage() {
           </div>
           <div className="mt-8 bg-green-900 rounded-2xl p-6 text-center text-white">
             <h3 className="font-bold text-lg mb-2">Not sure which cover type is right for you?</h3>
-            <p className="text-green-200 text-sm mb-4 max-w-xl mx-auto">Our specialist brokers will assess your operation, identify your key risks, and recommend the most appropriate cover — at no cost to you.</p>
+            <p className="text-green-200 text-sm mb-4 max-w-xl mx-auto">A specialist broker can assess your operation, identify your key risks, and recommend the most appropriate cover.</p>
             <Link href="/contact/" className="inline-block px-8 py-3 bg-green-400 hover:bg-green-300 text-green-900 font-bold rounded-xl text-sm transition-colors">
               Talk to a Crop Insurance Specialist →
             </Link>

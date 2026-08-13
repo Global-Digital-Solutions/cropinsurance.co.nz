@@ -18,7 +18,7 @@ export default function TermsPage() {
             <span className="text-white">Terms of Use</span>
           </nav>
           <h1 className="text-3xl font-extrabold text-white mb-2">Terms of Use</h1>
-          <p className="text-green-300 text-sm">Last updated: May 2026</p>
+          <p className="text-green-300 text-sm">Last updated: August 2026</p>
           <p className="text-green-200 text-sm mt-3 max-w-2xl">By using cropinsurance.co.nz ("this website"), you agree to these Terms of Use. Please read them carefully before using the website.</p>
         </div>
       </section>
@@ -29,7 +29,7 @@ export default function TermsPage() {
 
             <div>
               <h2 className="text-lg font-bold text-gray-900 mb-3">Nature of Service</h2>
-              <p>This website is operated as an insurance referral service by Cover4You. We are not an insurer, underwriter, or licensed Financial Advice Provider. We do not provide insurance advice, issue quotes, or arrange insurance policies. We connect growers, orchardists, and farming businesses with licensed NZ insurance advisers and brokers who provide those services. The advisers and brokers we refer you to are independently licensed under the Financial Markets Conduct Act 2013.</p>
+              <p>This website is operated as an independent information site by Cover4You. We are not an insurer, underwriter, or licensed Financial Advice Provider. We do not provide insurance advice, issue quotes, or arrange insurance policies. Information on this site is for general informational purposes only. We do not currently operate an active referral network. This website may contain links to third-party insurers and brokers. We may in future receive a referral fee if we introduce you to a broker partner.</p>
             </div>
 
             <div>
@@ -54,7 +54,7 @@ export default function TermsPage() {
 
             <div>
               <h2 className="text-lg font-bold text-gray-900 mb-3">Limitation of Liability</h2>
-              <p>To the maximum extent permitted by law, Cover4You and its operators exclude all liability for any direct, indirect, incidental, or consequential loss or damage arising from your use of or reliance on this website, its content, or the referral services it provides. This includes but is not limited to loss arising from reliance on pricing information, coverage descriptions, or provider comparisons on this website.</p>
+              <p>To the maximum extent permitted by law, Cover4You and its operators exclude all liability for any direct, indirect, incidental, or consequential loss or damage arising from your use of or reliance on this website, its content, or the information it contains. This includes but is not limited to loss arising from reliance on pricing information, coverage descriptions, or provider comparisons on this website.</p>
             </div>
 
             <div>

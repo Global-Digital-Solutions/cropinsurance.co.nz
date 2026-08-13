@@ -191,7 +191,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
           {/* Trust badges */}
           <div className="flex flex-wrap gap-2 mt-5">
-            {['✅ ICNZ Licensed Adviser', '🔒 NZ Qualified Broker', '🌿 Specialist Crop Expertise'].map(b => (
+            {['🌿 Specialist Crop Expertise', '🔍 Independent — not insurer-owned', '🇳🇿 NZ owned and operated'].map(b => (
               <span key={b} className="inline-flex items-center gap-1 px-3 py-1 bg-white/10 backdrop-blur-sm border border-white/20 text-white text-xs font-medium rounded-full">
                 {b}
               </span>
@@ -260,19 +260,13 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                 <div className="mt-10 pt-8 border-t border-gray-200">
                   <div className="bg-gradient-to-br from-green-50 to-green-100 border border-green-200 rounded-2xl p-6 flex items-start gap-5">
                     <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-green-600 to-green-800 rounded-full flex items-center justify-center text-white font-extrabold text-xl shadow-lg">
-                      {post.author.name.split(' ').map((n: string) => n[0]).join('')}
+                      CI
                     </div>
                     <div>
-                      <div className="flex items-center gap-2 mb-1">
-                        <div className="font-bold text-gray-900">{formatAuthorName(post.author.name)}</div>
-                        <span className="px-2 py-0.5 bg-green-600 text-white text-xs font-bold rounded-full">Verified Expert</span>
-                      </div>
-                      <div className="text-sm text-green-700 font-medium mb-2">{post.author.role} — CropInsurance.co.nz</div>
-                      <div className="flex flex-wrap gap-2 mb-3">
-                        <span className="text-xs bg-white border border-green-200 text-green-800 px-2 py-0.5 rounded-full">ICNZ Fair Code Compliant</span>
-                      </div>
+                      <div className="font-bold text-gray-900 mb-1">CropInsurance.co.nz Editorial Team</div>
+                      <div className="text-sm text-green-700 font-medium mb-2">Published by CropInsurance.co.nz. Last updated August 2026.</div>
                       <p className="text-sm text-gray-600 leading-relaxed">
-                        Specialist crop insurance adviser with deep expertise in NZ horticultural and arable risk. Helps growers across the Bay of Plenty, Hawke&apos;s Bay, Marlborough and Canterbury find the right cover for their operations.
+                        CropInsurance.co.nz is an independent crop insurance information site operated by Cover4You. We publish general information about crop insurance in New Zealand to help growers understand their options.
                       </p>
                     </div>
                   </div>

@@ -102,7 +102,7 @@ export default function AboutPage() {
                   CropInsurance.co.nz is a trading style of Cover4You — an independent insurance information service. The information on this site is general in nature and does not constitute insurance advice. If you choose to use a broker or adviser found through the IBANZ directory or FSP register, they will hold their own licences and operate under the Financial Markets Conduct Act 2013 (FMCA).
                 </p>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  We are committed to transparency, fairness and clear disclosure. We may receive a referral fee from broker partners when we connect you with their services.
+                  We are committed to transparency, fairness and clear disclosure. If we introduce you to a broker partner in future, we may receive a referral fee.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
                   {[

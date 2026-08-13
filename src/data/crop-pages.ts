@@ -15,7 +15,7 @@ export const cropSeoPages: CropSeoPage[] = [
     metaTitle: 'Cheap Crop Insurance NZ | Affordable Quotes | CropInsurance.co.nz',
     metaDescription: 'Find affordable crop insurance in New Zealand. Find the right cover from specialist crop insurance brokers and underwriters. No obligation, free advice from specialist rural brokers.',
     heroHeading: 'Affordable Crop Insurance for NZ Growers',
-    heroSubtitle: 'Getting the best price doesn\'t mean compromising on cover. Our broker network compares multiple insurers to find you competitive, comprehensive crop insurance.',
+    heroSubtitle: 'Getting the best price doesn\'t mean compromising on cover. Use a specialist broker to compare multiple insurers for competitive, comprehensive crop insurance.',
     content: `## Finding Affordable Crop Insurance in NZ
 
 "Cheap" crop insurance isn't just about the lowest premium — it's about the best value for the level of protection you need. A policy with low premiums but inadequate coverage or high excesses can cost you far more when you actually need to claim.
@@ -34,7 +34,7 @@ Several factors can reduce your premium without sacrificing essential coverage:
 
 ### Using a Broker to Find the Best Price
 
-Our broker network approaches multiple insurers simultaneously — the specialist crop insurance market — giving you competitive quotes without the time cost of approaching each insurer yourself. The service is free to you as a grower; brokers are remunerated by insurers.`,
+Specialist brokers approach multiple insurers simultaneously — the specialist crop insurance market — giving you competitive quotes without the time cost of approaching each insurer yourself. Brokers are typically remunerated by insurers, not by you.`,
   },
   {
     slug: 'compare',
@@ -70,7 +70,7 @@ When comparing crop insurance providers, look at:
 
 ### Our Comparison Service
 
-Our broker network provides genuine, independent comparisons. We approach all relevant insurers, obtain quotes on comparable coverage bases, and present you with a clear comparison — allowing you to make an informed decision.`,
+Specialist brokers can provide genuine, independent comparisons, approaching all relevant insurers and presenting you with clear options — allowing you to make an informed decision.`,
   },
   {
     slug: 'best',
@@ -89,7 +89,7 @@ The best crop insurance policy is the one that most closely matches your specifi
 
 **Best for vineyards and viticulture:** Specialist agribusiness brokers with viticulture expertise bring sophisticated risk analytics. Access to specialist wine industry markets globally is available through brokers with international connections.
 
-**Best for arable farmers:** Our broker network can source competitive named perils and multi-peril cover from the specialist crop insurance market for Canterbury and Southland grain growers.
+**Best for arable farmers:** Specialist brokers can source competitive named perils and multi-peril cover from the specialist crop insurance market for Canterbury and Southland grain growers.
 
 **Best for smaller operations:** Domestic rural insurance specialists provide competitive premiums and straightforward policies well-suited to smaller horticultural and mixed farming operations.
 
@@ -126,7 +126,7 @@ Cyclone Gabrielle was a defining moment for Hawke's Bay agriculture and for the 
 
 ### Getting Cover in Hawke's Bay
 
-Our broker network includes advisers who work specifically in the Hawke's Bay region and understand the post-Gabrielle insurance market. Some areas may face restricted terms or higher excesses — we'll give you honest advice about what's available and how to structure the best possible cover.`,
+Specialist brokers who work in the Hawke's Bay region understand the post-Gabrielle insurance market. Some areas may face restricted terms or higher excesses — a local specialist can advise on what's available.`,
   },
   {
     slug: 'bay-of-plenty',
@@ -208,7 +208,7 @@ Canterbury is New Zealand's agricultural heartland — the most productive arabl
 
 ### Canterbury Insurance Market
 
-Our broker network includes advisers with strong Canterbury market experience. Specialist agribusiness brokers serve larger Canterbury farming operations, while domestic rural specialists provide competitive options for smaller farms.`,
+Specialist agribusiness brokers serve larger Canterbury farming operations, while domestic rural specialists provide competitive options for smaller farms.`,
   },
   {
     slug: 'northland',

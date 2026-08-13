@@ -70,7 +70,7 @@ export default async function GrowerPage({ params }: { params: Promise<{ slug: s
       url: 'https://www.cropinsurance.co.nz',
     },
     areaServed: { '@type': 'Country', name: 'New Zealand' },
-    serviceType: 'Crop Insurance Broker Referral',
+    serviceType: 'Crop Insurance Information',
     offers: {
       '@type': 'Offer',
       price: '0',
