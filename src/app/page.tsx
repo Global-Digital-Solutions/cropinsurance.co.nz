@@ -58,8 +58,8 @@ export default function HomePage() {
             className="absolute inset-0 bg-cover bg-center"
             style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1920&q=80)' }}
           />
-          <div className="absolute inset-0 lg:hidden bg-gradient-to-b from-white/60 via-white/95 to-white" />
-          <div className="absolute inset-0 hidden lg:block bg-gradient-to-r from-white via-white/90 to-white/20" />
+          <div className="absolute inset-0 lg:hidden bg-gradient-to-b from-white/40 via-white/80 to-white/95" />
+          <div className="absolute inset-0 hidden lg:block bg-gradient-to-r from-white/85 via-white/55 to-transparent" />
         </div>
 
         <div className="relative max-w-6xl mx-auto px-5 py-14 sm:py-20">
