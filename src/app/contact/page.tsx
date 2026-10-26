@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import HoldingPanel from '@/components/HoldingPanel';
+import QuoteForm from '@/components/QuoteForm';
 
 export const metadata: Metadata = {
   title: 'Contact | CropInsurance.co.nz',
@@ -47,8 +47,8 @@ export default function ContactPage() {
             <Link href="/" className="hover:text-white">Home</Link><span>/</span>
             <span className="text-white">Contact</span>
           </nav>
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-3">Find a Crop Insurance Specialist</h1>
-          <p className="text-green-200 text-lg max-w-xl">Crop and horticultural cover is a specialist area. Use the options below to find the right adviser or insurer for your operation.</p>
+          <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-3">Talk to a Crop Insurance Specialist</h1>
+          <p className="text-green-200 text-lg max-w-xl">Crop and horticultural cover is a specialist area. Tell us about your operation and a registered rural insurance broker will be in touch.</p>
         </div>
       </section>
 
@@ -56,9 +56,9 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
 
-            {/* Left: HoldingPanel */}
+            {/* Left: quote form */}
             <div>
-              <HoldingPanel />
+              <QuoteForm variant="full" />
             </div>
 
             {/* Right: About this site */}
@@ -66,8 +66,8 @@ export default function ContactPage() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">About this site</h2>
               <div className="space-y-5">
                 {[
-                  { icon: '🌾', title: 'Crop insurance information', desc: 'CropInsurance.co.nz provides independent information on crop and horticultural insurance options in New Zealand. We are not an insurer and do not arrange cover directly.' },
-                  { icon: '🔍', title: 'Independent', desc: 'We are not owned by or affiliated with any insurer or broker. The information on this site is a starting point for your research.' },
+                  { icon: '🌾', title: 'Crop insurance information', desc: 'CropInsurance.co.nz is an information and broker referral site. We are not an insurer. Enquiries are passed to a partner rural insurance broker, who is a Registered Financial Service Provider.' },
+                  { icon: '🔍', title: 'Independent', desc: 'We are not owned by any insurer or broker. We may receive a referral fee from the broker if you take out a policy, at no extra cost to you.' },
                   { icon: '🇳🇿', title: 'NZ owned and operated', desc: 'This site is operated by Cover4You, a New Zealand business.' },
                 ].map(item => (
                   <div key={item.title} className="flex gap-4 items-start">

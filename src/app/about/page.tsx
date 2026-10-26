@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import HoldingPanel from '@/components/HoldingPanel';
+import QuoteForm from '@/components/QuoteForm';
 
 export const metadata: Metadata = {
   title: 'About CropInsurance.co.nz | Independent Crop Insurance Information NZ',
@@ -81,7 +81,7 @@ export default function AboutPage() {
                   CropInsurance.co.nz publishes independent information about crop and horticultural insurance in New Zealand. Crop insurance is a specialist field — policy wordings differ, insurers specialise in different crop types, and premiums can vary considerably by region and peril.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  This site helps growers understand what cover is available, which insurers and brokers operate in the NZ market, and what to look for before arranging a policy. It does not sell insurance and does not provide insurance advice.
+                  This site helps growers understand what cover is available, which insurers and brokers operate in the NZ market, and what to look for before arranging a policy. It does not sell insurance or provide insurance advice itself. If you send us an enquiry, we pass it to a partner rural insurance broker who is a Registered Financial Service Provider, and any advice or cover comes from them.
                 </p>
               </div>
 
@@ -141,7 +141,7 @@ export default function AboutPage() {
             {/* Sidebar */}
             <div>
               <div className="sticky top-24 space-y-5">
-                <HoldingPanel />
+                <QuoteForm variant="sidebar" />
                 <div className="bg-gray-50 rounded-2xl p-5 border border-gray-200">
                   <h3 className="font-bold text-gray-900 text-sm mb-3">Quick Links</h3>
                   <ul className="space-y-2">

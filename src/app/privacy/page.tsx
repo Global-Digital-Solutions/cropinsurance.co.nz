@@ -34,7 +34,7 @@ export default function PrivacyPage() {
 
             <div>
               <h2 className="text-lg font-bold text-gray-900 mb-3">How We Use Your Information</h2>
-              <p>We do not sell your personal information to third parties. Contact form submissions are used solely to respond to your enquiry. We do not forward your details to advisers or brokers on your behalf. We do not use your information for marketing purposes without your explicit consent.</p>
+              <p>We do not sell your personal information to third parties. When you submit a quote request, we pass the details you provide to a partner rural insurance broker, who is a Registered Financial Service Provider, so they can contact you about your enquiry. That broker handles your information under their own privacy policy. We do not use your information for marketing purposes without your explicit consent.</p>
             </div>
 
             <div>

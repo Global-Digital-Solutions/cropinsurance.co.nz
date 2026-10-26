@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { growerTypes } from '@/data/grower-types';
-import HoldingPanel from '@/components/HoldingPanel';
+import QuoteForm from '@/components/QuoteForm';
 
 export const metadata: Metadata = {
   title: 'Crop Insurance by Grower Type NZ | Orchardists, Viticulture & More | CropInsurance.co.nz',
@@ -87,7 +87,7 @@ export default function GrowersIndexPage() {
           </p>
           <div className="flex flex-wrap gap-3">
             <Link href="/contact/" className="px-6 py-3 bg-green-500 hover:bg-green-400 text-white font-bold rounded-xl transition-colors text-sm shadow-lg">
-              Find a Specialist →
+              Get a Quote →
             </Link>
             <Link href="/compare/" className="px-6 py-3 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-xl transition-colors border border-white/20 text-sm backdrop-blur-sm">
               Compare Insurers
@@ -236,7 +236,7 @@ export default function GrowersIndexPage() {
             </div>
             <div>
               <div className="sticky top-24">
-                <HoldingPanel />
+                <QuoteForm variant="hero" />
               </div>
             </div>
           </div>

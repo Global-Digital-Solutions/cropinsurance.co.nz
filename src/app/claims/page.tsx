@@ -55,7 +55,7 @@ export default function ClaimsPage() {
             <span className="text-white">Making a Claim</span>
           </nav>
           <h1 className="text-4xl font-extrabold text-white mb-4">Making a Crop Insurance Claim</h1>
-          <p className="text-green-200 text-lg max-w-2xl">CropInsurance.co.nz is an independent information site. We are not an insurer, a broker, or a licensed financial adviser. We do not arrange claims on your behalf.</p>
+          <p className="text-green-200 text-lg max-w-2xl">CropInsurance.co.nz is an information and broker referral site. We are not an insurer or a financial adviser, and we do not handle claims. If you arranged cover through a broker, contact them first.</p>
         </div>
       </section>
 

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import HoldingPanel from '@/components/HoldingPanel';
+import QuoteForm from '@/components/QuoteForm';
 import OfficialProviders from '@/components/OfficialProviders';
 import AnimatedStats from '@/components/AnimatedStats';
 import { cropTypes } from '@/data/crop-types';
@@ -69,14 +69,14 @@ export default function HomePage() {
                 Crop Insurance NZ
               </h1>
               <p className="mt-5 text-lg text-green-100 leading-relaxed max-w-xl">
-                From kiwifruit orchards in the Bay of Plenty to vineyards in Marlborough and grain farms in Canterbury. Find a specialist crop insurance broker or go direct to an insurer.
+                From kiwifruit orchards in the Bay of Plenty to vineyards in Marlborough and grain farms in Canterbury. Tell us about your operation and a registered rural insurance broker will compare your options.
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <Link href="/compare/" className="px-6 py-3 bg-green-500 hover:bg-green-400 text-white font-bold rounded-xl transition-colors shadow-lg text-sm">
                   Compare Providers
                 </Link>
                 <Link href="/contact/" className="px-6 py-3 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-xl transition-colors border border-white/20 text-sm backdrop-blur-sm">
-                  Find a Specialist
+                  Get a Quote
                 </Link>
               </div>
               <div className="mt-8 flex flex-wrap gap-3">
@@ -87,16 +87,16 @@ export default function HomePage() {
             </div>
             <div className="hidden lg:flex lg:justify-end">
               <div className="w-[420px]">
-                <HoldingPanel />
+                <QuoteForm variant="hero" />
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Mobile HoldingPanel */}
+      {/* Mobile quote form */}
       <section className="lg:hidden bg-green-900 py-8 px-4">
-        <HoldingPanel />
+        <QuoteForm variant="hero" />
       </section>
 
       {/* Crop Types Grid */}
@@ -160,9 +160,9 @@ export default function HomePage() {
             <div>
               <div className="bg-green-900 rounded-2xl p-8 text-white mb-6">
                 <h3 className="text-xl font-bold mb-4">Need crop insurance?</h3>
-                <p className="text-green-200 text-sm mb-6">Find a specialist broker through IBANZ, check the FSP register, or go direct to an insurer. Our contact page has the options.</p>
+                <p className="text-green-200 text-sm mb-6">Send us a few details and a registered rural insurance broker will compare the options for your operation. No obligation.</p>
                 <Link href="/contact/" className="block w-full text-center py-3 bg-green-400 hover:bg-green-300 text-green-900 font-bold rounded-xl transition-colors text-sm">
-                  Find a Specialist →
+                  Get a Quote →
                 </Link>
               </div>
               <div className="grid grid-cols-3 gap-4">
@@ -279,10 +279,10 @@ export default function HomePage() {
       {/* CTA Strip */}
       <section className="py-16 bg-green-700">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-4">Find a Crop Insurance Specialist</h2>
-          <p className="text-green-100 text-lg mb-8 max-w-2xl mx-auto">Use a licensed broker, go direct to an insurer, or verify any adviser through the FSP register. Our contact page has all three options.</p>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-4">Talk to a Crop Insurance Specialist</h2>
+          <p className="text-green-100 text-lg mb-8 max-w-2xl mx-auto">Tell us what you grow and where, and a registered rural insurance broker will be in touch. No obligation.</p>
           <Link href="/contact/" className="inline-block px-8 py-4 bg-white text-green-800 font-bold rounded-xl hover:bg-green-50 transition-colors shadow-lg text-base">
-            Find a Specialist →
+            Get a Quote →
           </Link>
         </div>
       </section>

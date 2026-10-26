@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Disclaimer | CropInsurance.co.nz',
-  description: 'Important disclaimer about the nature of CropInsurance.co.nz as an independent information site. We are not an insurer or financial adviser.',
+  description: 'Important disclaimer about the nature of CropInsurance.co.nz as an information and broker referral site. We are not an insurer or financial adviser.',
   alternates: { canonical: 'https://www.cropinsurance.co.nz/disclaimer/' },
 };
 
@@ -19,7 +19,7 @@ export default function DisclaimerPage() {
           </nav>
           <h1 className="text-3xl font-extrabold text-white mb-2">Disclaimer</h1>
           <p className="text-green-300 text-sm">Last updated: August 2026</p>
-          <p className="text-green-200 text-sm mt-3 max-w-2xl font-medium">Important: This website is an independent information site, not an insurer or financial adviser.</p>
+          <p className="text-green-200 text-sm mt-3 max-w-2xl font-medium">Important: This website is an information and broker referral site, not an insurer or financial adviser.</p>
         </div>
       </section>
 
@@ -29,7 +29,7 @@ export default function DisclaimerPage() {
 
             <div>
               <h2 className="text-lg font-bold text-gray-900 mb-3">About This Site</h2>
-              <p>CropInsurance.co.nz is operated as an independent crop insurance information site by Cover4You. We publish general information about crop and horticultural insurance in New Zealand to help growers understand their options. We are not an insurer, underwriter, or Financial Advice Provider (FAP) and we do not provide regulated financial advice. We do not connect growers with advisers or arrange cover on your behalf.</p>
+              <p>CropInsurance.co.nz is operated as a crop insurance information and broker referral site by Cover4You. We publish general information about crop and horticultural insurance in New Zealand to help growers understand their options. We are not an insurer, underwriter, or Financial Advice Provider (FAP) and we do not provide regulated financial advice. If you send us an enquiry, we pass your details to a partner rural insurance broker who is a Registered Financial Service Provider. Any advice and any cover is provided by that broker. We may receive a referral fee from the broker if you take out a policy, at no extra cost to you.</p>
             </div>
 
             <div>

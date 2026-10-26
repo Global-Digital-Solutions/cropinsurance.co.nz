@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { blogPosts } from '@/data/blog-posts';
-import HoldingPanel from '@/components/HoldingPanel';
+import QuoteForm from '@/components/QuoteForm';
 
 export async function generateStaticParams() {
   return blogPosts.map(p => ({ slug: p.slug }));
@@ -266,7 +266,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                       <div className="font-bold text-gray-900 mb-1">CropInsurance.co.nz Editorial Team</div>
                       <div className="text-sm text-green-700 font-medium mb-2">Published by CropInsurance.co.nz. Last updated August 2026.</div>
                       <p className="text-sm text-gray-600 leading-relaxed">
-                        CropInsurance.co.nz is an independent crop insurance information site operated by Cover4You. We publish general information about crop insurance in New Zealand to help growers understand their options.
+                        CropInsurance.co.nz is a crop insurance information and broker referral site operated by Cover4You. We publish general information about crop insurance in New Zealand to help growers understand their options.
                       </p>
                     </div>
                   </div>
@@ -295,7 +295,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                 </div>
 
                 {/* Getting cover */}
-                <HoldingPanel />
+                <QuoteForm variant="sidebar" />
 
                 {/* Explore links */}
                 <div className="bg-white rounded-2xl p-5 border border-gray-200 shadow-sm">

@@ -17,6 +17,7 @@ export default function QuoteForm({ variant = 'hero', cropType = '' }: QuoteForm
     firstName: '',
     lastName: '',
     email: '',
+    phone: '',
     cropTypeSelect: cropType || '',
     region: '',
     cropValue: '',
@@ -46,6 +47,7 @@ export default function QuoteForm({ variant = 'hero', cropType = '' }: QuoteForm
         _subject: 'Crop Insurance Quote Request — CropInsurance.co.nz',
         name: `${formData.firstName} ${formData.lastName}`.trim(),
         email: formData.email,
+        phone: formData.phone,
         cropType: formData.cropTypeSelect || cropType || 'Not specified',
         region: formData.region,
         cropValue: formData.cropValue,
@@ -77,7 +79,7 @@ export default function QuoteForm({ variant = 'hero', cropType = '' }: QuoteForm
           </svg>
         </div>
         <h3 className="text-lg font-bold text-gray-900 mb-2">Quote Request Sent!</h3>
-        <p className="text-gray-600 text-sm">A specialist crop insurance adviser will be in touch within one business day.</p>
+        <p className="text-gray-600 text-sm">A registered rural insurance broker will be in touch soon.</p>
       </div>
     );
   }
@@ -90,13 +92,13 @@ export default function QuoteForm({ variant = 'hero', cropType = '' }: QuoteForm
       {!isSidebar && (
         <div className="mb-5">
           <h2 className="text-xl font-bold text-gray-900">Get Your Crop Insurance Quote</h2>
-          <p className="text-sm text-gray-500 mt-1">Our specialist brokers compare the insurers so you don&apos;t need to, no obligation.</p>
+          <p className="text-sm text-gray-500 mt-1">Our registered brokers will compare the best options to suit your requirements. No obligation.</p>
         </div>
       )}
       {isSidebar && (
         <div className="mb-4">
-          <h3 className="text-base font-bold text-gray-900">Get a Free Quote</h3>
-          <p className="text-xs text-gray-500 mt-0.5">Specialist broker advice, no obligation.</p>
+          <h3 className="text-base font-bold text-gray-900">Get a Quote</h3>
+          <p className="text-xs text-gray-500 mt-0.5">A registered rural insurance broker, no obligation.</p>
         </div>
       )}
 
@@ -116,6 +118,11 @@ export default function QuoteForm({ variant = 'hero', cropType = '' }: QuoteForm
         <div>
           <label className="block text-xs font-medium text-gray-700 mb-1">Email Address *</label>
           <input type="email" name="email" required value={formData.email} onChange={handleChange} className={inputCls} placeholder="john@example.com" />
+        </div>
+
+        <div>
+          <label className="block text-xs font-medium text-gray-700 mb-1">Phone Number</label>
+          <input type="tel" name="phone" pattern="[+]?[0-9\s\-().]{6,}" title="Please enter a valid phone number" minLength={6} value={formData.phone} onChange={handleChange} className={inputCls} placeholder="021 xxx xxxx" />
         </div>
 
         <div>
@@ -182,9 +189,9 @@ export default function QuoteForm({ variant = 'hero', cropType = '' }: QuoteForm
           disabled={state === 'submitting'}
           className="w-full py-3 bg-green-700 hover:bg-green-800 disabled:bg-green-400 text-white font-bold rounded-lg transition-colors text-sm shadow-sm"
         >
-          {state === 'submitting' ? 'Sending...' : 'Get My Free Quote →'}
+          {state === 'submitting' ? 'Sending...' : 'Get My Quote →'}
         </button>
-        <p className="text-xs text-gray-400 text-center">No obligation, no pitch. A specialist adviser will contact you shortly.</p>
+        <p className="text-xs text-gray-400 text-center">No obligation. A registered rural insurance broker will contact you shortly.</p>
       </form>
     </div>
   );

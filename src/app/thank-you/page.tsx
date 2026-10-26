@@ -11,7 +11,7 @@ export default function ThankYouPage() {
           <svg className="w-10 h-10 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
         </div>
         <h1 className="text-3xl font-extrabold text-gray-900 mb-3">Quote Request Received!</h1>
-        <p className="text-lg text-gray-600 mb-6">Check the information on this site to prepare for your conversation with an insurer or broker, and use the links below to find a licensed specialist.</p>
+        <p className="text-lg text-gray-600 mb-6">A registered rural insurance broker will be in touch soon to talk through your options.</p>
         <p className="text-sm text-gray-500 mb-8">In the meantime, explore our crop insurance guides and comparison tools.</p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Link href="/" className="px-6 py-3 bg-green-700 text-white font-bold rounded-xl hover:bg-green-800 transition-colors">Back to Home</Link>

@@ -29,7 +29,7 @@ export default function TermsPage() {
 
             <div>
               <h2 className="text-lg font-bold text-gray-900 mb-3">Nature of Service</h2>
-              <p>This website is operated as an independent information site by Cover4You. We are not an insurer, underwriter, or licensed Financial Advice Provider. We do not provide insurance advice, issue quotes, or arrange insurance policies. Information on this site is for general informational purposes only. We do not currently operate an active referral network. This website may contain links to third-party insurers and brokers. We may in future receive a referral fee if we introduce you to a broker partner.</p>
+              <p>This website is an information and broker referral site operated by Cover4You. We are not an insurer, underwriter, or licensed Financial Advice Provider, and we do not provide insurance advice, issue quotes, or arrange insurance policies ourselves. If you submit an enquiry, we pass your details to a partner rural insurance broker who is a Registered Financial Service Provider; any advice, quote or cover is provided by that broker. Information on this site is for general informational purposes only. This website may contain links to third-party insurers and brokers. We may receive a referral fee if we introduce you to a broker partner and you take out a policy.</p>
             </div>
 
             <div>

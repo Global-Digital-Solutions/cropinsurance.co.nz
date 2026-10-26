@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-3 lg:col-span-1">
             <Logo variant="white" />
             <p className="mt-3 text-xs text-gray-400 leading-relaxed">
-              Independent crop insurance information for NZ orchardists, viticulturists, arable farmers and horticulture producers.
+              Crop insurance information and broker referral for NZ orchardists, viticulturists, arable farmers and horticulture producers.
             </p>
             <div className="mt-3 flex flex-wrap gap-2">
               <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-green-900 text-green-300 border border-green-800">🌿 NZ Crop Specialists</span>
@@ -111,7 +111,7 @@ export default function Footer() {
             </ul>
             <div className="mt-5 p-3 bg-gray-800 rounded-xl border border-gray-700">
               <p className="text-xs text-gray-400 leading-relaxed">
-                CropInsurance.co.nz may receive a referral fee from brokers when a user proceeds with a policy. This fee is paid by the broker — you pay no additional cost. Information is general in nature and does not constitute insurance advice. Read the PDS before deciding.
+                CropInsurance.co.nz is operated by Cover4You. We are not an insurer or a financial adviser. When you send an enquiry, we pass your details to a partner rural insurance broker who is a Registered Financial Service Provider; any advice and any cover is provided by that broker. We may receive a referral fee from the broker when a user proceeds with a policy. This fee is paid by the broker — you pay no additional cost. Information is general in nature and does not constitute insurance advice. Read the PDS before deciding.
               </p>
             </div>
           </div>

@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { cropTypes } from '@/data/crop-types';
 import { blogPosts } from '@/data/blog-posts';
-import HoldingPanel from '@/components/HoldingPanel';
+import QuoteForm from '@/components/QuoteForm';
 
 export async function generateStaticParams() {
   return cropTypes.map(c => ({ slug: c.slug }));
@@ -103,7 +103,7 @@ export default async function CropPage({ params }: { params: Promise<{ slug: str
           <p className="mt-4 text-lg text-green-200 max-w-2xl leading-relaxed">{crop.description}</p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Link href="/contact/" className="px-6 py-3 bg-green-500 hover:bg-green-400 text-white font-bold rounded-xl transition-colors text-sm shadow-lg">
-              Find a Specialist →
+              Get a Quote →
             </Link>
             <Link href="/compare/" className="px-6 py-3 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-xl transition-colors border border-white/20 text-sm backdrop-blur-sm">
               Compare Insurers
@@ -171,7 +171,7 @@ export default async function CropPage({ params }: { params: Promise<{ slug: str
                   <div className="mt-4 pt-4 border-t border-green-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
                     <p className="text-xs text-green-700 font-medium">Coverage options vary by insurer and policy. A specialist broker can match the right cover to your operation.</p>
                     <Link href="/contact/" className="flex-shrink-0 px-4 py-2 bg-green-600 hover:bg-green-700 text-white text-xs font-bold rounded-lg transition-colors whitespace-nowrap">
-                      Find a Specialist →
+                      Get a Quote →
                     </Link>
                   </div>
                 </div>
@@ -346,7 +346,7 @@ export default async function CropPage({ params }: { params: Promise<{ slug: str
                   </div>
                 </div>
 
-                <HoldingPanel />
+                <QuoteForm variant="sidebar" cropType={crop.shortName} />
 
                 <div className="bg-white rounded-2xl p-5 border border-gray-200 shadow-sm">
                   <h3 className="font-bold text-gray-900 text-sm mb-3">Quick Links</h3>
@@ -375,9 +375,9 @@ export default async function CropPage({ params }: { params: Promise<{ slug: str
       <section className="py-14 bg-green-900">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-3">Looking for {crop.shortName} Insurance?</h2>
-          <p className="text-green-200 mb-6">Find a licensed specialist broker or go direct to an insurer. Use the options on our contact page to get started.</p>
+          <p className="text-green-200 mb-6">Send us a few details and a registered rural insurance broker will compare the options for your operation.</p>
           <Link href="/contact/" className="inline-block px-8 py-3 bg-green-400 hover:bg-green-300 text-green-900 font-bold rounded-xl transition-colors text-sm shadow-lg">
-            Find a Specialist →
+            Get a Quote →
           </Link>
         </div>
       </section>

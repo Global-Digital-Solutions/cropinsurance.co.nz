@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { providers } from '@/data/providers';
-import HoldingPanel from '@/components/HoldingPanel';
+import QuoteForm from '@/components/QuoteForm';
 
 export const metadata: Metadata = {
   title: 'NZ Crop Insurance Providers — Gallagher, Aon, Howden | CropInsurance.co.nz',
@@ -122,7 +122,7 @@ export default async function ComparePage() {
             Independent information on Gallagher, Aon, and Howden — the main agribusiness brokers active in the NZ crop insurance market.
           </p>
           <Link href="/contact/" className="inline-block px-8 py-3.5 bg-green-500 hover:bg-green-400 text-white font-bold rounded-xl transition-colors text-sm shadow-lg">
-            Find a Specialist →
+            Get a Quote →
           </Link>
           <div className="flex flex-wrap gap-2 mt-8">
             {['NZ owned & operated', 'Independent, not owned by an insurer'].map(b => (
@@ -304,7 +304,7 @@ export default async function ComparePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             <div>
               <h2 className="text-3xl font-extrabold text-gray-900 mb-4">Find a Crop Insurance Specialist</h2>
-              <p className="text-gray-600 leading-relaxed mb-6">Crop insurance is a specialist area. Use the options on the right to find a licensed broker via IBANZ, check the FSP register, or go direct to an insurer.</p>
+              <p className="text-gray-600 leading-relaxed mb-6">Crop insurance is a specialist area. Send us a few details using the form and a registered rural insurance broker will compare the options for your operation. You can also find a broker via IBANZ, check the FSP register, or go direct to an insurer.</p>
               <ul className="space-y-3">
                 {[
                   'IBANZ lists licensed NZ insurance brokers',
@@ -323,7 +323,7 @@ export default async function ComparePage() {
             </div>
             <div>
               <div className="rounded-2xl p-1.5 bg-gradient-to-br from-green-400 to-green-600 shadow-2xl">
-                <HoldingPanel />
+                <QuoteForm variant="hero" />
               </div>
             </div>
           </div>
