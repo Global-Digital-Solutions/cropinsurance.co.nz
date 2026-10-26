@@ -15,7 +15,7 @@ export default function Footer() {
               Crop insurance information and broker referral for NZ orchardists, viticulturists, arable farmers and horticulture producers.
             </p>
             <div className="mt-3 flex flex-wrap gap-2">
-              <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-green-900 text-green-300 border border-green-800">🌿 Free crop insurance quotes</span>
+              <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-green-900 text-green-300 border border-green-800">Free crop insurance quotes</span>
             </div>
           </div>
 
