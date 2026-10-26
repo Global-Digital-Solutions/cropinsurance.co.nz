@@ -9,18 +9,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://www.cropinsurance.co.nz/compare/' },
 };
 
-function ScoreBar({ score, color = 'green' }: { score: number; color?: string }) {
-  const barColor = color === 'amber' ? 'bg-amber-500' : color === 'blue' ? 'bg-blue-500' : 'bg-green-600';
-  return (
-    <div className="flex items-center gap-2">
-      <div className="flex-1 bg-gray-200 rounded-full h-2.5">
-        <div className={`${barColor} h-2.5 rounded-full transition-all`} style={{ width: `${score}%` }} />
-      </div>
-      <span className="text-xs font-bold text-gray-700 w-8">{score}</span>
-    </div>
-  );
-}
-
 const tableRows = [
   { label: 'Named Perils Cover', values: ['✅', '✅', '✅'] },
   { label: 'Multi-Peril (MPCI)', values: ['✅', '✅', '❌'] },

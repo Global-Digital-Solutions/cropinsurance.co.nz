@@ -14,9 +14,6 @@ export interface Provider {
   cropProducts: string[];
   strengths: string[];
   website: string;
-  coverageScore: number;
-  valueScore: number;
-  serviceScore: number;
 }
 
 export const providers: Provider[] = [
@@ -36,9 +33,6 @@ export const providers: Provider[] = [
     cropProducts: ['Named Perils Crop', 'Revenue Protection', 'Multi-Peril Crop', 'Parametric Insurance', 'Specialty Horticulture'],
     strengths: ['~160,000 NZ clients across business, rural and personal', '~1,000 NZ insurance professionals', '30+ offices from Invercargill to Kaitaia', 'Dedicated Agriculture and Rural insurance divisions', 'NZ heritage as Crombie Lockwood'],
     website: 'https://www.ajg.co.nz/business/rural-insurance/',
-    coverageScore: 93,
-    valueScore: 82,
-    serviceScore: 88,
   },
   {
     slug: 'aon',
@@ -56,9 +50,6 @@ export const providers: Provider[] = [
     cropProducts: ['Named Perils Crop', 'Revenue Protection', 'Vineyard Cover', 'Horticultural Cover', 'Arable Risk', 'Business Interruption'],
     strengths: ['Global risk analytics capability', 'Strong vineyard & viticulture expertise', 'Risk management consulting', 'Multi-country grower programmes', 'Data-driven risk assessment'],
     website: 'https://www.aon.co.nz',
-    coverageScore: 91,
-    valueScore: 80,
-    serviceScore: 87,
   },
   {
     slug: 'howden',
@@ -76,8 +67,5 @@ export const providers: Provider[] = [
     cropProducts: ['Named Perils Crop', 'Farm Package', 'Horticultural Cover', 'Rural Business Pack', 'Machinery Breakdown'],
     strengths: ['Global insurer network access', 'Suitable for large operations', 'Rural business package deals', 'International expertise', 'Strong reinsurance backing'],
     website: 'https://www.howdengroup.com/nz-en',
-    coverageScore: 88,
-    valueScore: 81,
-    serviceScore: 84,
   },
 ];
