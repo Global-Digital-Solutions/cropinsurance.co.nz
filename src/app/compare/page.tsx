@@ -138,7 +138,6 @@ export default async function ComparePage() {
                   <div className="flex items-center gap-3">
                     <div>
                       <h3 className="font-bold text-gray-900 text-lg">{p.name}</h3>
-                      <span className="inline-block px-2 py-0.5 bg-green-100 text-green-800 text-xs font-semibold rounded-full mt-0.5">{p.speciality}</span>
                     </div>
                   </div>
                   <div className="text-right">
@@ -171,23 +170,13 @@ export default async function ComparePage() {
                   </div>
                 )}
 
-                <div className="grid grid-cols-2 gap-4 mb-5">
+                <div className="mb-5">
                   <div>
                     <h4 className="text-xs font-bold text-gray-700 uppercase tracking-wide mb-2">Crop Products</h4>
                     <ul className="space-y-1.5">
                       {p.cropProducts.slice(0, 4).map(prod => (
                         <li key={prod} className="text-xs text-gray-600 flex items-center gap-1.5">
                           <span className="w-1.5 h-1.5 bg-green-500 rounded-full flex-shrink-0" />{prod}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 className="text-xs font-bold text-gray-700 uppercase tracking-wide mb-2">Key Strengths</h4>
-                    <ul className="space-y-1.5">
-                      {p.strengths.slice(0, 4).map(s => (
-                        <li key={s} className="text-xs text-gray-600 flex items-center gap-1.5">
-                          <span className="w-1.5 h-1.5 bg-amber-400 rounded-full flex-shrink-0" />{s}
                         </li>
                       ))}
                     </ul>
