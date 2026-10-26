@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { noNZ } from '@/lib/headings';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { growerTypes } from '@/data/grower-types';
@@ -93,8 +94,7 @@ export default async function GrowerPage({ params }: { params: Promise<{ slug: s
             <span className="text-white">{grower.name}</span>
           </nav>
           <div className="flex items-center gap-3 mb-3">
-            <span className="text-4xl">{grower.icon}</span>
-            <h1 className="text-4xl font-extrabold text-white">{grower.name}</h1>
+            <h1 className="text-4xl font-extrabold text-white">{noNZ(grower.name)}</h1>
           </div>
           <p className="text-green-100 text-lg max-w-2xl">{grower.description}</p>
         </div>
@@ -105,7 +105,7 @@ export default async function GrowerPage({ params }: { params: Promise<{ slug: s
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
             <div className="lg:col-span-2 space-y-10">
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Insurance for {grower.name}</h2>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">Insurance for {noNZ(grower.name)}</h2>
                 <p className="text-gray-700 leading-relaxed">{grower.longDescription}</p>
               </div>
 

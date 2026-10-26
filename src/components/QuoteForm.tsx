@@ -92,12 +92,12 @@ export default function QuoteForm({ variant = 'hero', cropType = '' }: QuoteForm
       {!isSidebar && (
         <div className="mb-5">
           <h2 className="text-xl font-bold text-gray-900">Get Your Crop Insurance Quote</h2>
-          <p className="text-sm text-gray-500 mt-1">Our registered brokers will compare the best options to suit your requirements. No obligation.</p>
+          <p className="text-sm text-gray-500 mt-1">Free quotes. Our registered brokers will compare the best options to suit your requirements. No obligation.</p>
         </div>
       )}
       {isSidebar && (
         <div className="mb-4">
-          <h3 className="text-base font-bold text-gray-900">Get a Quote</h3>
+          <h3 className="text-base font-bold text-gray-900">Get a Free Quote</h3>
           <p className="text-xs text-gray-500 mt-0.5">A registered rural insurance broker, no obligation.</p>
         </div>
       )}
@@ -189,7 +189,7 @@ export default function QuoteForm({ variant = 'hero', cropType = '' }: QuoteForm
           disabled={state === 'submitting'}
           className="w-full py-3 bg-green-700 hover:bg-green-800 disabled:bg-green-400 text-white font-bold rounded-lg transition-colors text-sm shadow-sm"
         >
-          {state === 'submitting' ? 'Sending...' : 'Get My Quote →'}
+          {state === 'submitting' ? 'Sending...' : 'Get My Free Quote →'}
         </button>
         <p className="text-xs text-gray-400 text-center">No obligation. A registered rural insurance broker will contact you shortly.</p>
       </form>

@@ -9,19 +9,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://www.cropinsurance.co.nz/compare/' },
 };
 
-const tableRows = [
-  { label: 'Named Perils Cover', values: ['✅', '✅', '✅'] },
-  { label: 'Multi-Peril (MPCI)', values: ['✅', '✅', '❌'] },
-  { label: 'Revenue Protection', values: ['✅', '✅', '❌'] },
-  { label: 'Drought Cover', values: ['✅', '✅', '❌'] },
-  { label: 'Parametric Products', values: ['✅', '✅', '❌'] },
-  { label: 'NZ Adviser Network', values: ['✅✅', '✅✅', '✅'] },
-  { label: 'International Capacity', values: ['✅', '✅', '✅'] },
-  { label: 'Horticulture Specialist', values: ['✅', '✅', '❌'] },
-  { label: 'Arable / Grain', values: ['✅', '✅', '✅'] },
-  { label: 'Farm Package Cover', values: ['✅', '✅', '✅'] },
-  { label: 'Best For', values: ['Large orchards', 'Vineyards', 'Large operations'] },
-];
 
 // Minimum review count to display a rating — suppress thin listings (e.g. one office of 30+)
 const MIN_REVIEWS = 50
@@ -101,16 +88,16 @@ export default async function ComparePage() {
             <span className="text-white">Compare Providers</span>
           </nav>
           <span className="inline-block px-3 py-1 bg-green-400/20 border border-green-400/30 text-green-200 text-xs font-semibold rounded-full uppercase tracking-wider mb-4">
-            Independent · Not insurer-owned
+            Free crop insurance quotes
           </span>
           <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4 leading-tight max-w-3xl">
-            NZ Crop Insurance<br /><span className="text-green-400">Providers Compared</span>
+            Crop Insurance<br /><span className="text-green-400">Providers Compared</span>
           </h1>
           <p className="text-green-100 text-lg max-w-2xl mb-8">
             Independent information on Gallagher, Aon, and Howden — the main agribusiness brokers active in the NZ crop insurance market.
           </p>
           <Link href="/contact/" className="inline-block px-8 py-3.5 bg-green-500 hover:bg-green-400 text-white font-bold rounded-xl transition-colors text-sm shadow-lg">
-            Get a Quote →
+            Get a Free Quote →
           </Link>
           <div className="flex flex-wrap gap-2 mt-8">
             {['NZ owned & operated', 'Independent, not owned by an insurer'].map(b => (
@@ -125,60 +112,14 @@ export default async function ComparePage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-          {/* Comparison Table — FIRST */}
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-2">Side-by-Side Provider Comparison</h2>
-            <p className="text-gray-500 text-sm mb-6">Specialist brokers work with all major providers — this table shows you what each can offer NZ crop growers.</p>
-            <div className="overflow-x-auto rounded-2xl border border-gray-200 shadow-md">
-              <table className="w-full text-sm">
-                <thead>
-                  <tr>
-                    <th className="bg-gray-900 text-white px-5 py-4 text-left font-bold w-44">Feature</th>
-                    {providers.map((p, i) => (
-                      <th key={p.slug} className={`${i === 0 ? 'bg-green-800' : 'bg-green-700'} text-white px-4 py-4 text-center font-bold`}>
-                        <div>{p.shortName}</div>
-                        {i === 0 && <div className="text-xs font-normal text-green-200 mt-0.5">Most Popular</div>}
-                      </th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {tableRows.map((row, ri) => (
-                    <tr key={row.label} className={`${ri % 2 === 0 ? 'bg-white' : 'bg-gray-50'} hover:bg-green-50 transition-colors`}>
-                      <td className="px-5 py-3.5 font-semibold text-gray-700 border-r border-gray-200">{row.label}</td>
-                      {row.values.map((v, vi) => (
-                        <td key={vi} className="px-4 py-3.5 text-center">
-                          {v === '✅' || v.startsWith('✅') ? (
-                            <span className="text-green-600 font-bold">{v}</span>
-                          ) : v === '❌' ? (
-                            <span className="text-red-400 font-bold">❌</span>
-                          ) : v === 'Limited' ? (
-                            <span className="text-amber-600 font-medium text-xs">Limited</span>
-                          ) : (
-                            <span className="text-gray-600 text-xs">{v}</span>
-                          )}
-                        </td>
-                      ))}
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-
-          {/* Table disclaimer */}
-          <p className="text-xs text-gray-400 mt-3 mb-8 leading-relaxed">
-            Whilst every effort is made to present the above information correctly, CropInsurance.co.nz cannot be held responsible for errors or omissions. Information is based on publicly available data and general market knowledge and is subject to change. If you are an insurer and would like to discuss any information displayed, please contact us at <a href="mailto:hello@cover4you.co.nz" className="underline hover:text-gray-600 transition-colors">hello@cover4you.co.nz</a>.
-          </p>
-
-          {/* Post-table CTA */}
+          {/* CTA */}
           <div className="mb-14 bg-green-50 border-2 border-green-200 rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
-              <h3 className="font-bold text-gray-900">Not sure which provider suits your operation?</h3>
-              <p className="text-sm text-gray-600 mt-1">Use the IBANZ directory to find a licensed NZ agribusiness broker who can advise on your specific crop and risk profile.</p>
+              <h2 className="font-bold text-gray-900">Want a broker to look at your operation?</h2>
+              <p className="text-sm text-gray-600 mt-1">Free quotes. Our registered brokers will compare the best options to suit your requirements.</p>
             </div>
-            <a href="https://www.ibanz.co.nz/" target="_blank" rel="noopener noreferrer" className="flex-shrink-0 px-6 py-3 bg-green-700 hover:bg-green-600 text-white font-bold rounded-xl transition-colors text-sm shadow whitespace-nowrap">
-              Find a Broker (IBANZ) →
+            <a href="/contact/" className="flex-shrink-0 px-6 py-3 bg-green-700 hover:bg-green-600 text-white font-bold rounded-xl transition-colors text-sm shadow whitespace-nowrap">
+              Get a Free Quote →
             </a>
           </div>
 

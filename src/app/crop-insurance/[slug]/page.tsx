@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { noNZ } from '@/lib/headings';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { cropSeoPages } from '@/data/crop-pages';
@@ -41,7 +42,7 @@ function renderContent(content: string) {
   while (i < lines.length) {
     const line = lines[i];
     if (line.startsWith('## ')) {
-      elements.push(<h2 key={i} className="text-xl font-bold text-gray-900 mt-6 mb-3">{line.slice(3)}</h2>);
+      elements.push(<h2 key={i} className="text-xl font-bold text-gray-900 mt-6 mb-3">{noNZ(line.slice(3))}</h2>);
     } else if (line.startsWith('### ')) {
       elements.push(<h3 key={i} className="text-base font-bold text-gray-900 mt-4 mb-2">{line.slice(4)}</h3>);
     } else if (line.startsWith('- ')) {
@@ -127,7 +128,7 @@ export default async function CropSeoPage({ params }: { params: Promise<{ slug: 
             <Link href="/" className="hover:text-white">Home</Link><span>/</span>
             <span className="text-white">{page.title}</span>
           </nav>
-          <h1 className="text-4xl font-extrabold text-white mb-4">{page.heroHeading}</h1>
+          <h1 className="text-4xl font-extrabold text-white mb-4">{noNZ(page.heroHeading)}</h1>
           <p className="text-green-200 text-lg max-w-2xl">{page.heroSubtitle}</p>
         </div>
       </section>

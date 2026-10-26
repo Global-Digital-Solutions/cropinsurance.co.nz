@@ -119,7 +119,7 @@ export default function AboutPage() {
 
               {/* The NZ Crop Insurance Market */}
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">The NZ Crop Insurance Market</h2>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">The Crop Insurance Market</h2>
                 <p className="text-gray-600 leading-relaxed mb-5">Crop cover in New Zealand is written by a small number of specialist providers. Depending on your crop type and risk profile, cover may be arranged directly with an insurer or through a broker who can access specialist international markets.</p>
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
                   {[

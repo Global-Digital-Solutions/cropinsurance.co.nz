@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { noNZ } from '@/lib/headings';
 import Link from 'next/link';
 import { growerTypes } from '@/data/grower-types';
 import QuoteForm from '@/components/QuoteForm';
@@ -77,7 +78,7 @@ export default function GrowersIndexPage() {
             <span className="text-white">Grower Types</span>
           </nav>
           <span className="inline-block px-3 py-1 bg-green-400/20 border border-green-400/30 text-green-200 text-xs font-semibold rounded-full uppercase tracking-wider mb-4">
-            Specialist Cover for Every NZ Grower
+            Free crop insurance quotes
           </span>
           <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4 leading-tight max-w-3xl">
             Crop Insurance by<br /><span className="text-green-400">Grower Type</span>
@@ -87,7 +88,7 @@ export default function GrowersIndexPage() {
           </p>
           <div className="flex flex-wrap gap-3">
             <Link href="/contact/" className="px-6 py-3 bg-green-500 hover:bg-green-400 text-white font-bold rounded-xl transition-colors text-sm shadow-lg">
-              Get a Quote →
+              Get a Free Quote →
             </Link>
             <Link href="/compare/" className="px-6 py-3 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-xl transition-colors border border-white/20 text-sm backdrop-blur-sm">
               Compare Insurers
@@ -127,12 +128,11 @@ export default function GrowersIndexPage() {
                 </div>
                 <div className="relative h-full flex flex-col justify-end p-6" style={{ minHeight: '380px' }}>
                   <div className="flex items-center gap-3 mb-3">
-                    <span className="text-4xl drop-shadow-lg">{grower.icon}</span>
                     <span className="px-2 py-0.5 bg-green-500/90 text-white text-xs font-bold rounded-full uppercase tracking-wide">
-                      {i === 0 ? 'Most Popular' : 'Specialist Cover'}
+                      Free quotes
                     </span>
                   </div>
-                  <h2 className="text-2xl font-extrabold text-white mb-2 group-hover:text-green-300 transition-colors leading-tight">{grower.name}</h2>
+                  <h2 className="text-2xl font-extrabold text-white mb-2 group-hover:text-green-300 transition-colors leading-tight">{noNZ(grower.name)}</h2>
                   <p className="text-sm text-gray-300 leading-relaxed mb-4 line-clamp-2">{grower.description}</p>
                   <div className="flex flex-wrap gap-1.5 mb-5">
                     {grower.typicalCrops.slice(0, 3).map(crop => (

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { noNZ } from '@/lib/headings';
 import Link from 'next/link';
 import { blogPosts } from '@/data/blog-posts';
 
@@ -57,7 +58,7 @@ export default function BlogIndexPage() {
                 <img src={featured.heroImage} alt={featured.title} className="w-full h-48 object-cover" />
                 <div className="p-6">
                   <span className="text-xs font-medium text-green-300 uppercase tracking-wide">{featured.category} · {featured.readTime} min read</span>
-                  <h2 className="text-xl font-bold text-white mt-1 mb-2 group-hover:text-green-300 transition-colors">{featured.title}</h2>
+                  <h2 className="text-xl font-bold text-white mt-1 mb-2 group-hover:text-green-300 transition-colors">{noNZ(featured.title)}</h2>
                   <p className="text-sm text-green-200 line-clamp-2">{featured.excerpt}</p>
                   <span className="mt-3 inline-flex text-sm font-semibold text-green-300">Read article →</span>
                 </div>

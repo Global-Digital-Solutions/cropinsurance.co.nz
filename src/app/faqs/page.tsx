@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { noNZ } from '@/lib/headings';
 import Link from 'next/link';
 import { faqs } from '@/data/faqs';
 import QuoteForm from '@/components/QuoteForm';
@@ -51,7 +52,7 @@ export default function FAQsPage() {
             <div className="lg:col-span-2 space-y-10">
               {categories.map(cat => (
                 <div key={cat}>
-                  <h2 className="text-xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-200">{cat}</h2>
+                  <h2 className="text-xl font-bold text-gray-900 mb-4 pb-2 border-b border-gray-200">{noNZ(cat)}</h2>
                   <div className="space-y-3">
                     {faqs.filter(f => f.category === cat).map(faq => (
                       <details key={faq.question} className="group bg-gray-50 rounded-xl border border-gray-200">

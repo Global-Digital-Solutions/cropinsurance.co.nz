@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { noNZ } from '@/lib/headings';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { blogPosts } from '@/data/blog-posts';
@@ -38,7 +39,7 @@ function renderContent(content: string) {
   while (i < lines.length) {
     const line = lines[i];
     if (line.startsWith('## ')) {
-      elements.push(<h2 key={i} className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-200">{line.slice(3)}</h2>);
+      elements.push(<h2 key={i} className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-200">{noNZ(line.slice(3))}</h2>);
     } else if (line.startsWith('### ')) {
       elements.push(<h3 key={i} className="text-lg font-bold text-gray-900 mt-6 mb-3">{line.slice(4)}</h3>);
     } else if (line.startsWith('**') && line.endsWith('**')) {
@@ -167,7 +168,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <span className="inline-block px-3 py-1 bg-green-600 text-white text-xs font-bold rounded-full uppercase tracking-wide mb-4">
             {post.category}
           </span>
-          <h1 className="text-3xl sm:text-5xl font-extrabold text-white max-w-4xl leading-tight mb-6">{post.title}</h1>
+          <h1 className="text-3xl sm:text-5xl font-extrabold text-white max-w-4xl leading-tight mb-6">{noNZ(post.title)}</h1>
 
           {/* Author + meta row */}
           <div className="flex flex-wrap items-center gap-4">

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { noNZ } from '@/lib/headings';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { cropTypes } from '@/data/crop-types';
@@ -96,14 +97,13 @@ export default async function CropPage({ params }: { params: Promise<{ slug: str
             <span className="text-white">{crop.shortName}</span>
           </nav>
           <div className="flex items-center gap-3 mb-3">
-            <span className="text-5xl drop-shadow-lg">{crop.icon}</span>
-            <span className="inline-block px-3 py-1 bg-green-600 text-white text-xs font-bold rounded-full uppercase tracking-wider">NZ Specialist Cover</span>
+            <span className="inline-block px-3 py-1 bg-green-600 text-white text-xs font-bold rounded-full uppercase tracking-wider">Free crop insurance quotes</span>
           </div>
-          <h1 className="text-4xl sm:text-6xl font-extrabold text-white leading-tight max-w-3xl">{crop.name}</h1>
+          <h1 className="text-4xl sm:text-6xl font-extrabold text-white leading-tight max-w-3xl">{noNZ(crop.name)}</h1>
           <p className="mt-4 text-lg text-green-200 max-w-2xl leading-relaxed">{crop.description}</p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Link href="/contact/" className="px-6 py-3 bg-green-500 hover:bg-green-400 text-white font-bold rounded-xl transition-colors text-sm shadow-lg">
-              Get a Quote →
+              Get a Free Quote →
             </Link>
             <Link href="/compare/" className="px-6 py-3 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-xl transition-colors border border-white/20 text-sm backdrop-blur-sm">
               Compare Insurers
@@ -127,7 +127,7 @@ export default async function CropPage({ params }: { params: Promise<{ slug: str
 
               {/* About */}
               <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8">
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">About {crop.name}</h2>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">About {noNZ(crop.name)}</h2>
                 <p className="text-gray-600 leading-relaxed">{crop.longDescription}</p>
               </div>
 
@@ -171,7 +171,7 @@ export default async function CropPage({ params }: { params: Promise<{ slug: str
                   <div className="mt-4 pt-4 border-t border-green-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
                     <p className="text-xs text-green-700 font-medium">Coverage options vary by insurer and policy. A specialist broker can match the right cover to your operation.</p>
                     <Link href="/contact/" className="flex-shrink-0 px-4 py-2 bg-green-600 hover:bg-green-700 text-white text-xs font-bold rounded-lg transition-colors whitespace-nowrap">
-                      Get a Quote →
+                      Get a Free Quote →
                     </Link>
                   </div>
                 </div>
@@ -240,7 +240,7 @@ export default async function CropPage({ params }: { params: Promise<{ slug: str
 
               {/* Market Info Strip */}
               <div className="bg-gray-900 rounded-2xl p-6">
-                <h2 className="text-lg font-bold text-white mb-2">The NZ Crop Insurance Market</h2>
+                <h2 className="text-lg font-bold text-white mb-2">The Crop Insurance Market</h2>
                 <p className="text-gray-400 text-sm mb-5">NZ crop insurance is written across domestic rural insurers, agribusiness brokers, and international markets including Lloyd&apos;s. Cover options and pricing vary significantly — a specialist broker can identify which market best suits your crop and risk profile.</p>
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-5">
                   {[
@@ -377,7 +377,7 @@ export default async function CropPage({ params }: { params: Promise<{ slug: str
           <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-3">Looking for {crop.shortName} Insurance?</h2>
           <p className="text-green-200 mb-6">Send us a few details and a registered rural insurance broker will compare the options for your operation.</p>
           <Link href="/contact/" className="inline-block px-8 py-3 bg-green-400 hover:bg-green-300 text-green-900 font-bold rounded-xl transition-colors text-sm shadow-lg">
-            Get a Quote →
+            Get a Free Quote →
           </Link>
         </div>
       </section>

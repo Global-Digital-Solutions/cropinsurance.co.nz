@@ -23,7 +23,7 @@ export default function OfficialProviders() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
           <span className="inline-block px-3 py-1 bg-green-100 text-green-800 text-xs font-semibold rounded-full uppercase tracking-wider mb-3">
-            Verified Providers
+            Provider websites
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">Official provider websites</h2>
           <p className="text-gray-500 max-w-2xl mx-auto">

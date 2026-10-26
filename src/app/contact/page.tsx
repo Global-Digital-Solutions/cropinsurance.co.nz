@@ -67,7 +67,7 @@ export default function ContactPage() {
               <div className="space-y-5">
                 {[
                   { icon: '🌾', title: 'Crop insurance information', desc: 'CropInsurance.co.nz is an information and broker referral site. We are not an insurer. Enquiries are passed to a partner rural insurance broker, who is a Registered Financial Service Provider.' },
-                  { icon: '🔍', title: 'Independent', desc: 'We are not owned by any insurer or broker. We may receive a referral fee from the broker if you take out a policy, at no extra cost to you.' },
+                  { icon: '🔍', title: 'Independent', desc: 'We are not owned by any insurer or broker.' },
                   { icon: '🇳🇿', title: 'NZ owned and operated', desc: 'This site is operated by Cover4You, a New Zealand business.' },
                 ].map(item => (
                   <div key={item.title} className="flex gap-4 items-start">
