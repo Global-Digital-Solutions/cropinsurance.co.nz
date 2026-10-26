@@ -393,7 +393,7 @@ export const cropTypes: CropType[] = [
 <h3>Premium Guidance for Stone Fruit Insurance</h3>
 
     `,
-    heroImage: 'https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=1200&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1438274754346-45322cac87e4?w=1200&q=80',
     icon: '🍑',
     keyRisks: ['Rain cracking at harvest (cherries)', 'Spring frost at flowering', 'Hailstorm at any stage', 'Sunburn & heat stress', 'Powdery mildew / brown rot', 'Wind damage', 'Biosecurity incursion'],
     coverageHighlights: ['Rain cracking cover (cherries)', 'Named perils crop cover', 'Frost at flowering', 'Hail cover at all stages', 'Revenue protection', 'Covered structure cover', 'Business interruption'],
