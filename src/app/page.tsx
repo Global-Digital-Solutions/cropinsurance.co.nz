@@ -43,6 +43,11 @@ const schema = {
   ],
 };
 
+// Card thumbnails: the data holds 1200px hero URLs; cards only need ~640px.
+function cardImg(url: string): string {
+  return url.replace(/([?&])w=\d+/, '$1w=640');
+}
+
 export default function HomePage() {
   const homeFaqs = faqs.slice(0, 6);
   const recentPosts = blogPosts.slice(0, 3);
@@ -132,13 +137,24 @@ export default function HomePage() {
             <Link
               key={crop.slug}
               href={`/crops/${crop.slug}/`}
-              className="group rounded-xl border border-gray-200 bg-white p-5 transition-all hover:border-green-700 hover:shadow-md"
+              className="group overflow-hidden rounded-xl border border-gray-200 bg-white transition-all hover:border-green-700 hover:shadow-lg"
             >
-              <h3 className="font-semibold text-gray-900 group-hover:text-green-800">{crop.shortName}</h3>
-              <p className="mt-1.5 text-sm leading-relaxed text-gray-500 line-clamp-2">{crop.description}</p>
-              {crop.mainRegions?.length > 0 && (
-                <p className="mt-3 text-xs text-gray-400">{crop.mainRegions.slice(0, 3).join(' · ')}</p>
-              )}
+              <div className="relative h-40 overflow-hidden bg-gray-100">
+                <img
+                  src={cardImg(crop.heroImage)}
+                  alt=""
+                  loading="lazy"
+                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
+                <h3 className="absolute bottom-3 left-4 right-4 text-lg font-semibold text-white">{crop.shortName}</h3>
+              </div>
+              <div className="p-4">
+                <p className="text-sm leading-relaxed text-gray-600 line-clamp-2">{crop.description}</p>
+                {crop.mainRegions?.length > 0 && (
+                  <p className="mt-3 text-xs text-gray-400">{crop.mainRegions.slice(0, 3).join(' · ')}</p>
+                )}
+              </div>
             </Link>
           ))}
         </div>
@@ -153,11 +169,20 @@ export default function HomePage() {
             <Link
               key={g.slug}
               href={`/growers/${g.slug}/`}
-              className="group rounded-xl border border-gray-200 bg-white p-5 transition-all hover:border-green-700 hover:shadow-md"
+              className="group relative block h-56 overflow-hidden rounded-xl bg-gray-900"
             >
-              <h3 className="font-semibold text-gray-900 group-hover:text-green-800">{g.name}</h3>
-              <p className="mt-1.5 text-sm leading-relaxed text-gray-500 line-clamp-2">{g.description}</p>
-              <span className="mt-3 inline-block text-sm font-semibold text-green-700 group-hover:underline">Read more →</span>
+              <img
+                src={cardImg(g.heroImage)}
+                alt=""
+                loading="lazy"
+                className="absolute inset-0 h-full w-full object-cover opacity-90 transition-transform duration-500 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-black/5" />
+              <div className="absolute inset-x-0 bottom-0 p-5">
+                <h3 className="text-xl font-semibold text-white">{g.name}</h3>
+                <p className="mt-1.5 text-sm leading-relaxed text-gray-200 line-clamp-2">{g.description}</p>
+                <span className="mt-3 inline-block text-sm font-semibold text-green-300 group-hover:underline">Read more →</span>
+              </div>
             </Link>
           ))}
         </div>

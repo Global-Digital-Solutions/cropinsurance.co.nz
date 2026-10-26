@@ -343,7 +343,7 @@ export const cropTypes: CropType[] = [
 
 <p>Most commercial NZ hop production is contracted to the NZ Hop company or directly to domestic and international craft brewing clients before the season begins. Contract prices are typically locked in at planting, and growers face volume commitment obligations. A crop failure can result in the grower failing to deliver contracted volumes, potentially triggering penalty clauses or affecting future contract allocation. Some policies can be structured to address contract delivery shortfall scenarios. Discuss your contracting arrangements with a specialist crop insurance broker to ensure your policy aligns with your supply obligations.</p>
     `,
-    heroImage: 'https://images.unsplash.com/photo-1531422888678-b0ad41dc18cf?w=1200&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1695224067637-8f8673189d01?w=1200&q=80',
     icon: '🌿',
     keyRisks: ['Late frost at emergence', 'Hailstorm during growing season', 'Windstorm & trellis collapse', 'Downy mildew disease', 'Drought', 'Flood & waterlogging', 'Harvest weather'],
     coverageHighlights: ['Standing crop (named perils)', 'Trellis & wire infrastructure', 'Hail-specific cover', 'Business interruption', 'Perennial crop re-establishment', 'Machinery & drying equipment', 'Contract delivery protection'],
@@ -546,7 +546,7 @@ export const cropTypes: CropType[] = [
 
 <p>Floriculture insurance is a specialist area that requires brokers with genuine understanding of each crop type's specific risks, vulnerability windows, and post-harvest value chain. Specialist crop insurance brokers have experience in horticultural insurance and can structure appropriate cover for any NZ floriculture or ornamental plant operation. Contact a specialist broker to discuss your specific growing system, crop mix, and coverage needs.</p>
     `,
-    heroImage: 'https://images.unsplash.com/photo-1490750967868-88df5691cc78?w=1200&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1684707515400-c73bf93038c5?w=1200&q=80',
     icon: '🌸',
     keyRisks: ['Hailstorm during growing season', 'Late frost', 'Flooding & waterlogging', 'Wind damage to structures', 'Disease outbreak', 'Refrigeration failure', 'Cold storage loss'],
     coverageHighlights: ['Named perils crop cover', 'Hail cover', 'Frost cover', 'Flood cover', 'Glasshouse & polytunnel cover', 'Cold storage & refrigeration breakdown', 'Business interruption'],
